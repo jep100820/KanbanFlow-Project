@@ -2,7 +2,7 @@
   {
     "code": "2",
     "name": "AL QURAYYAT COM. COLLEGE",
-    "nameAr": "كلية المجتمع – القريات",
+    "nameAr": "",
     "pgType": "G",
     "website": "http://www.ju.edu.sa/encolleges/comg/Pages/default.aspx",
     "sector": "",
@@ -1369,7 +1369,7 @@
   },
   {
     "code": "344",
-    "name": "HEALTH AFFAIRS � QUNFOTHA",
+    "name": "HEALTH AFFAIRS – QUNFOTHA",
     "nameAr": "",
     "pgType": "G",
     "website": "http://www.moh.gov.sa/directorates/alqunfudah/",
@@ -1897,7 +1897,7 @@
   },
   {
     "code": "392",
-    "name": "Obeid Specialized Hospital�",
+    "name": "Obeid Specialized Hospital",
     "nameAr": "",
     "pgType": "G",
     "website": "https://obeidhospital.sa/en/departments/",
@@ -2992,7 +2992,7 @@
     "name": "Constant Trading Activity ( CTA )",
     "nameAr": "",
     "pgType": "G",
-    "website": "www.constantksa.com�",
+    "website": "www.constantksa.com",
     "sector": "C",
     "areaCode": "2",
     "vt": "T",
@@ -3109,7 +3109,7 @@
   },
   {
     "code": "500",
-    "name": "Medical Engineering�Trading &�Contracting�Co. Ltd. (part of almansouryah)",
+    "name": "Medical Engineering Trading & Contracting Co. Ltd. (part of almansouryah)",
     "nameAr": "",
     "pgType": "G",
     "website": "http://www.medeng-sa.com",
@@ -5841,7 +5841,7 @@
     "areaCode": "5",
     "vt": "T",
     "vendor": "",
-    "remark": "Ian Go, SIMPLE SOLUTIONS COMPANY, Jubail-Dhahran Highway ? Abu Baker Al Razi St., Al Khair Industrial-Dammam ? Jawhra Bldng., Office 4, Behind Ebaa House For Ceramic Omarble Co., Saudi Arabia � Dammam 32442, Mob. No.: +966550706051; +966566785093, Email: ian@sst-sa.com"
+    "remark": "Ian Go, SIMPLE SOLUTIONS COMPANY, Jubail-Dhahran Highway ? Abu Baker Al Razi St., Al Khair Industrial-Dammam ? Jawhra Bldng., Office 4, Behind Ebaa House For Ceramic Omarble Co., Saudi Arabia – Dammam 32442, Mob. No.: +966550706051; +966566785093, Email: ian@sst-sa.com"
   },
   {
     "code": "733",
@@ -6637,7 +6637,7 @@
   },
   {
     "code": "806",
-    "name": "Scientific Era Est � Expert Laboratory Solution Providers",
+    "name": "Scientific Era Est – Expert Laboratory Solution Providers",
     "nameAr": "",
     "pgType": "G",
     "website": "https://see-sa.com/products/",
@@ -6949,7 +6949,7 @@
   },
   {
     "code": "833",
-    "name": "Ro�ya Specialized Medical Laboratories (MEDICAL)",
+    "name": "Ro’ya Specialized Medical Laboratories (MEDICAL)",
     "nameAr": "",
     "pgType": "G",
     "website": "https://royakau.com/",
@@ -7024,7 +7024,7 @@
     "name": "DR. AHMED ABANAMY HOSPITAL",
     "nameAr": "",
     "pgType": "G",
-    "website": "�http://www.abanamyhospital.com",
+    "website": "http://www.abanamyhospital.com",
     "sector": "H (T)",
     "areaCode": "1",
     "vt": "T",
@@ -7381,7 +7381,7 @@
   },
   {
     "code": "871",
-    "name": "The General Presidency of the Grand Mosque and the Prophet�s Mosque",
+    "name": "The General Presidency of the Grand Mosque and the Prophet’s Mosque",
     "nameAr": "",
     "pgType": "G",
     "website": "",
@@ -7645,7 +7645,7 @@
   },
   {
     "code": "895",
-    "name": "Hoshan HealthCare Solution � HHS",
+    "name": "Hoshan HealthCare Solution – HHS",
     "nameAr": "",
     "pgType": "G",
     "website": "www.hoshangroup.com",
@@ -7653,7 +7653,7 @@
     "areaCode": "1",
     "vt": "T",
     "vendor": "",
-    "remark": "Faiz Ur Rahman\nTender Coordinator  \nHoshan HealthCare Solution � HHS\n\nP:  +966 11 217 0000  Ext: 6163\nM : +966 5323 44980\n\nHoshan Building\nKing Fahd Road \nP.O. Box 509 Riyadh 11421\nKingdom of Saudi Arabia \nwww.hoshangroup.com\n\nEfficient, Reliable & Consistent"
+    "remark": "Faiz Ur Rahman\nTender Coordinator  \nHoshan HealthCare Solution – HHS\n\nP:  +966 11 217 0000  Ext: 6163\nM : +966 5323 44980\n\nHoshan Building\nKing Fahd Road \nP.O. Box 509 Riyadh 11421\nKingdom of Saudi Arabia \nwww.hoshangroup.com\n\nEfficient, Reliable & Consistent"
   },
   {
     "code": "896",
@@ -7869,7 +7869,7 @@
     "areaCode": "1",
     "vt": "T",
     "vendor": "",
-    "remark": "�\tContact : Dr. Tashfeen Khan.\n�\tM : 0592003822."
+    "remark": "•\tContact : Dr. Tashfeen Khan.\n•\tM : 0592003822."
   },
   {
     "code": "914",
@@ -7881,7 +7881,7 @@
     "areaCode": "1",
     "vt": "T",
     "vendor": "",
-    "remark": "�\tContact : Dr. Ahmad Housar.\n�\tM : 0581309318."
+    "remark": "•\tContact : Dr. Ahmad Housar.\n•\tM : 0581309318."
   },
   {
     "code": "915",
@@ -7893,7 +7893,7 @@
     "areaCode": "1",
     "vt": "T",
     "vendor": "",
-    "remark": "�\tContact : Dr. Mohamad Ameen.\n�\tM : 0506877743."
+    "remark": "•\tContact : Dr. Mohamad Ameen.\n•\tM : 0506877743."
   },
   {
     "code": "916",
@@ -7905,7 +7905,7 @@
     "areaCode": "1",
     "vt": "T",
     "vendor": "",
-    "remark": "�\tContact : Dr. Mohamad Yahya.\n�\tM : 0565137670."
+    "remark": "•\tContact : Dr. Mohamad Yahya.\n•\tM : 0565137670."
   },
   {
     "code": "917",
@@ -8253,7 +8253,7 @@
     "areaCode": "1",
     "vt": "T",
     "vendor": "",
-    "remark": "Hisham H. Alsaif    Operations Manager\n\n2843 Unit: 01 � Street 120A � Support Services Area | 35717-6714, Jubail\nT: +966 13 341 9355 | M: +966 50 5865687 |  www.airqualitysa.com"
+    "remark": "Hisham H. Alsaif    Operations Manager\n\n2843 Unit: 01 – Street 120A – Support Services Area | 35717-6714, Jubail\nT: +966 13 341 9355 | M: +966 50 5865687 |  www.airqualitysa.com"
   },
   {
     "code": "948",
@@ -8277,7 +8277,7 @@
     "areaCode": "1",
     "vt": "T",
     "vendor": "",
-    "remark": "Muhammed Raza\nSupply Chain Coordinator Purchasing & Logistics in Charge\n +966 50 691 1864           muhammed@mmadar.com\n +966 12 617 0202            info@mmadar.com\n +966 12 617 0404            http://mmadar.com\n   Address: KSA � Jeddah � Mirza Business Tower, 23223 P.O. Box 2843"
+    "remark": "Muhammed Raza\nSupply Chain Coordinator Purchasing & Logistics in Charge\n +966 50 691 1864           muhammed@mmadar.com\n +966 12 617 0202            info@mmadar.com\n +966 12 617 0404            http://mmadar.com\n   Address: KSA – Jeddah – Mirza Business Tower, 23223 P.O. Box 2843"
   },
   {
     "code": "950",
@@ -8505,7 +8505,7 @@
     "areaCode": "1",
     "vt": "T",
     "vendor": "",
-    "remark": "Eng . Anas Shahin\nSales Supervisor � K.S.A"
+    "remark": "Eng . Anas Shahin\nSales Supervisor – K.S.A"
   },
   {
     "code": "969",
@@ -9189,7 +9189,7 @@
     "areaCode": "1",
     "vt": "T",
     "vendor": "",
-    "remark": "Rashid Akhter (Sales Coordinator)\n\n+966-598180746 + 596473394\t�\n\nAsseel Trading Establishment\n\nRiyadh, Saudi Arabia\n\nTel. No. : 00 966 11 4617155, 2172327\n\nFax No. : 00 966 11 4624448\n\nE-mail : asseelchemicals@gmail.com\n\nWeb-Site : www.asseelchemicals.com"
+    "remark": "Rashid Akhter (Sales Coordinator)\n\n+966-598180746 + 596473394\t°\n\nAsseel Trading Establishment\n\nRiyadh, Saudi Arabia\n\nTel. No. : 00 966 11 4617155, 2172327\n\nFax No. : 00 966 11 4624448\n\nE-mail : asseelchemicals@gmail.com\n\nWeb-Site : www.asseelchemicals.com"
   },
   {
     "code": "1027",
@@ -9369,7 +9369,7 @@
     "areaCode": "1",
     "vt": "T",
     "vendor": "",
-    "remark": "�\tCompany Name: National Company for Mechanical Systems\n�\tAddress: 7211 AlUlaya, As Sahafa 2739, 13321 Riyadh, Saudi Arabia\n�\tContact: Eng. Abdulaziz Almarashi\n�\tMobile: +966543350775"
+    "remark": "•\tCompany Name: National Company for Mechanical Systems\n•\tAddress: 7211 AlUlaya, As Sahafa 2739, 13321 Riyadh, Saudi Arabia\n•\tContact: Eng. Abdulaziz Almarashi\n•\tMobile: +966543350775"
   },
   {
     "code": "1042",
@@ -9549,7 +9549,7 @@
     "areaCode": "2",
     "vt": "T",
     "vendor": "",
-    "remark": "Suhaib Abdulbasit Saadullah \nProcurement and Logistics Officer\n3289 � Industrial Valley Phase II,\nKing Abdullah Economic City,\n23994 � 8711, Rabigh, KSA\nTel: +966 12 212 9013"
+    "remark": "Suhaib Abdulbasit Saadullah \nProcurement and Logistics Officer\n3289 – Industrial Valley Phase II,\nKing Abdullah Economic City,\n23994 – 8711, Rabigh, KSA\nTel: +966 12 212 9013"
   },
   {
     "code": "1057",
@@ -9613,7 +9613,7 @@
   },
   {
     "code": "1062",
-    "name": "Gulf Advanced Control Systems / GACS � Arabia",
+    "name": "Gulf Advanced Control Systems / GACS – Arabia",
     "nameAr": "",
     "pgType": "G",
     "website": "http://www.gacsarabia.com/",
@@ -9621,7 +9621,7 @@
     "areaCode": "5",
     "vt": "T",
     "vendor": "",
-    "remark": "Mohamed Ibrahim M\n\n49th Street, P.O Box: 578,\nRas Tanurah � 31941,\nKingdom of Saudi Arabia.                  \nTel: +966 (13) 667 2135 / 667 7210 / Fax: +966 (13) 668 2303\nMobile No:+966 503158203"
+    "remark": "Mohamed Ibrahim M\n\n49th Street, P.O Box: 578,\nRas Tanurah – 31941,\nKingdom of Saudi Arabia.                  \nTel: +966 (13) 667 2135 / 667 7210 / Fax: +966 (13) 668 2303\nMobile No:+966 503158203"
   },
   {
     "code": "1063",
@@ -9633,7 +9633,7 @@
     "areaCode": "1",
     "vt": "T",
     "vendor": "",
-    "remark": "Mahmoud Al-Mukbil\nCentral Area Sales Manager\nSales Department � Lab Division  \n\nSiemens Healthcare Limited\nSHS EMEA MESA DX TSO\nAirport Road\nRiad 11423, Saudi-Arabia\nMobile : 00966508863268\nMobile : 00966547930024\nmahmoud.mukbil@siemens-healthineers.com"
+    "remark": "Mahmoud Al-Mukbil\nCentral Area Sales Manager\nSales Department – Lab Division  \n\nSiemens Healthcare Limited\nSHS EMEA MESA DX TSO\nAirport Road\nRiad 11423, Saudi-Arabia\nMobile : 00966508863268\nMobile : 00966547930024\nmahmoud.mukbil@siemens-healthineers.com"
   },
   {
     "code": "1064",
@@ -9736,7 +9736,7 @@
     "name": "Prince Sultan Center for Defence Studies and Research",
     "nameAr": "",
     "pgType": "G",
-    "website": "https://www.psdsarc.org.sa � about-us",
+    "website": "https://www.psdsarc.org.sa › about-us",
     "sector": "S",
     "areaCode": "1",
     "vt": "V",
@@ -12277,7 +12277,7 @@
   },
   {
     "code": "C-22",
-    "name": "FEMALE STUDENT CAMPUS � KING SAUD UNIVERSITY",
+    "name": "FEMALE STUDENT CAMPUS – KING SAUD UNIVERSITY",
     "nameAr": "",
     "pgType": "G",
     "website": "womencampus.ksu.edu.sa",
@@ -13981,7 +13981,7 @@
   },
   {
     "code": "Q-170",
-    "name": "DR. SULAIMAN FAKEEH HOSPITAL � JEDDAH",
+    "name": "DR. SULAIMAN FAKEEH HOSPITAL – JEDDAH",
     "nameAr": "",
     "pgType": "G",
     "website": "www.drfakeehhospital.com/",
