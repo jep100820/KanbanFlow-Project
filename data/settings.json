@@ -1,0 +1,93 @@
+{
+  "origins": [
+    "NUPCO",
+    "Etimad",
+    "E-Purchasing",
+    "Sales",
+    "Engineering"
+  ],
+  "statuses": [
+    "NOT STARTED",
+    "UNDER REVIEW",
+    "FOR APPROVAL",
+    "CLOSED",
+    "CANCELLED",
+    "DROPPED",
+    "STD"
+  ],
+  "kanbanColumnMode": "sub",
+  "statusGroups": [
+    {
+      "name": "WIP",
+      "substatuses": [
+        "NOT STARTED",
+        "UNDER REVIEW",
+        "FOR APPROVAL"
+      ],
+      "isCompletion": false,
+      "showOnBoard": true,
+      "columnView": "sub",
+      "color": "#024ef2",
+      "substatusColors": {
+        "NOT STARTED": "#f21a02",
+        "UNDER REVIEW": "#02eef2",
+        "FOR APPROVAL": "#02f22a"
+      }
+    },
+    {
+      "name": "NO BID",
+      "substatuses": [
+        "CLOSED",
+        "CANCELLED",
+        "DROPPED"
+      ],
+      "isCompletion": true,
+      "showOnBoard": false,
+      "columnView": "sub",
+      "color": "#cd233c",
+      "substatusColors": {
+        "CLOSED": "#cd233c",
+        "CANCELLED": "#cd233c",
+        "DROPPED": "#cd233c"
+      }
+    },
+    {
+      "name": "SUBMITTED",
+      "substatuses": [
+        "STD"
+      ],
+      "isCompletion": true,
+      "showOnBoard": false,
+      "columnView": "sub",
+      "color": "#01f456",
+      "substatusColors": {
+        "STD": "#01f456"
+      }
+    }
+  ],
+  "referenceFormula": "YYMMDD{SEQ}",
+  "referenceStartSequence": 6,
+  "referenceSequencePad": 2,
+  "originSalesMap": {
+    "NUPCO": [
+      "Adnan",
+      "Sales 2",
+      "Sales 3"
+    ],
+    "Etimad": [
+      "Adnan",
+      "Sales 2"
+    ],
+    "E-Purchasing": [
+      "Customer Code Based"
+    ],
+    "Sales": [
+      "Sales Team A",
+      "Sales Team B"
+    ],
+    "Engineering": [
+      "Engineer 1",
+      "Engineer 2"
+    ]
+  }
+}
