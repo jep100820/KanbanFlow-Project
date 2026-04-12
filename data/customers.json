@@ -1,0 +1,22 @@
+[
+  {
+    "code": "C001",
+    "name": "National Care",
+    "pgType": "G"
+  },
+  {
+    "code": "C002",
+    "name": "Dallah Hospital",
+    "pgType": "P"
+  },
+  {
+    "code": "C003",
+    "name": "Riyadh Medical Center",
+    "pgType": "G"
+  },
+  {
+    "code": "C-123",
+    "name": "TestCostumer",
+    "pgType": "P"
+  }
+]
