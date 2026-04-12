@@ -1,0 +1,5548 @@
+[
+  {
+    "id": "qtn_1776016609155_401",
+    "sn": 1,
+    "reference": "26010406",
+    "targetDate": "5-Jan",
+    "dueDate": "5-Jan",
+    "customerCode": "1263",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Islam Sleem",
+    "phone": "+966544800246",
+    "email": "esaid@hasanah.com.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609155_640",
+    "sn": 2,
+    "reference": "26010706",
+    "targetDate": "7-Jan",
+    "dueDate": "7-Jan",
+    "customerCode": "838",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Etimad",
+    "salesPerson": "Osama",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Salim Mohammad Alguthmi",
+    "phone": "",
+    "email": "salim.alguthmi@dmf.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "0101050 Cover glass QTY: 3000pcs",
+    "items": [
+      {
+        "description": "0101050 Cover glass QTY: 3000pcs",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609155_979",
+    "sn": 3,
+    "reference": "26010707",
+    "targetDate": "7-Jan",
+    "dueDate": "7-Jan",
+    "customerCode": "E-46",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "",
+    "items": []
+  },
+  {
+    "id": "qtn_1776016609156_41",
+    "sn": 4,
+    "reference": "26010708",
+    "targetDate": "7-Jan",
+    "dueDate": "7-Jan",
+    "customerCode": "1263",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Islam Sleem",
+    "phone": "+966544800246",
+    "email": "esaid@hasanah.com.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609156_713",
+    "sn": 5,
+    "reference": "26010806",
+    "targetDate": "13-Jan",
+    "dueDate": "15-Jan",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "",
+    "rfq": "NDP0046/26",
+    "bid": "",
+    "quoteTime": "4:00 pm",
+    "status": "NOT STARTED",
+    "contactName": "Mr. Firas ibrahim Alqunayan",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various items",
+    "items": [
+      {
+        "description": "Various items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609156_444",
+    "sn": 6,
+    "reference": "26010807",
+    "targetDate": "17-Jan",
+    "dueDate": "19-Jan",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "",
+    "rfq": "NDP0047/26",
+    "bid": "",
+    "quoteTime": "3:00pm",
+    "status": "DROPPED",
+    "contactName": "Abeer S. Algefari",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "No confirmation of available stock",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609156_80",
+    "sn": 7,
+    "reference": "26010808",
+    "targetDate": "16-Jan",
+    "dueDate": "18-Jan",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "",
+    "rfq": "NDP0050/26",
+    "bid": "",
+    "quoteTime": "4:00 pm",
+    "status": "CLOSED",
+    "contactName": "Mr. Firas ibrahim Alqunayan",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "No confirmation of available stock",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609156_645",
+    "sn": 8,
+    "reference": "26011106",
+    "targetDate": "16-Jan",
+    "dueDate": "18-Jan",
+    "customerCode": "849",
+    "customerName": "",
+    "pgType": "",
+    "origin": "",
+    "salesPerson": "",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "",
+    "items": []
+  },
+  {
+    "id": "qtn_1776016609156_724",
+    "sn": 9,
+    "reference": "26011206",
+    "targetDate": "16-Jan",
+    "dueDate": "18-Jan",
+    "customerCode": "1264",
+    "customerName": "",
+    "pgType": "",
+    "origin": "",
+    "salesPerson": "",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609156_593",
+    "sn": 10,
+    "reference": "26011306",
+    "targetDate": "13-Jan",
+    "dueDate": "15-Jan",
+    "customerCode": "995",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Email",
+    "salesPerson": "zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "SUBMITTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 4,
+    "totalValue": null,
+    "remarks": "13.01.26",
+    "itemText": "Needles",
+    "items": [
+      {
+        "description": "Needles",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609156_884",
+    "sn": 11,
+    "reference": "26011406",
+    "targetDate": "19-Jan",
+    "dueDate": "20-Jan",
+    "customerCode": "H-75",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Epur",
+    "salesPerson": "",
+    "rfq": "4702076-2",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "CANCELLED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "Quote Ready - RFQ cancelled",
+    "itemText": "Parafilm",
+    "items": [
+      {
+        "description": "Parafilm",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609157_162",
+    "sn": 12,
+    "reference": "26011407",
+    "targetDate": "14-Jan",
+    "dueDate": "15-Jan",
+    "customerCode": "1265",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "HandOver",
+    "salesPerson": "Bilal",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Alcohol swab",
+    "items": [
+      {
+        "description": "Alcohol swab",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609157_174",
+    "sn": 13,
+    "reference": "26011506",
+    "targetDate": "15-Jan",
+    "dueDate": "16-Jan",
+    "customerCode": "",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "",
+    "items": []
+  },
+  {
+    "id": "qtn_1776016609157_193",
+    "sn": 14,
+    "reference": "26011507",
+    "targetDate": "15-Jan",
+    "dueDate": "20-Jan",
+    "customerCode": "F-57",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "OSama",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "SUBMITTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": null,
+    "remarks": "19.01.26",
+    "itemText": "Separator, Plasma PRSS.DB.00  QTY: 3",
+    "items": [
+      {
+        "description": "Separator, Plasma PRSS.DB.00  QTY: 3",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609157_118",
+    "sn": 15,
+    "reference": "26011806",
+    "targetDate": "18-Jan",
+    "dueDate": "18-Jan",
+    "customerCode": "F-60",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "SUBMITTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 2,
+    "totalValue": null,
+    "remarks": "18.01.26",
+    "itemText": "Vaccutainer",
+    "items": [
+      {
+        "description": "Vaccutainer",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609157_412",
+    "sn": 16,
+    "reference": "26011807",
+    "targetDate": "18-Jan",
+    "dueDate": "20-Jan",
+    "customerCode": "D-31",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "251239004338 (40047948)",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": null,
+    "remarks": "19.01.26",
+    "itemText": "Tube Vacutainer for Blood Collection Red Top Clot Activator Vol 9 10 ml tube size 16 x 100mm QTY: 100000",
+    "items": [
+      {
+        "description": "Tube Vacutainer for Blood Collection Red Top Clot Activator Vol 9 10 ml tube size 16 x 100mm QTY: 100000",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609157_543",
+    "sn": 17,
+    "reference": "26011808",
+    "targetDate": "20-Jan",
+    "dueDate": "21-Jan",
+    "customerCode": "H-75",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Epur",
+    "salesPerson": "",
+    "rfq": "4756089",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "CLOSED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "No approval confirmation",
+    "itemText": "Blood collection tube",
+    "items": [
+      {
+        "description": "Blood collection tube",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609158_912",
+    "sn": 18,
+    "reference": "26011809",
+    "targetDate": "20-Jan",
+    "dueDate": "21-Jan",
+    "customerCode": "H-75",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Epur",
+    "salesPerson": "",
+    "rfq": "4755081",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "CLOSED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "No approval confirmation",
+    "itemText": "1.5 ml micro centrifuge",
+    "items": [
+      {
+        "description": "1.5 ml micro centrifuge",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609158_893",
+    "sn": 19,
+    "reference": "26011810",
+    "targetDate": "19-Jan",
+    "dueDate": "21-Jan",
+    "customerCode": "995",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": null,
+    "remarks": "19.01.26",
+    "itemText": "slides",
+    "items": [
+      {
+        "description": "slides",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609158_307",
+    "sn": 20,
+    "reference": "26011906",
+    "targetDate": "19-Jan",
+    "dueDate": "20-Jan",
+    "customerCode": "998",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": null,
+    "remarks": "19.01.26",
+    "itemText": "blood smear dispenser",
+    "items": [
+      {
+        "description": "blood smear dispenser",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609158_481",
+    "sn": 21,
+    "reference": "26012106",
+    "targetDate": "21-Jan",
+    "dueDate": "22-Jan",
+    "customerCode": "1266",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Email",
+    "salesPerson": "Info",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "Mohamed Zaafan",
+    "phone": "",
+    "email": "Hany@attayerfactory.com",
+    "totalItems": 2,
+    "totalValue": 139.2,
+    "remarks": "21 01 2026 - unit price offer only",
+    "itemText": "Alcohol swab & Biohazard Bag",
+    "items": [
+      {
+        "description": "Alcohol swab & Biohazard Bag",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609158_725",
+    "sn": 22,
+    "reference": "26012107",
+    "targetDate": "30-Jan",
+    "dueDate": "31-Jan",
+    "customerCode": "H-75",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Epur",
+    "salesPerson": "",
+    "rfq": "4760098",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": null,
+    "remarks": "22.01.26",
+    "itemText": "8 strips tube",
+    "items": [
+      {
+        "description": "8 strips tube",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609158_876",
+    "sn": 23,
+    "reference": "26012108",
+    "targetDate": "30-Jan",
+    "dueDate": "31-Jan",
+    "customerCode": "H-75",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Epur",
+    "salesPerson": "",
+    "rfq": "4760099",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": null,
+    "remarks": "22.01.26",
+    "itemText": "Sealing film",
+    "items": [
+      {
+        "description": "Sealing film",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609158_294",
+    "sn": 24,
+    "reference": "26012506",
+    "targetDate": "25-Jan",
+    "dueDate": "26-Jan",
+    "customerCode": "923",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Email",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": null,
+    "remarks": "25.01.26",
+    "itemText": "AmioTest",
+    "items": [
+      {
+        "description": "AmioTest",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609158_37",
+    "sn": 25,
+    "reference": "26012507",
+    "targetDate": "25-Jan",
+    "dueDate": "26-Jan",
+    "customerCode": "995",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Email",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": null,
+    "remarks": "25.01.26",
+    "itemText": "Centrifuge tube",
+    "items": [
+      {
+        "description": "Centrifuge tube",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609158_336",
+    "sn": 26,
+    "reference": "26012508",
+    "targetDate": "25-Jan",
+    "dueDate": "26-Jan",
+    "customerCode": "L-113",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260139005226 (JR719653)",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": null,
+    "remarks": "26.01.26",
+    "itemText": "Blood collection tube",
+    "items": [
+      {
+        "description": "Blood collection tube",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609159_425",
+    "sn": 27,
+    "reference": "26012606",
+    "targetDate": "26-Jan",
+    "dueDate": "28-Jan",
+    "customerCode": "I-88",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Email",
+    "salesPerson": "",
+    "rfq": "KFUPM-2026-RFQ45",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "CLOSED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "not submitted - warehouse",
+    "itemText": "vials and blue cap",
+    "items": [
+      {
+        "description": "vials and blue cap",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609159_840",
+    "sn": 28,
+    "reference": "26012806",
+    "targetDate": "30-Jan",
+    "dueDate": "31-Jan",
+    "customerCode": "1059",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260139003933",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "CLOSED",
+    "contactName": "Saud Abdullah Al-Harbi",
+    "phone": "0125865024",
+    "email": "alharbisa57@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "Value too low",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609159_48",
+    "sn": 29,
+    "reference": "26012807",
+    "targetDate": "1-Feb",
+    "dueDate": "2-Feb",
+    "customerCode": "H-75",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Epur",
+    "salesPerson": "",
+    "rfq": "4765108",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Amer Alzahrani",
+    "phone": "",
+    "email": "F1510071@kfshrc.edu.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Test Tube 75x12mm",
+    "items": [
+      {
+        "description": "Test Tube 75x12mm",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609159_45",
+    "sn": 30,
+    "reference": "26012906",
+    "targetDate": "30-Jan",
+    "dueDate": "31-Jan",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "Market place",
+    "rfq": "15001152",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Microtome blade",
+    "items": [
+      {
+        "description": "Microtome blade",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609159_371",
+    "sn": 31,
+    "reference": "26012907",
+    "targetDate": "1-Feb",
+    "dueDate": "3-Feb",
+    "customerCode": "E-46",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260139008455 (2368999)",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Faras Al-Bassam",
+    "phone": "0118041695",
+    "email": "albassamfe@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Reaction plate 96 well microamp for pcr",
+    "items": [
+      {
+        "description": "Reaction plate 96 well microamp for pcr",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609160_232",
+    "sn": 32,
+    "reference": "26012908",
+    "targetDate": "30-Jan",
+    "dueDate": "31-Jan",
+    "customerCode": "1059",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260139003937 (670)",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Saud Abdullah Al-Harbi",
+    "phone": "0125865024",
+    "email": "alharbisa57@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "adjustable pipette",
+    "items": [
+      {
+        "description": "adjustable pipette",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609160_850",
+    "sn": 33,
+    "reference": "26012909",
+    "targetDate": "29-Jan",
+    "dueDate": "1-Feb",
+    "customerCode": "Q-162",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Email",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Yousef Al-Rewainy",
+    "phone": "966505881853",
+    "email": "ymelrewainy@sghgroup.com",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Blood collection tube & Needles",
+    "items": [
+      {
+        "description": "Blood collection tube & Needles",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609160_786",
+    "sn": 34,
+    "reference": "26020106",
+    "targetDate": "1-Feb",
+    "dueDate": "2-Apr",
+    "customerCode": "R-179",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Email",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "Salman Sultan Alkhaldi",
+    "phone": "+966508426910",
+    "email": "salkhaldi@care.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "Submitted",
+    "itemText": "Alcohol Swabs",
+    "items": [
+      {
+        "description": "Alcohol Swabs",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609160_890",
+    "sn": 35,
+    "reference": "26020306",
+    "targetDate": "3-Feb",
+    "dueDate": "4-Feb",
+    "customerCode": "995",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Email",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "Taraf Al-Shalaan",
+    "phone": "+966503605572",
+    "email": "t.alshalan@meena-health.com",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "Submitted",
+    "itemText": "needles",
+    "items": [
+      {
+        "description": "needles",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609160_178",
+    "sn": 36,
+    "reference": "26020406",
+    "targetDate": "4-Feb",
+    "dueDate": "5-Feb",
+    "customerCode": "772",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Email",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Joe Hilson",
+    "phone": "+9665408208624",
+    "email": "jgrinn@familycare.com.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "parafilm and segment opener",
+    "items": [
+      {
+        "description": "parafilm and segment opener",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609160_741",
+    "sn": 37,
+    "reference": "26020806",
+    "targetDate": "8-Feb",
+    "dueDate": "9-Feb",
+    "customerCode": "R-179",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Taiseer Ameer",
+    "phone": "+966582913292",
+    "email": "t.ameer@smgc.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Swivel Roller Mixer",
+    "items": [
+      {
+        "description": "Swivel Roller Mixer",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609160_225",
+    "sn": 38,
+    "reference": "26020906",
+    "targetDate": "9-Feb",
+    "dueDate": "10-Feb",
+    "customerCode": "d-33",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Email",
+    "salesPerson": "osama",
+    "rfq": "MR-33267",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "Abdulaziz",
+    "phone": "0114837777",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "Submitted",
+    "itemText": "slee blades",
+    "items": [
+      {
+        "description": "slee blades",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609161_774",
+    "sn": 39,
+    "reference": "26021206",
+    "targetDate": "13-Feb",
+    "dueDate": "14-Feb",
+    "customerCode": "1119",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260239002067(2786)",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Naif Maijid Saud Al Fahd",
+    "phone": "0538387767",
+    "email": "Alfehaidna1@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Test Tube Borosilicate Glass 16 x 100mm Dispo",
+    "items": [
+      {
+        "description": "Test Tube Borosilicate Glass 16 x 100mm Dispo",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609162_705",
+    "sn": 40,
+    "reference": "26021506",
+    "targetDate": "15-Feb",
+    "dueDate": "16-Feb",
+    "customerCode": "F-60",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "Saber Hassan",
+    "phone": "055 738 9544",
+    "email": "shassan@kingdomhospital.com",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "Submitted",
+    "itemText": "Slide Mailler & 630277",
+    "items": [
+      {
+        "description": "Slide Mailler & 630277",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609162_292",
+    "sn": 41,
+    "reference": "26021606",
+    "targetDate": "16-Feb",
+    "dueDate": "16-Feb",
+    "customerCode": "838",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "",
+    "salesPerson": "osama",
+    "rfq": "",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "abdullah marir",
+    "phone": "0552258875",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "Submitted",
+    "itemText": "ab medical",
+    "items": [
+      {
+        "description": "ab medical",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609162_327",
+    "sn": 42,
+    "reference": "26021806",
+    "targetDate": "18-Feb",
+    "dueDate": "18-Feb",
+    "customerCode": "838",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "",
+    "salesPerson": "Osama",
+    "rfq": "7543",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "abdullah marir",
+    "phone": "0552258875",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "Submitted",
+    "itemText": "lianfa",
+    "items": [
+      {
+        "description": "lianfa",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609162_703",
+    "sn": 43,
+    "reference": "26021807",
+    "targetDate": "23-Feb",
+    "dueDate": "24-Feb",
+    "customerCode": "E-46",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260239007730 (2375555)",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Firas Al-Bassam",
+    "phone": "T:0118041695",
+    "email": "E:albassamfe@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "pasteur pipette",
+    "items": [
+      {
+        "description": "pasteur pipette",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609162_442",
+    "sn": 44,
+    "reference": "26021808",
+    "targetDate": "23-Feb",
+    "dueDate": "24-Feb",
+    "customerCode": "E-46",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260239008128 (2365889)",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Firas Al-Bassam",
+    "phone": "T:0118041695",
+    "email": "E:albassamfe@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "pipette tips",
+    "items": [
+      {
+        "description": "pipette tips",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609162_932",
+    "sn": 45,
+    "reference": "26021906",
+    "targetDate": "19-Feb",
+    "dueDate": "24-Feb",
+    "customerCode": "620",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Mohammed Assiri",
+    "phone": "+966530906277",
+    "email": "m.asiri@alborgdx.com",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609163_303",
+    "sn": 46,
+    "reference": "26022306",
+    "targetDate": "23-Feb",
+    "dueDate": "24-Feb",
+    "customerCode": "838",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "",
+    "salesPerson": "Osama",
+    "rfq": "",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Salim Mohammad Alguthmi",
+    "phone": "",
+    "email": "salim.alguthmi@dmf.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "loop 1 ul BSV121",
+    "items": [
+      {
+        "description": "loop 1 ul BSV121",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609163_292",
+    "sn": 47,
+    "reference": "26022406",
+    "targetDate": "24-Feb",
+    "dueDate": "25-Feb",
+    "customerCode": "D-33",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "",
+    "salesPerson": "OSAMA",
+    "rfq": "MR-33265",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Abdulaziz",
+    "phone": "0114837777",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "loop 1 ul BSV121",
+    "items": [
+      {
+        "description": "loop 1 ul BSV121",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609163_845",
+    "sn": 48,
+    "reference": "26022506",
+    "targetDate": "25-Feb",
+    "dueDate": "25-Feb",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "",
+    "rfq": "NDP0238/26",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "SUBMITTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609163_978",
+    "sn": 49,
+    "reference": "26030106",
+    "targetDate": "5-Mar",
+    "dueDate": "5-Mar",
+    "customerCode": "1059",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "",
+    "items": []
+  },
+  {
+    "id": "qtn_1776016609163_655",
+    "sn": 50,
+    "reference": "26030206",
+    "targetDate": "5-Mar",
+    "dueDate": "5-Mar",
+    "customerCode": "L-113",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "",
+    "items": []
+  },
+  {
+    "id": "qtn_1776016609163_337",
+    "sn": 51,
+    "reference": "26030506",
+    "targetDate": "5-Mar",
+    "dueDate": "8-Mar",
+    "customerCode": "1059",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260339001813(9512)",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "Najwa Momen",
+    "phone": "0125865026",
+    "email": "momenna@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "TUBE TEST GLASS 12 X 75MM [105774] QTY: 6500",
+    "items": [
+      {
+        "description": "TUBE TEST GLASS 12 X 75MM [105774] QTY: 6500",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609163_975",
+    "sn": 52,
+    "reference": "26030507",
+    "targetDate": "9-Mar",
+    "dueDate": "9-Mar",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "Badail",
+    "rfq": "115001122",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Safety Lancet",
+    "items": [
+      {
+        "description": "Safety Lancet",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609164_426",
+    "sn": 53,
+    "reference": "26030508",
+    "targetDate": "9-Mar",
+    "dueDate": "9-Mar",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "Badail",
+    "rfq": "115001603",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Safety Lancet",
+    "items": [
+      {
+        "description": "Safety Lancet",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609164_953",
+    "sn": 54,
+    "reference": "26030806",
+    "targetDate": "8-Mar",
+    "dueDate": "8-Mar",
+    "customerCode": "1267",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Bilal",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "Mr. Najm",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Biohazrd Spill Kit MJZ017",
+    "items": [
+      {
+        "description": "Biohazrd Spill Kit MJZ017",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609164_165",
+    "sn": 55,
+    "reference": "25030807",
+    "targetDate": "9-Mar",
+    "dueDate": "10-Mar",
+    "customerCode": "E-46",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260239012627(2379657)",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "Firas Al-Bassam",
+    "phone": "0118041695",
+    "email": "albassamfe@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Pipette Glass size 5 3/4 (pasteur type) 105773 qty: 6000",
+    "items": [
+      {
+        "description": "Pipette Glass size 5 3/4 (pasteur type) 105773 qty: 6000",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609164_912",
+    "sn": 56,
+    "reference": "25030906",
+    "targetDate": "9-Mar",
+    "dueDate": "10-Mar",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "Badail",
+    "rfq": "15001603",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609164_762",
+    "sn": 57,
+    "reference": "25030907",
+    "targetDate": "12-Mar",
+    "dueDate": "15-Mar",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "DP",
+    "rfq": "NDP0293/26",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609164_457",
+    "sn": 58,
+    "reference": "26030908",
+    "targetDate": "9-Mar",
+    "dueDate": "11-Mar",
+    "customerCode": "R-179",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Salman Sultan Alkhaldi",
+    "phone": "+966508426910",
+    "email": "salkhaldi@care.med.sa",
+    "totalItems": null,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Alcohol Swab KM-QP018",
+    "items": [
+      {
+        "description": "Alcohol Swab KM-QP018",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609165_645",
+    "sn": 59,
+    "reference": "26030909",
+    "targetDate": "9-Mar",
+    "dueDate": "10-Mar",
+    "customerCode": "D-33",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Osama",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": null,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "0810401  QTY: 100box",
+    "items": [
+      {
+        "description": "0810401  QTY: 100box",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609165_536",
+    "sn": 60,
+    "reference": "26031006",
+    "targetDate": "10-Mar",
+    "dueDate": "11-Mar",
+    "customerCode": "R-179",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "SWS",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Fasmin",
+    "phone": "+966501320343",
+    "email": "fmohamed@care.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "0101222 Cover Glass",
+    "items": [
+      {
+        "description": "0101222 Cover Glass",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609165_598",
+    "sn": 61,
+    "reference": "26031106",
+    "targetDate": "12-Mar",
+    "dueDate": "12-Mar",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "SWS",
+    "rfq": "SWS0002672",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "CLOSED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "Didn’t meet deadline",
+    "itemText": "Erlenmeyer Flask (4110207) QTY: 38pcs",
+    "items": [
+      {
+        "description": "Erlenmeyer Flask (4110207) QTY: 38pcs",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609165_644",
+    "sn": 62,
+    "reference": "26031107",
+    "targetDate": "12-Mar",
+    "dueDate": "12-Mar",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "SWS",
+    "rfq": "SWS0002673",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "CLOSED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "Didn’t meet deadline",
+    "itemText": "Erlenmeyer Flask (4110207) QTY: 38pcs",
+    "items": [
+      {
+        "description": "Erlenmeyer Flask (4110207) QTY: 38pcs",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609165_203",
+    "sn": 63,
+    "reference": "26031108",
+    "targetDate": "12-Mar",
+    "dueDate": "12-Mar",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "SWS",
+    "rfq": "SWS0002683",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "CLOSED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "Didn’t meet deadline",
+    "itemText": "Chroma Vial (C000962) QTY: 8,400pcs and Clot Activator (321502) QTY: 904000pcsx2",
+    "items": [
+      {
+        "description": "Chroma Vial (C000962) QTY: 8,400pcs and Clot Activator (321502) QTY: 904000pcsx2",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609165_922",
+    "sn": 64,
+    "reference": "26031109",
+    "targetDate": "12-Mar",
+    "dueDate": "12-Mar",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "SWS",
+    "rfq": "SWS0002686",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": null,
+    "remarks": "",
+    "itemText": "Positive Charged Microscope Slides (0810501) QTY: 15,186pcs",
+    "items": [
+      {
+        "description": "Positive Charged Microscope Slides (0810501) QTY: 15,186pcs",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609166_852",
+    "sn": 65,
+    "reference": "26031110",
+    "targetDate": "12-Mar",
+    "dueDate": "12-Mar",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "SWS",
+    "rfq": "SWS0002687",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": null,
+    "remarks": "",
+    "itemText": "Positive Charged Microscope Slides (0810501) QTY: 15,186pcs",
+    "items": [
+      {
+        "description": "Positive Charged Microscope Slides (0810501) QTY: 15,186pcs",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609166_564",
+    "sn": 66,
+    "reference": "26031206",
+    "targetDate": "15-Mar",
+    "dueDate": "15-Mar",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "DP",
+    "rfq": "NDP0315/26",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "First Aid Kits",
+    "items": [
+      {
+        "description": "First Aid Kits",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609166_750",
+    "sn": 67,
+    "reference": "26031506",
+    "targetDate": "16-Mar",
+    "dueDate": "16-Mar",
+    "customerCode": "Q-169",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "26039009864(DR220372)",
+    "bid": "200",
+    "quoteTime": "11:00:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Nahi Al Shammari",
+    "phone": "0138532648",
+    "email": "shammariN12@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Slide Glass Microscope (76*26mm) Frosted End Both Sides with Finely Ground Edges Precleaned  QTY: 25,000",
+    "items": [
+      {
+        "description": "Slide Glass Microscope (76*26mm) Frosted End Both Sides with Finely Ground Edges Precleaned  QTY: 25,000",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609166_249",
+    "sn": 68,
+    "reference": "26031606",
+    "targetDate": "16-Mar",
+    "dueDate": "17-Mar",
+    "customerCode": "1059",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260339001813(9512)",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "Najwa Momen",
+    "phone": "0125865026",
+    "email": "momenna@mngha.med.sa",
+    "totalItems": 1,
+    "totalValue": null,
+    "remarks": "",
+    "itemText": "TUBE TEST GLASS 12 X 75MM [105774] QTY: 6500",
+    "items": [
+      {
+        "description": "TUBE TEST GLASS 12 X 75MM [105774] QTY: 6500",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609167_219",
+    "sn": 69,
+    "reference": "26031607",
+    "targetDate": "25-Mar",
+    "dueDate": "31-Mar",
+    "customerCode": "M-129",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260239007538(171234)",
+    "bid": "1000",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Raja Mohammed Moussa Majrashi",
+    "phone": "0550068982/0173298090",
+    "email": "ralmagrashiy@jazanu.edu.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Simulator",
+    "items": [
+      {
+        "description": "Simulator",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609167_285",
+    "sn": 70,
+    "reference": "26031608",
+    "targetDate": "25-Mar",
+    "dueDate": "31-Mar",
+    "customerCode": "M-129",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260239007546(44753)",
+    "bid": "800",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Dhiab Hussein Qasim Maashi",
+    "phone": "0507339211",
+    "email": "tmaashi@jazanu.edu.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609167_284",
+    "sn": 71,
+    "reference": "26031706",
+    "targetDate": "10-Apr",
+    "dueDate": "15-Apr",
+    "customerCode": "B-18",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260339006384(42390)",
+    "bid": "1000",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "-",
+    "phone": "-",
+    "email": "-",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609167_19",
+    "sn": 72,
+    "reference": "26031707",
+    "targetDate": "18-Mar",
+    "dueDate": "21-Mar",
+    "customerCode": "D-31",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "26033001317(40049798)",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Mohammed Al-Hasil",
+    "phone": "058028300",
+    "email": "malhasil@SFH.MED.SA",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Tube VAcutainer for Blood Collection Red Top Clot Activator (321502) QTY: 200000",
+    "items": [
+      {
+        "description": "Tube VAcutainer for Blood Collection Red Top Clot Activator (321502) QTY: 200000",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609167_84",
+    "sn": 73,
+    "reference": "26031708",
+    "targetDate": "28-Mar",
+    "dueDate": "29-Mar",
+    "customerCode": "I-84",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "2603390077197(HR415455)",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Abdul-Ilah Al-Mulla",
+    "phone": "053930037",
+    "email": "almullaab1@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Tube VAcutainer for Blood Collection Red Top Clot Activator 10ml (300901) QTY: 20000",
+    "items": [
+      {
+        "description": "Tube VAcutainer for Blood Collection Red Top Clot Activator 10ml (300901) QTY: 20000",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609168_524",
+    "sn": 74,
+    "reference": "26031709",
+    "targetDate": "10-Apr",
+    "dueDate": "15-Apr",
+    "customerCode": "B-18",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260339006350(42392)",
+    "bid": "1000",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Mishari Ibrahim Al-Rabiah",
+    "phone": "0114883555",
+    "email": "mialrabiah@kacst.gov.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609168_267",
+    "sn": 75,
+    "reference": "26031710",
+    "targetDate": "18-Mar",
+    "dueDate": "18-Mar",
+    "customerCode": "D-33",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Osama",
+    "rfq": "MR-35027",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "CLOSED",
+    "contactName": "Abdullah Alotaibi",
+    "phone": "0114837777-6230",
+    "email": "abdullah.alotaibi@unified.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "NO STOCK AVAILABLE",
+    "itemText": "Parafilm Rolls 4\" x 125 ft  QTY: 10pcs",
+    "items": [
+      {
+        "description": "Parafilm Rolls 4\" x 125 ft  QTY: 10pcs",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609168_983",
+    "sn": 76,
+    "reference": "26031711",
+    "targetDate": "20-Apr",
+    "dueDate": "23-Apr",
+    "customerCode": "F-52",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "E-Purchasing",
+    "salesPerson": "",
+    "rfq": "881496",
+    "bid": "",
+    "quoteTime": "11:56:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "-",
+    "phone": "0118401343",
+    "email": "fzaidi@kkesh.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Specimen Bag 25x25cm QTY: 15,000pcs (Short Qty: 14,262pcs)\nSyringe w/o needled 5ml QTY: 35,000pcs (No Stock)\nTube Vacu Red Top 9ml  QTY: 40,000pcs (50,400 - Jun 2026, 24,700 - Sep 2026)",
+    "items": [
+      {
+        "description": "Specimen Bag 25x25cm QTY: 15,000pcs (Short Qty: 14,262pcs)",
+        "qty": 0
+      },
+      {
+        "description": "Syringe w/o needled 5ml QTY: 35,000pcs (No Stock)",
+        "qty": 0
+      },
+      {
+        "description": "Tube Vacu Red Top 9ml  QTY: 40,000pcs (50,400 - Jun 2026, 24,700 - Sep 2026)",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609168_21",
+    "sn": 77,
+    "reference": "26031712",
+    "targetDate": "26-Mar",
+    "dueDate": "29-Mar",
+    "customerCode": "H-75",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "E-Purchasing",
+    "salesPerson": "",
+    "rfq": "4805098",
+    "bid": "",
+    "quoteTime": "1:00:00 PM",
+    "status": "NOT STARTED",
+    "contactName": "Yaser Alsudairy",
+    "phone": "",
+    "email": "F1502969@kfshrc.edu.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Lens Paper 4 x 6 Inch QTY: 48PAcks",
+    "items": [
+      {
+        "description": "Lens Paper 4 x 6 Inch QTY: 48PAcks",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609169_509",
+    "sn": 78,
+    "reference": "26031713",
+    "targetDate": "20-Apr",
+    "dueDate": "23-Apr",
+    "customerCode": "F-52",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "E-Purchasing",
+    "salesPerson": "",
+    "rfq": "881492",
+    "bid": "",
+    "quoteTime": "11:56:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Faisal bin Abdulaziz Al-Zaidi",
+    "phone": "0118401343",
+    "email": "fzaidi@kkesh.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Clinipette Yellow Small Tips QTY: 32,000pcs",
+    "items": [
+      {
+        "description": "Clinipette Yellow Small Tips QTY: 32,000pcs",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609169_808",
+    "sn": 79,
+    "reference": "26031806",
+    "targetDate": "29-Mar",
+    "dueDate": "1-Apr",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "DP",
+    "rfq": "NDP0324/26",
+    "bid": "",
+    "quoteTime": "4:00:00 PM",
+    "status": "STD",
+    "contactName": "",
+    "phone": "",
+    "email": "Fiqunayan-c@nupco.com",
+    "totalItems": 43,
+    "totalValue": null,
+    "remarks": "31.03.26",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609169_77",
+    "sn": 80,
+    "reference": "26031807",
+    "targetDate": "18-Mar",
+    "dueDate": "18-Mar",
+    "customerCode": "772",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "400273-1",
+    "bid": "",
+    "quoteTime": "3:00:00 PM",
+    "status": "NOT STARTED",
+    "contactName": "Joe Hilson",
+    "phone": "0548208624",
+    "email": "jgrinn@familycare.com.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Overwrap Bags, Standard Size (for plasma thawers) QTY: 2000pcs",
+    "items": [
+      {
+        "description": "Overwrap Bags, Standard Size (for plasma thawers) QTY: 2000pcs",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609169_682",
+    "sn": 81,
+    "reference": "26032906",
+    "targetDate": "1-Apr",
+    "dueDate": "2-Apr",
+    "customerCode": "F-57",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Osama",
+    "rfq": "-",
+    "bid": "",
+    "quoteTime": "5:00:00 PM",
+    "status": "NOT STARTED",
+    "contactName": "Maaz Osman",
+    "phone": "5099425854",
+    "email": "maaz.osman@flowmedical.com",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Cell Counter QTY: 4pcs\nPh Meter QTY: 1pc\nWater Bath, Splint QTY: 2pcs",
+    "items": [
+      {
+        "description": "Cell Counter QTY: 4pcs",
+        "qty": 0
+      },
+      {
+        "description": "Ph Meter QTY: 1pc",
+        "qty": 0
+      },
+      {
+        "description": "Water Bath, Splint QTY: 2pcs",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609169_358",
+    "sn": 82,
+    "reference": "26033106",
+    "targetDate": "2-Apr",
+    "dueDate": "2-Apr",
+    "customerCode": "398",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "-",
+    "bid": "",
+    "quoteTime": "5:00:00 PM",
+    "status": "NOT STARTED",
+    "contactName": "Dr. Essa Al-Dhafiri",
+    "phone": "-",
+    "email": "alalam.director@gmail.com",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "KM-QP018 QTY: 2500box (100pcs per Box)",
+    "items": [
+      {
+        "description": "KM-QP018 QTY: 2500box (100pcs per Box)",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609170_979",
+    "sn": 83,
+    "reference": "26033107",
+    "targetDate": "2-Apr",
+    "dueDate": "2-Apr",
+    "customerCode": "1085",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "-",
+    "bid": "",
+    "quoteTime": "5:00:00 PM",
+    "status": "NOT STARTED",
+    "contactName": "Rashid (Purchasing Manager)",
+    "phone": "0574203342",
+    "email": "-",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "SN-105  QTY: 4000pcs\nKJ523 QTY: 100pcs\nA/001/008-AR  QTY: 100pcs",
+    "items": [
+      {
+        "description": "SN-105  QTY: 4000pcs",
+        "qty": 0
+      },
+      {
+        "description": "KJ523 QTY: 100pcs",
+        "qty": 0
+      },
+      {
+        "description": "A/001/008-AR  QTY: 100pcs",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609170_635",
+    "sn": 84,
+    "reference": "26033108",
+    "targetDate": "2-Apr",
+    "dueDate": "2-Apr",
+    "customerCode": "617",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Engineering",
+    "salesPerson": "Earl",
+    "rfq": "-",
+    "bid": "",
+    "quoteTime": "5:00:00 PM",
+    "status": "NOT STARTED",
+    "contactName": "Eng. Mubarak Ali Ameer",
+    "phone": "0567753973",
+    "email": "ameerm@seder.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Electro board MPS C - ASM  QTY: 1 Unit\nTemperature Sensor QTY: 1 Set",
+    "items": [
+      {
+        "description": "Electro board MPS C - ASM  QTY: 1 Unit",
+        "qty": 0
+      },
+      {
+        "description": "Temperature Sensor QTY: 1 Set",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609170_659",
+    "sn": 85,
+    "reference": "26040206",
+    "targetDate": "3-Apr",
+    "dueDate": "3-Apr",
+    "customerCode": "849",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "OSAMA",
+    "rfq": "",
+    "bid": "0",
+    "quoteTime": "10:12:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Johna Marie Diego",
+    "phone": "920033266-1121",
+    "email": "j.diego@akdital.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Slide Rotator QTY: 1 Unit\nTube Rotator QTY: 2 units\nIce Box QTY: 2 pc",
+    "items": [
+      {
+        "description": "Slide Rotator QTY: 1 Unit",
+        "qty": 0
+      },
+      {
+        "description": "Tube Rotator QTY: 2 units",
+        "qty": 0
+      },
+      {
+        "description": "Ice Box QTY: 2 pc",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609170_918",
+    "sn": 86,
+    "reference": "26040606",
+    "targetDate": "8-Apr",
+    "dueDate": "9-Apr",
+    "customerCode": "Q-169",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "ETIMAD",
+    "salesPerson": "Direct Purchase",
+    "rfq": "260339003505 (DR220286)",
+    "bid": "200",
+    "quoteTime": "9:00:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Nahi Al Shammari",
+    "phone": "0138532648",
+    "email": "shammariN12@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "TUBE TEST GLASS 12 X 75MM(105774) QTY: 30000",
+    "items": [
+      {
+        "description": "TUBE TEST GLASS 12 X 75MM(105774) QTY: 30000",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609171_71",
+    "sn": 87,
+    "reference": "26040706",
+    "targetDate": "8-Apr",
+    "dueDate": "8-Apr",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "NUPCO",
+    "salesPerson": "Direct Purchase",
+    "rfq": "NDP0350/26",
+    "bid": "0",
+    "quoteTime": "4:00:00 PM",
+    "status": "NOT STARTED",
+    "contactName": "AASULIHEM@nupco.com",
+    "phone": "-",
+    "email": "-",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609171_843",
+    "sn": 88,
+    "reference": "26040707",
+    "targetDate": "8-Apr",
+    "dueDate": "8-Apr",
+    "customerCode": "798",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "0",
+    "quoteTime": "8:12:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Dr. Fekri Radi",
+    "phone": "055 050 8729",
+    "email": "f_radi@i-qlab.com",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "SN-105 Safety Blood Collection QTY: 4000 pieces",
+    "items": [
+      {
+        "description": "SN-105 Safety Blood Collection QTY: 4000 pieces",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609171_754",
+    "sn": 89,
+    "reference": "26040708",
+    "targetDate": "9-Apr",
+    "dueDate": "9-Apr",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "NUPCO",
+    "salesPerson": "Direct Purchase",
+    "rfq": "NDP0355/26",
+    "bid": "0",
+    "quoteTime": "4:00:00 PM",
+    "status": "NOT STARTED",
+    "contactName": "kabalawi-c@NUPCO.com",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Film Polyester QTY: 3pcs\r\nTubes PS 12ml QTY: 10500\r\nApplicator, cotton 6inch QTY: 1800",
+    "items": [
+      {
+        "description": "Film Polyester QTY: 3pcs\r",
+        "qty": 0
+      },
+      {
+        "description": "Tubes PS 12ml QTY: 10500\r",
+        "qty": 0
+      },
+      {
+        "description": "Applicator, cotton 6inch QTY: 1800",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609171_243",
+    "sn": 90,
+    "reference": "26040709",
+    "targetDate": "8-Apr",
+    "dueDate": "8-Apr",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "NUPCO",
+    "salesPerson": "Direct Purchase",
+    "rfq": "NDP0369/26",
+    "bid": "0",
+    "quoteTime": "10:12:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "skholan@nupco.com",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Application Cotton tip 3in QTY: 10,000\r\nSyringe 10ml with 21Gx1.5in QTY: 4,800\r\nGauze Swab 12ply 10x10cm QTY: 120,000",
+    "items": [
+      {
+        "description": "Application Cotton tip 3in QTY: 10,000\r",
+        "qty": 0
+      },
+      {
+        "description": "Syringe 10ml with 21Gx1.5in QTY: 4,800\r",
+        "qty": 0
+      },
+      {
+        "description": "Gauze Swab 12ply 10x10cm QTY: 120,000",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609172_521",
+    "sn": 91,
+    "reference": "26040710",
+    "targetDate": "9-Apr",
+    "dueDate": "9-Apr",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "NUPCO",
+    "salesPerson": "Direct Purchase",
+    "rfq": "NDP0362/26",
+    "bid": "0",
+    "quoteTime": "4:00:00 PM",
+    "status": "NOT STARTED",
+    "contactName": "kabalawi-c@NUPCO.com",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Slide Glass Blue Frost Ground 25x75x1 QTY: 50,000pcs",
+    "items": [
+      {
+        "description": "Slide Glass Blue Frost Ground 25x75x1 QTY: 50,000pcs",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609172_356",
+    "sn": 92,
+    "reference": "26040711",
+    "targetDate": "9-Apr",
+    "dueDate": "9-Apr",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "NUPCO",
+    "salesPerson": "Direct Purchase",
+    "rfq": "NDP0360/26",
+    "bid": "0",
+    "quoteTime": "4:00:00 PM",
+    "status": "NOT STARTED",
+    "contactName": "kabalawi-c@NUPCO.com",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "CASSETTE TISSUE PROCESS EMBED BLUE W/LID QTY: 2500\nCARD FILTER WHITE CYTOSPIN INSTRUMENT QTY: 1200\nCASSETTE PINK W/LID PENCIL WRITING QTY: 2500\nSTRIP URINALYSIS 3 PARAMETER QTY: 600\nETC",
+    "items": [
+      {
+        "description": "CASSETTE TISSUE PROCESS EMBED BLUE W/LID QTY: 2500",
+        "qty": 0
+      },
+      {
+        "description": "CARD FILTER WHITE CYTOSPIN INSTRUMENT QTY: 1200",
+        "qty": 0
+      },
+      {
+        "description": "CASSETTE PINK W/LID PENCIL WRITING QTY: 2500",
+        "qty": 0
+      },
+      {
+        "description": "STRIP URINALYSIS 3 PARAMETER QTY: 600",
+        "qty": 0
+      },
+      {
+        "description": "ETC",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609172_174",
+    "sn": 93,
+    "reference": "26040712",
+    "targetDate": "8-Apr",
+    "dueDate": "9-Apr",
+    "customerCode": "398",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "0",
+    "quoteTime": "2:33:00 PM",
+    "status": "NOT STARTED",
+    "contactName": "Dr. Essa Al-Dhafiri",
+    "phone": "-",
+    "email": "alalam.director@gmail.com",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Refrigerator MPR 530 QTY: 1 Unit",
+    "items": [
+      {
+        "description": "Refrigerator MPR 530 QTY: 1 Unit",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776016609172_408",
+    "sn": 94,
+    "reference": "26040906",
+    "targetDate": "13-Apr",
+    "dueDate": "14-Apr",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "NUPCO",
+    "salesPerson": "Direct Purchase",
+    "rfq": "NDP0377/26",
+    "bid": "0",
+    "quoteTime": "4:00:00 PM",
+    "status": "NOT STARTED",
+    "contactName": "AASULIHEM@nupco.com",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Biological Indicator QTY: 127pcs\r\nCloth Cleaning Flat 30.48x30.48cm QTY: 12,165",
+    "items": [
+      {
+        "description": "Biological Indicator QTY: 127pcs\r",
+        "qty": 0
+      },
+      {
+        "description": "Cloth Cleaning Flat 30.48x30.48cm QTY: 12,165",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150771_198",
+    "sn": 1,
+    "reference": "26010406",
+    "targetDate": "5-Jan",
+    "dueDate": "5-Jan",
+    "customerCode": "1263",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Islam Sleem",
+    "phone": "9.66545E+11",
+    "email": "esaid@hasanah.com.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150772_931",
+    "sn": 2,
+    "reference": "26010706",
+    "targetDate": "7-Jan",
+    "dueDate": "7-Jan",
+    "customerCode": "838",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Etimad",
+    "salesPerson": "Osama",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Salim Mohammad Alguthmi",
+    "phone": "",
+    "email": "salim.alguthmi@dmf.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "0101050 Cover glass QTY: 3000pcs",
+    "items": [
+      {
+        "description": "0101050 Cover glass QTY: 3000pcs",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150772_106",
+    "sn": 3,
+    "reference": "26010707",
+    "targetDate": "7-Jan",
+    "dueDate": "7-Jan",
+    "customerCode": "E-46",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "",
+    "items": []
+  },
+  {
+    "id": "qtn_1776020150772_984",
+    "sn": 4,
+    "reference": "26010708",
+    "targetDate": "7-Jan",
+    "dueDate": "7-Jan",
+    "customerCode": "1263",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Islam Sleem",
+    "phone": "9.66545E+11",
+    "email": "esaid@hasanah.com.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150772_751",
+    "sn": 5,
+    "reference": "26010806",
+    "targetDate": "13-Jan",
+    "dueDate": "15-Jan",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "",
+    "rfq": "NDP0046/26",
+    "bid": "",
+    "quoteTime": "4:00 PM",
+    "status": "NOT STARTED",
+    "contactName": "Mr. Firas ibrahim Alqunayan",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various items",
+    "items": [
+      {
+        "description": "Various items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150773_287",
+    "sn": 6,
+    "reference": "26010807",
+    "targetDate": "17-Jan",
+    "dueDate": "19-Jan",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "",
+    "rfq": "NDP0047/26",
+    "bid": "",
+    "quoteTime": "3:00pm",
+    "status": "DROPPED",
+    "contactName": "Abeer S. Algefari",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "No confirmation of available stock",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150773_858",
+    "sn": 7,
+    "reference": "26010808",
+    "targetDate": "16-Jan",
+    "dueDate": "18-Jan",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "",
+    "rfq": "NDP0050/26",
+    "bid": "",
+    "quoteTime": "4:00 PM",
+    "status": "CLOSED",
+    "contactName": "Mr. Firas ibrahim Alqunayan",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "No confirmation of available stock",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150773_778",
+    "sn": 8,
+    "reference": "26011106",
+    "targetDate": "16-Jan",
+    "dueDate": "18-Jan",
+    "customerCode": "849",
+    "customerName": "",
+    "pgType": "",
+    "origin": "",
+    "salesPerson": "",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "",
+    "items": []
+  },
+  {
+    "id": "qtn_1776020150774_547",
+    "sn": 9,
+    "reference": "26011206",
+    "targetDate": "16-Jan",
+    "dueDate": "18-Jan",
+    "customerCode": "1264",
+    "customerName": "",
+    "pgType": "",
+    "origin": "",
+    "salesPerson": "",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150774_125",
+    "sn": 10,
+    "reference": "26011306",
+    "targetDate": "13-Jan",
+    "dueDate": "15-Jan",
+    "customerCode": "995",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Email",
+    "salesPerson": "zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 4,
+    "totalValue": 0,
+    "remarks": "13.01.26",
+    "itemText": "Needles",
+    "items": [
+      {
+        "description": "Needles",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150774_823",
+    "sn": 11,
+    "reference": "26011406",
+    "targetDate": "19-Jan",
+    "dueDate": "20-Jan",
+    "customerCode": "H-75",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Epur",
+    "salesPerson": "",
+    "rfq": "4702076-2",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "CANCELLED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "Quote Ready - RFQ cancelled",
+    "itemText": "Parafilm",
+    "items": [
+      {
+        "description": "Parafilm",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150775_664",
+    "sn": 12,
+    "reference": "26011407",
+    "targetDate": "14-Jan",
+    "dueDate": "15-Jan",
+    "customerCode": "1265",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "HandOver",
+    "salesPerson": "Bilal",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Alcohol swab",
+    "items": [
+      {
+        "description": "Alcohol swab",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150775_100",
+    "sn": 13,
+    "reference": "26011506",
+    "targetDate": "15-Jan",
+    "dueDate": "16-Jan",
+    "customerCode": "",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "",
+    "items": []
+  },
+  {
+    "id": "qtn_1776020150775_848",
+    "sn": 14,
+    "reference": "26011507",
+    "targetDate": "15-Jan",
+    "dueDate": "20-Jan",
+    "customerCode": "F-57",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "OSama",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": 0,
+    "remarks": "19.01.26",
+    "itemText": "Separator, Plasma PRSS.DB.00  QTY: 3",
+    "items": [
+      {
+        "description": "Separator, Plasma PRSS.DB.00  QTY: 3",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150777_0",
+    "sn": 15,
+    "reference": "26011806",
+    "targetDate": "18-Jan",
+    "dueDate": "18-Jan",
+    "customerCode": "F-60",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 2,
+    "totalValue": 0,
+    "remarks": "18.01.26",
+    "itemText": "Vaccutainer",
+    "items": [
+      {
+        "description": "Vaccutainer",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150777_198",
+    "sn": 16,
+    "reference": "26011807",
+    "targetDate": "18-Jan",
+    "dueDate": "20-Jan",
+    "customerCode": "D-31",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "251239004338 (40047948)",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": 0,
+    "remarks": "19.01.26",
+    "itemText": "Tube Vacutainer for Blood Collection Red Top Clot Activator Vol 9 10 ml tube size 16 x 100mm QTY: 100000",
+    "items": [
+      {
+        "description": "Tube Vacutainer for Blood Collection Red Top Clot Activator Vol 9 10 ml tube size 16 x 100mm QTY: 100000",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150777_10",
+    "sn": 17,
+    "reference": "26011808",
+    "targetDate": "20-Jan",
+    "dueDate": "21-Jan",
+    "customerCode": "H-75",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Epur",
+    "salesPerson": "",
+    "rfq": "4756089",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "CLOSED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "No approval confirmation",
+    "itemText": "Blood collection tube",
+    "items": [
+      {
+        "description": "Blood collection tube",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150778_782",
+    "sn": 18,
+    "reference": "26011809",
+    "targetDate": "20-Jan",
+    "dueDate": "21-Jan",
+    "customerCode": "H-75",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Epur",
+    "salesPerson": "",
+    "rfq": "4755081",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "CLOSED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "No approval confirmation",
+    "itemText": "1.5 ml micro centrifuge",
+    "items": [
+      {
+        "description": "1.5 ml micro centrifuge",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150778_447",
+    "sn": 19,
+    "reference": "26011810",
+    "targetDate": "19-Jan",
+    "dueDate": "21-Jan",
+    "customerCode": "995",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": 0,
+    "remarks": "19.01.26",
+    "itemText": "slides",
+    "items": [
+      {
+        "description": "slides",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150778_573",
+    "sn": 20,
+    "reference": "26011906",
+    "targetDate": "19-Jan",
+    "dueDate": "20-Jan",
+    "customerCode": "998",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": 0,
+    "remarks": "19.01.26",
+    "itemText": "blood smear dispenser",
+    "items": [
+      {
+        "description": "blood smear dispenser",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150778_701",
+    "sn": 21,
+    "reference": "26012106",
+    "targetDate": "21-Jan",
+    "dueDate": "22-Jan",
+    "customerCode": "1266",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Email",
+    "salesPerson": "Info",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "Mohamed Zaafan",
+    "phone": "",
+    "email": "Hany@attayerfactory.com",
+    "totalItems": 2,
+    "totalValue": 139.2,
+    "remarks": "21 01 2026 - unit price offer only",
+    "itemText": "Alcohol swab & Biohazard Bag",
+    "items": [
+      {
+        "description": "Alcohol swab & Biohazard Bag",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150779_865",
+    "sn": 22,
+    "reference": "26012107",
+    "targetDate": "30-Jan",
+    "dueDate": "31-Jan",
+    "customerCode": "H-75",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Epur",
+    "salesPerson": "",
+    "rfq": "4760098",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": 0,
+    "remarks": "22.01.26",
+    "itemText": "8 strips tube",
+    "items": [
+      {
+        "description": "8 strips tube",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150779_539",
+    "sn": 23,
+    "reference": "26012108",
+    "targetDate": "30-Jan",
+    "dueDate": "31-Jan",
+    "customerCode": "H-75",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Epur",
+    "salesPerson": "",
+    "rfq": "4760099",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": 0,
+    "remarks": "22.01.26",
+    "itemText": "Sealing film",
+    "items": [
+      {
+        "description": "Sealing film",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150779_722",
+    "sn": 24,
+    "reference": "26012506",
+    "targetDate": "25-Jan",
+    "dueDate": "26-Jan",
+    "customerCode": "923",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Email",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": 0,
+    "remarks": "25.01.26",
+    "itemText": "AmioTest",
+    "items": [
+      {
+        "description": "AmioTest",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150780_870",
+    "sn": 25,
+    "reference": "26012507",
+    "targetDate": "25-Jan",
+    "dueDate": "26-Jan",
+    "customerCode": "995",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Email",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": 0,
+    "remarks": "25.01.26",
+    "itemText": "Centrifuge tube",
+    "items": [
+      {
+        "description": "Centrifuge tube",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150780_93",
+    "sn": 26,
+    "reference": "26012508",
+    "targetDate": "25-Jan",
+    "dueDate": "26-Jan",
+    "customerCode": "L-113",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260139005226 (JR719653)",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": 0,
+    "remarks": "26.01.26",
+    "itemText": "Blood collection tube",
+    "items": [
+      {
+        "description": "Blood collection tube",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150780_118",
+    "sn": 27,
+    "reference": "26012606",
+    "targetDate": "26-Jan",
+    "dueDate": "28-Jan",
+    "customerCode": "I-88",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Email",
+    "salesPerson": "",
+    "rfq": "KFUPM-2026-RFQ45",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "CLOSED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "not submitted - warehouse",
+    "itemText": "vials and blue cap",
+    "items": [
+      {
+        "description": "vials and blue cap",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150781_637",
+    "sn": 28,
+    "reference": "26012806",
+    "targetDate": "30-Jan",
+    "dueDate": "31-Jan",
+    "customerCode": "1059",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "2.60139E+11",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "CLOSED",
+    "contactName": "Saud Abdullah Al-Harbi",
+    "phone": "0125865024",
+    "email": "alharbisa57@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "Value too low",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150781_967",
+    "sn": 29,
+    "reference": "26012807",
+    "targetDate": "1-Feb",
+    "dueDate": "2-Feb",
+    "customerCode": "H-75",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Epur",
+    "salesPerson": "",
+    "rfq": "4765108",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Amer Alzahrani",
+    "phone": "",
+    "email": "F1510071@kfshrc.edu.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Test Tube 75x12mm",
+    "items": [
+      {
+        "description": "Test Tube 75x12mm",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150782_960",
+    "sn": 30,
+    "reference": "26012906",
+    "targetDate": "30-Jan",
+    "dueDate": "31-Jan",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "Market place",
+    "rfq": "15001152",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Microtome blade",
+    "items": [
+      {
+        "description": "Microtome blade",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150782_285",
+    "sn": 31,
+    "reference": "26012907",
+    "targetDate": "1-Feb",
+    "dueDate": "3-Feb",
+    "customerCode": "E-46",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260139008455 (2368999)",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Faras Al-Bassam",
+    "phone": "0118041695",
+    "email": "albassamfe@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Reaction plate 96 well microamp for pcr",
+    "items": [
+      {
+        "description": "Reaction plate 96 well microamp for pcr",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150782_499",
+    "sn": 32,
+    "reference": "26012908",
+    "targetDate": "30-Jan",
+    "dueDate": "31-Jan",
+    "customerCode": "1059",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260139003937 (670)",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Saud Abdullah Al-Harbi",
+    "phone": "0125865024",
+    "email": "alharbisa57@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "adjustable pipette",
+    "items": [
+      {
+        "description": "adjustable pipette",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150782_929",
+    "sn": 33,
+    "reference": "26012909",
+    "targetDate": "29-Jan",
+    "dueDate": "1-Feb",
+    "customerCode": "Q-162",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Email",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Yousef Al-Rewainy",
+    "phone": "9.66506E+11",
+    "email": "ymelrewainy@sghgroup.com",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Blood collection tube & Needles",
+    "items": [
+      {
+        "description": "Blood collection tube & Needles",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150782_415",
+    "sn": 34,
+    "reference": "26020106",
+    "targetDate": "1-Feb",
+    "dueDate": "2-Apr",
+    "customerCode": "R-179",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Email",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "Salman Sultan Alkhaldi",
+    "phone": "9.66508E+11",
+    "email": "salkhaldi@care.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "Submitted",
+    "itemText": "Alcohol Swabs",
+    "items": [
+      {
+        "description": "Alcohol Swabs",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150783_313",
+    "sn": 35,
+    "reference": "26020306",
+    "targetDate": "3-Feb",
+    "dueDate": "4-Feb",
+    "customerCode": "995",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Email",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "Taraf Al-Shalaan",
+    "phone": "9.66504E+11",
+    "email": "t.alshalan@meena-health.com",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "Submitted",
+    "itemText": "needles",
+    "items": [
+      {
+        "description": "needles",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150783_167",
+    "sn": 36,
+    "reference": "26020406",
+    "targetDate": "4-Feb",
+    "dueDate": "5-Feb",
+    "customerCode": "772",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Email",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Joe Hilson",
+    "phone": "9.66541E+12",
+    "email": "jgrinn@familycare.com.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "parafilm and segment opener",
+    "items": [
+      {
+        "description": "parafilm and segment opener",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150783_132",
+    "sn": 37,
+    "reference": "26020806",
+    "targetDate": "8-Feb",
+    "dueDate": "9-Feb",
+    "customerCode": "R-179",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Taiseer Ameer",
+    "phone": "9.66583E+11",
+    "email": "t.ameer@smgc.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Swivel Roller Mixer",
+    "items": [
+      {
+        "description": "Swivel Roller Mixer",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150784_111",
+    "sn": 38,
+    "reference": "26020906",
+    "targetDate": "9-Feb",
+    "dueDate": "10-Feb",
+    "customerCode": "d-33",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Email",
+    "salesPerson": "osama",
+    "rfq": "MR-33267",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "Abdulaziz",
+    "phone": "0114837777",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "Submitted",
+    "itemText": "slee blades",
+    "items": [
+      {
+        "description": "slee blades",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150784_720",
+    "sn": 39,
+    "reference": "26021206",
+    "targetDate": "13-Feb",
+    "dueDate": "14-Feb",
+    "customerCode": "1119",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260239002067(2786)",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Naif Maijid Saud Al Fahd",
+    "phone": "0538387767",
+    "email": "Alfehaidna1@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Test Tube Borosilicate Glass 16 x 100mm Dispo",
+    "items": [
+      {
+        "description": "Test Tube Borosilicate Glass 16 x 100mm Dispo",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150784_994",
+    "sn": 40,
+    "reference": "26021506",
+    "targetDate": "15-Feb",
+    "dueDate": "16-Feb",
+    "customerCode": "F-60",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "Saber Hassan",
+    "phone": "055 738 9544",
+    "email": "shassan@kingdomhospital.com",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "Submitted",
+    "itemText": "Slide Mailler & 630277",
+    "items": [
+      {
+        "description": "Slide Mailler & 630277",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150784_39",
+    "sn": 41,
+    "reference": "26021606",
+    "targetDate": "16-Feb",
+    "dueDate": "16-Feb",
+    "customerCode": "838",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "",
+    "salesPerson": "osama",
+    "rfq": "",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "abdullah marir",
+    "phone": "0552258875",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "Submitted",
+    "itemText": "ab medical",
+    "items": [
+      {
+        "description": "ab medical",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150785_743",
+    "sn": 42,
+    "reference": "26021806",
+    "targetDate": "18-Feb",
+    "dueDate": "18-Feb",
+    "customerCode": "838",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "",
+    "salesPerson": "Osama",
+    "rfq": "7543",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "abdullah marir",
+    "phone": "0552258875",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "Submitted",
+    "itemText": "lianfa",
+    "items": [
+      {
+        "description": "lianfa",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150785_504",
+    "sn": 43,
+    "reference": "26021807",
+    "targetDate": "23-Feb",
+    "dueDate": "24-Feb",
+    "customerCode": "E-46",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260239007730 (2375555)",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Firas Al-Bassam",
+    "phone": "T:0118041695",
+    "email": "E:albassamfe@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "pasteur pipette",
+    "items": [
+      {
+        "description": "pasteur pipette",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150785_586",
+    "sn": 44,
+    "reference": "26021808",
+    "targetDate": "23-Feb",
+    "dueDate": "24-Feb",
+    "customerCode": "E-46",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260239008128 (2365889)",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Firas Al-Bassam",
+    "phone": "T:0118041695",
+    "email": "E:albassamfe@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "pipette tips",
+    "items": [
+      {
+        "description": "pipette tips",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150786_971",
+    "sn": 45,
+    "reference": "26021906",
+    "targetDate": "19-Feb",
+    "dueDate": "24-Feb",
+    "customerCode": "620",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Mohammed Assiri",
+    "phone": "9.66531E+11",
+    "email": "m.asiri@alborgdx.com",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150786_318",
+    "sn": 46,
+    "reference": "26022306",
+    "targetDate": "23-Feb",
+    "dueDate": "24-Feb",
+    "customerCode": "838",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "",
+    "salesPerson": "Osama",
+    "rfq": "",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Salim Mohammad Alguthmi",
+    "phone": "",
+    "email": "salim.alguthmi@dmf.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "loop 1 ul BSV121",
+    "items": [
+      {
+        "description": "loop 1 ul BSV121",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150786_669",
+    "sn": 47,
+    "reference": "26022406",
+    "targetDate": "24-Feb",
+    "dueDate": "25-Feb",
+    "customerCode": "D-33",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "",
+    "salesPerson": "OSAMA",
+    "rfq": "MR-33265",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Abdulaziz",
+    "phone": "0114837777",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "loop 1 ul BSV121",
+    "items": [
+      {
+        "description": "loop 1 ul BSV121",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150786_287",
+    "sn": 48,
+    "reference": "26022506",
+    "targetDate": "25-Feb",
+    "dueDate": "25-Feb",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "",
+    "rfq": "NDP0238/26",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150787_796",
+    "sn": 49,
+    "reference": "26030106",
+    "targetDate": "5-Mar",
+    "dueDate": "5-Mar",
+    "customerCode": "1059",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "",
+    "items": []
+  },
+  {
+    "id": "qtn_1776020150787_160",
+    "sn": 50,
+    "reference": "26030206",
+    "targetDate": "5-Mar",
+    "dueDate": "5-Mar",
+    "customerCode": "L-113",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "",
+    "items": []
+  },
+  {
+    "id": "qtn_1776020150787_751",
+    "sn": 51,
+    "reference": "26030506",
+    "targetDate": "5-Mar",
+    "dueDate": "8-Mar",
+    "customerCode": "1059",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260339001813(9512)",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "Najwa Momen",
+    "phone": "0125865026",
+    "email": "momenna@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "TUBE TEST GLASS 12 X 75MM [105774] QTY: 6500",
+    "items": [
+      {
+        "description": "TUBE TEST GLASS 12 X 75MM [105774] QTY: 6500",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150787_465",
+    "sn": 52,
+    "reference": "26030507",
+    "targetDate": "9-Mar",
+    "dueDate": "9-Mar",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "Badail",
+    "rfq": "115001122",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Safety Lancet",
+    "items": [
+      {
+        "description": "Safety Lancet",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150788_251",
+    "sn": 53,
+    "reference": "26030508",
+    "targetDate": "9-Mar",
+    "dueDate": "9-Mar",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "Badail",
+    "rfq": "115001603",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Safety Lancet",
+    "items": [
+      {
+        "description": "Safety Lancet",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150788_338",
+    "sn": 54,
+    "reference": "26030806",
+    "targetDate": "8-Mar",
+    "dueDate": "8-Mar",
+    "customerCode": "1267",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Bilal",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "Mr. Najm",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Biohazrd Spill Kit MJZ017",
+    "items": [
+      {
+        "description": "Biohazrd Spill Kit MJZ017",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150788_317",
+    "sn": 55,
+    "reference": "25030807",
+    "targetDate": "9-Mar",
+    "dueDate": "10-Mar",
+    "customerCode": "E-46",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260239012627(2379657)",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "Firas Al-Bassam",
+    "phone": "0118041695",
+    "email": "albassamfe@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Pipette Glass size 5 3/4 (pasteur type) 105773 qty: 6000",
+    "items": [
+      {
+        "description": "Pipette Glass size 5 3/4 (pasteur type) 105773 qty: 6000",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150788_696",
+    "sn": 56,
+    "reference": "25030906",
+    "targetDate": "9-Mar",
+    "dueDate": "10-Mar",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "Badail",
+    "rfq": "15001603",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150789_591",
+    "sn": 57,
+    "reference": "25030907",
+    "targetDate": "12-Mar",
+    "dueDate": "15-Mar",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "DP",
+    "rfq": "NDP0293/26",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150789_671",
+    "sn": 58,
+    "reference": "26030908",
+    "targetDate": "9-Mar",
+    "dueDate": "11-Mar",
+    "customerCode": "R-179",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Salman Sultan Alkhaldi",
+    "phone": "9.66508E+11",
+    "email": "salkhaldi@care.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Alcohol Swab KM-QP018",
+    "items": [
+      {
+        "description": "Alcohol Swab KM-QP018",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150789_10",
+    "sn": 59,
+    "reference": "26030909",
+    "targetDate": "9-Mar",
+    "dueDate": "10-Mar",
+    "customerCode": "D-33",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Osama",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "0810401  QTY: 100box",
+    "items": [
+      {
+        "description": "0810401  QTY: 100box",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150789_17",
+    "sn": 60,
+    "reference": "26031006",
+    "targetDate": "10-Mar",
+    "dueDate": "11-Mar",
+    "customerCode": "R-179",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "SWS",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Fasmin",
+    "phone": "9.66501E+11",
+    "email": "fmohamed@care.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "0101222 Cover Glass",
+    "items": [
+      {
+        "description": "0101222 Cover Glass",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150790_977",
+    "sn": 61,
+    "reference": "26031106",
+    "targetDate": "12-Mar",
+    "dueDate": "12-Mar",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "SWS",
+    "rfq": "SWS0002672",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "CLOSED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "Didn’t meet deadline",
+    "itemText": "Erlenmeyer Flask (4110207) QTY: 38pcs",
+    "items": [
+      {
+        "description": "Erlenmeyer Flask (4110207) QTY: 38pcs",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150790_769",
+    "sn": 62,
+    "reference": "26031107",
+    "targetDate": "12-Mar",
+    "dueDate": "12-Mar",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "SWS",
+    "rfq": "SWS0002673",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "CLOSED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "Didn’t meet deadline",
+    "itemText": "Erlenmeyer Flask (4110207) QTY: 38pcs",
+    "items": [
+      {
+        "description": "Erlenmeyer Flask (4110207) QTY: 38pcs",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150790_284",
+    "sn": 63,
+    "reference": "26031108",
+    "targetDate": "12-Mar",
+    "dueDate": "12-Mar",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "SWS",
+    "rfq": "SWS0002683",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "CLOSED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "Didn’t meet deadline",
+    "itemText": "Chroma Vial (C000962) QTY: 8,400pcs and Clot Activator (321502) QTY: 904000pcsx2",
+    "items": [
+      {
+        "description": "Chroma Vial (C000962) QTY: 8,400pcs and Clot Activator (321502) QTY: 904000pcsx2",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150790_134",
+    "sn": 64,
+    "reference": "26031109",
+    "targetDate": "12-Mar",
+    "dueDate": "12-Mar",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "SWS",
+    "rfq": "SWS0002686",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Positive Charged Microscope Slides (0810501) QTY: 15,186pcs",
+    "items": [
+      {
+        "description": "Positive Charged Microscope Slides (0810501) QTY: 15,186pcs",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150790_668",
+    "sn": 65,
+    "reference": "26031110",
+    "targetDate": "12-Mar",
+    "dueDate": "12-Mar",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "SWS",
+    "rfq": "SWS0002687",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Positive Charged Microscope Slides (0810501) QTY: 15,186pcs",
+    "items": [
+      {
+        "description": "Positive Charged Microscope Slides (0810501) QTY: 15,186pcs",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150791_315",
+    "sn": 66,
+    "reference": "26031206",
+    "targetDate": "15-Mar",
+    "dueDate": "15-Mar",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "DP",
+    "rfq": "NDP0315/26",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "First Aid Kits",
+    "items": [
+      {
+        "description": "First Aid Kits",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150791_282",
+    "sn": 67,
+    "reference": "26031506",
+    "targetDate": "16-Mar",
+    "dueDate": "16-Mar",
+    "customerCode": "Q-169",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "26039009864(DR220372)",
+    "bid": "200",
+    "quoteTime": "11:00:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Nahi Al Shammari",
+    "phone": "0138532648",
+    "email": "shammariN12@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Slide Glass Microscope (76*26mm) Frosted End Both Sides with Finely Ground Edges Precleaned  QTY: 25,000",
+    "items": [
+      {
+        "description": "Slide Glass Microscope (76*26mm) Frosted End Both Sides with Finely Ground Edges Precleaned  QTY: 25,000",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150791_805",
+    "sn": 68,
+    "reference": "26031606",
+    "targetDate": "16-Mar",
+    "dueDate": "17-Mar",
+    "customerCode": "1059",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260339001813(9512)",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "STD",
+    "contactName": "Najwa Momen",
+    "phone": "0125865026",
+    "email": "momenna@mngha.med.sa",
+    "totalItems": 1,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "TUBE TEST GLASS 12 X 75MM [105774] QTY: 6500",
+    "items": [
+      {
+        "description": "TUBE TEST GLASS 12 X 75MM [105774] QTY: 6500",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150792_905",
+    "sn": 69,
+    "reference": "26031607",
+    "targetDate": "25-Mar",
+    "dueDate": "31-Mar",
+    "customerCode": "M-129",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260239007538(171234)",
+    "bid": "1000",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Raja Mohammed Moussa Majrashi",
+    "phone": "0550068982/0173298090",
+    "email": "ralmagrashiy@jazanu.edu.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Simulator",
+    "items": [
+      {
+        "description": "Simulator",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150792_898",
+    "sn": 70,
+    "reference": "26031608",
+    "targetDate": "25-Mar",
+    "dueDate": "31-Mar",
+    "customerCode": "M-129",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260239007546(44753)",
+    "bid": "800",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Dhiab Hussein Qasim Maashi",
+    "phone": "0507339211",
+    "email": "tmaashi@jazanu.edu.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150792_269",
+    "sn": 71,
+    "reference": "26031706",
+    "targetDate": "10-Apr",
+    "dueDate": "15-Apr",
+    "customerCode": "B-18",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260339006384(42390)",
+    "bid": "1000",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "-",
+    "phone": "-",
+    "email": "-",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150792_530",
+    "sn": 72,
+    "reference": "26031707",
+    "targetDate": "18-Mar",
+    "dueDate": "21-Mar",
+    "customerCode": "D-31",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "26033001317(40049798)",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Mohammed Al-Hasil",
+    "phone": "058028300",
+    "email": "malhasil@SFH.MED.SA",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Tube VAcutainer for Blood Collection Red Top Clot Activator (321502) QTY: 200000",
+    "items": [
+      {
+        "description": "Tube VAcutainer for Blood Collection Red Top Clot Activator (321502) QTY: 200000",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150793_71",
+    "sn": 73,
+    "reference": "26031708",
+    "targetDate": "28-Mar",
+    "dueDate": "29-Mar",
+    "customerCode": "I-84",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "2603390077197(HR415455)",
+    "bid": "200",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Abdul-Ilah Al-Mulla",
+    "phone": "053930037",
+    "email": "almullaab1@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Tube VAcutainer for Blood Collection Red Top Clot Activator 10ml (300901) QTY: 20000",
+    "items": [
+      {
+        "description": "Tube VAcutainer for Blood Collection Red Top Clot Activator 10ml (300901) QTY: 20000",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150793_852",
+    "sn": 74,
+    "reference": "26031709",
+    "targetDate": "10-Apr",
+    "dueDate": "15-Apr",
+    "customerCode": "B-18",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260339006350(42392)",
+    "bid": "1000",
+    "quoteTime": "9:59:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Mishari Ibrahim Al-Rabiah",
+    "phone": "0114883555",
+    "email": "mialrabiah@kacst.gov.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150794_471",
+    "sn": 75,
+    "reference": "26031710",
+    "targetDate": "18-Mar",
+    "dueDate": "18-Mar",
+    "customerCode": "D-33",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Osama",
+    "rfq": "MR-35027",
+    "bid": "",
+    "quoteTime": "9:59:00 AM",
+    "status": "CLOSED",
+    "contactName": "Abdullah Alotaibi",
+    "phone": "0114837777-6230",
+    "email": "abdullah.alotaibi@unified.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "NO STOCK AVAILABLE",
+    "itemText": "Parafilm Rolls 4\" x 125 ft  QTY: 10pcs",
+    "items": [
+      {
+        "description": "Parafilm Rolls 4\" x 125 ft  QTY: 10pcs",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150794_732",
+    "sn": 76,
+    "reference": "26031711",
+    "targetDate": "20-Apr",
+    "dueDate": "23-Apr",
+    "customerCode": "F-52",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "E-Purchasing",
+    "salesPerson": "",
+    "rfq": "881496",
+    "bid": "",
+    "quoteTime": "11:56:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "-",
+    "phone": "0118401343",
+    "email": "fzaidi@kkesh.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Specimen Bag 25x25cm QTY: 15,000pcs (Short Qty: 14,262pcs)\nSyringe w/o needled 5ml QTY: 35,000pcs (No Stock)\nTube Vacu Red Top 9ml  QTY: 40,000pcs (50,400 - Jun 2026, 24,700 - Sep 2026)",
+    "items": [
+      {
+        "description": "Specimen Bag 25x25cm QTY: 15,000pcs (Short Qty: 14,262pcs)",
+        "qty": 0
+      },
+      {
+        "description": "Syringe w/o needled 5ml QTY: 35,000pcs (No Stock)",
+        "qty": 0
+      },
+      {
+        "description": "Tube Vacu Red Top 9ml  QTY: 40,000pcs (50,400 - Jun 2026, 24,700 - Sep 2026)",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150794_66",
+    "sn": 77,
+    "reference": "26031712",
+    "targetDate": "26-Mar",
+    "dueDate": "29-Mar",
+    "customerCode": "H-75",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "E-Purchasing",
+    "salesPerson": "",
+    "rfq": "4805098",
+    "bid": "",
+    "quoteTime": "1:00:00 PM",
+    "status": "NOT STARTED",
+    "contactName": "Yaser Alsudairy",
+    "phone": "",
+    "email": "F1502969@kfshrc.edu.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Lens Paper 4 x 6 Inch QTY: 48PAcks",
+    "items": [
+      {
+        "description": "Lens Paper 4 x 6 Inch QTY: 48PAcks",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150795_316",
+    "sn": 78,
+    "reference": "26031713",
+    "targetDate": "20-Apr",
+    "dueDate": "23-Apr",
+    "customerCode": "F-52",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "E-Purchasing",
+    "salesPerson": "",
+    "rfq": "881492",
+    "bid": "",
+    "quoteTime": "11:56:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Faisal bin Abdulaziz Al-Zaidi",
+    "phone": "0118401343",
+    "email": "fzaidi@kkesh.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Clinipette Yellow Small Tips QTY: 32,000pcs",
+    "items": [
+      {
+        "description": "Clinipette Yellow Small Tips QTY: 32,000pcs",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150795_795",
+    "sn": 79,
+    "reference": "26031806",
+    "targetDate": "29-Mar",
+    "dueDate": "1-Apr",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "DP",
+    "rfq": "NDP0324/26",
+    "bid": "",
+    "quoteTime": "4:00:00 PM",
+    "status": "STD",
+    "contactName": "",
+    "phone": "",
+    "email": "Fiqunayan-c@nupco.com",
+    "totalItems": 43,
+    "totalValue": 0,
+    "remarks": "31.03.26",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150795_141",
+    "sn": 80,
+    "reference": "26031807",
+    "targetDate": "18-Mar",
+    "dueDate": "18-Mar",
+    "customerCode": "772",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "400273-1",
+    "bid": "",
+    "quoteTime": "3:00:00 PM",
+    "status": "NOT STARTED",
+    "contactName": "Joe Hilson",
+    "phone": "0548208624",
+    "email": "jgrinn@familycare.com.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Overwrap Bags, Standard Size (for plasma thawers) QTY: 2000pcs",
+    "items": [
+      {
+        "description": "Overwrap Bags, Standard Size (for plasma thawers) QTY: 2000pcs",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150795_691",
+    "sn": 81,
+    "reference": "26032906",
+    "targetDate": "1-Apr",
+    "dueDate": "2-Apr",
+    "customerCode": "F-57",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Osama",
+    "rfq": "-",
+    "bid": "",
+    "quoteTime": "5:00:00 PM",
+    "status": "NOT STARTED",
+    "contactName": "Maaz Osman",
+    "phone": "5099425854",
+    "email": "maaz.osman@flowmedical.com",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Cell Counter QTY: 4pcs\nPh Meter QTY: 1pc\nWater Bath, Splint QTY: 2pcs",
+    "items": [
+      {
+        "description": "Cell Counter QTY: 4pcs",
+        "qty": 0
+      },
+      {
+        "description": "Ph Meter QTY: 1pc",
+        "qty": 0
+      },
+      {
+        "description": "Water Bath, Splint QTY: 2pcs",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150796_648",
+    "sn": 82,
+    "reference": "26033106",
+    "targetDate": "2-Apr",
+    "dueDate": "2-Apr",
+    "customerCode": "398",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "-",
+    "bid": "",
+    "quoteTime": "5:00:00 PM",
+    "status": "NOT STARTED",
+    "contactName": "Dr. Essa Al-Dhafiri",
+    "phone": "-",
+    "email": "alalam.director@gmail.com",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "KM-QP018 QTY: 2500box (100pcs per Box)",
+    "items": [
+      {
+        "description": "KM-QP018 QTY: 2500box (100pcs per Box)",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150796_564",
+    "sn": 83,
+    "reference": "26033107",
+    "targetDate": "2-Apr",
+    "dueDate": "2-Apr",
+    "customerCode": "1085",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "-",
+    "bid": "",
+    "quoteTime": "5:00:00 PM",
+    "status": "NOT STARTED",
+    "contactName": "Rashid (Purchasing Manager)",
+    "phone": "0574203342",
+    "email": "-",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "SN-105  QTY: 4000pcs\nKJ523 QTY: 100pcs\nA/001/008-AR  QTY: 100pcs",
+    "items": [
+      {
+        "description": "SN-105  QTY: 4000pcs",
+        "qty": 0
+      },
+      {
+        "description": "KJ523 QTY: 100pcs",
+        "qty": 0
+      },
+      {
+        "description": "A/001/008-AR  QTY: 100pcs",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150796_874",
+    "sn": 84,
+    "reference": "26033108",
+    "targetDate": "2-Apr",
+    "dueDate": "2-Apr",
+    "customerCode": "617",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Engineering",
+    "salesPerson": "Earl",
+    "rfq": "-",
+    "bid": "",
+    "quoteTime": "5:00:00 PM",
+    "status": "NOT STARTED",
+    "contactName": "Eng. Mubarak Ali Ameer",
+    "phone": "0567753973",
+    "email": "ameerm@seder.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Electro board MPS C - ASM  QTY: 1 Unit\nTemperature Sensor QTY: 1 Set",
+    "items": [
+      {
+        "description": "Electro board MPS C - ASM  QTY: 1 Unit",
+        "qty": 0
+      },
+      {
+        "description": "Temperature Sensor QTY: 1 Set",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150797_234",
+    "sn": 85,
+    "reference": "26040206",
+    "targetDate": "3-Apr",
+    "dueDate": "3-Apr",
+    "customerCode": "849",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "OSAMA",
+    "rfq": "",
+    "bid": "0",
+    "quoteTime": "10:12:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Johna Marie Diego",
+    "phone": "920033266-1121",
+    "email": "j.diego@akdital.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Slide Rotator QTY: 1 Unit\nTube Rotator QTY: 2 units\nIce Box QTY: 2 pc",
+    "items": [
+      {
+        "description": "Slide Rotator QTY: 1 Unit",
+        "qty": 0
+      },
+      {
+        "description": "Tube Rotator QTY: 2 units",
+        "qty": 0
+      },
+      {
+        "description": "Ice Box QTY: 2 pc",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150797_234",
+    "sn": 86,
+    "reference": "26040606",
+    "targetDate": "8-Apr",
+    "dueDate": "9-Apr",
+    "customerCode": "Q-169",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "ETIMAD",
+    "salesPerson": "Direct Purchase",
+    "rfq": "260339003505 (DR220286)",
+    "bid": "200",
+    "quoteTime": "9:00:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Nahi Al Shammari",
+    "phone": "0138532648",
+    "email": "shammariN12@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "TUBE TEST GLASS 12 X 75MM(105774) QTY: 30000",
+    "items": [
+      {
+        "description": "TUBE TEST GLASS 12 X 75MM(105774) QTY: 30000",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150798_276",
+    "sn": 87,
+    "reference": "26040706",
+    "targetDate": "8-Apr",
+    "dueDate": "8-Apr",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "NUPCO",
+    "salesPerson": "Direct Purchase",
+    "rfq": "NDP0350/26",
+    "bid": "0",
+    "quoteTime": "4:00:00 PM",
+    "status": "NOT STARTED",
+    "contactName": "AASULIHEM@nupco.com",
+    "phone": "-",
+    "email": "-",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150798_131",
+    "sn": 88,
+    "reference": "26040707",
+    "targetDate": "8-Apr",
+    "dueDate": "8-Apr",
+    "customerCode": "798",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "0",
+    "quoteTime": "8:12:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "Dr. Fekri Radi",
+    "phone": "055 050 8729",
+    "email": "f_radi@i-qlab.com",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "SN-105 Safety Blood Collection QTY: 4000 pieces",
+    "items": [
+      {
+        "description": "SN-105 Safety Blood Collection QTY: 4000 pieces",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150798_782",
+    "sn": 89,
+    "reference": "26040708",
+    "targetDate": "9-Apr",
+    "dueDate": "9-Apr",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "NUPCO",
+    "salesPerson": "Direct Purchase",
+    "rfq": "NDP0355/26",
+    "bid": "0",
+    "quoteTime": "4:00:00 PM",
+    "status": "NOT STARTED",
+    "contactName": "kabalawi-c@NUPCO.com",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Film Polyester QTY: 3pcs\r\nTubes PS 12ml QTY: 10500\r\nApplicator, cotton 6inch QTY: 1800",
+    "items": [
+      {
+        "description": "Film Polyester QTY: 3pcs\r",
+        "qty": 0
+      },
+      {
+        "description": "Tubes PS 12ml QTY: 10500\r",
+        "qty": 0
+      },
+      {
+        "description": "Applicator, cotton 6inch QTY: 1800",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150798_935",
+    "sn": 90,
+    "reference": "26040709",
+    "targetDate": "8-Apr",
+    "dueDate": "8-Apr",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "NUPCO",
+    "salesPerson": "Direct Purchase",
+    "rfq": "NDP0369/26",
+    "bid": "0",
+    "quoteTime": "10:12:00 AM",
+    "status": "NOT STARTED",
+    "contactName": "skholan@nupco.com",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Application Cotton tip 3in QTY: 10,000\r\nSyringe 10ml with 21Gx1.5in QTY: 4,800\r\nGauze Swab 12ply 10x10cm QTY: 120,000",
+    "items": [
+      {
+        "description": "Application Cotton tip 3in QTY: 10,000\r",
+        "qty": 0
+      },
+      {
+        "description": "Syringe 10ml with 21Gx1.5in QTY: 4,800\r",
+        "qty": 0
+      },
+      {
+        "description": "Gauze Swab 12ply 10x10cm QTY: 120,000",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150799_553",
+    "sn": 91,
+    "reference": "26040710",
+    "targetDate": "9-Apr",
+    "dueDate": "9-Apr",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "NUPCO",
+    "salesPerson": "Direct Purchase",
+    "rfq": "NDP0362/26",
+    "bid": "0",
+    "quoteTime": "4:00:00 PM",
+    "status": "NOT STARTED",
+    "contactName": "kabalawi-c@NUPCO.com",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Slide Glass Blue Frost Ground 25x75x1 QTY: 50,000pcs",
+    "items": [
+      {
+        "description": "Slide Glass Blue Frost Ground 25x75x1 QTY: 50,000pcs",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150799_104",
+    "sn": 92,
+    "reference": "26040711",
+    "targetDate": "9-Apr",
+    "dueDate": "9-Apr",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "NUPCO",
+    "salesPerson": "Direct Purchase",
+    "rfq": "NDP0360/26",
+    "bid": "0",
+    "quoteTime": "4:00:00 PM",
+    "status": "NOT STARTED",
+    "contactName": "kabalawi-c@NUPCO.com",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "CASSETTE TISSUE PROCESS EMBED BLUE W/LID QTY: 2500\nCARD FILTER WHITE CYTOSPIN INSTRUMENT QTY: 1200\nCASSETTE PINK W/LID PENCIL WRITING QTY: 2500\nSTRIP URINALYSIS 3 PARAMETER QTY: 600\nETC",
+    "items": [
+      {
+        "description": "CASSETTE TISSUE PROCESS EMBED BLUE W/LID QTY: 2500",
+        "qty": 0
+      },
+      {
+        "description": "CARD FILTER WHITE CYTOSPIN INSTRUMENT QTY: 1200",
+        "qty": 0
+      },
+      {
+        "description": "CASSETTE PINK W/LID PENCIL WRITING QTY: 2500",
+        "qty": 0
+      },
+      {
+        "description": "STRIP URINALYSIS 3 PARAMETER QTY: 600",
+        "qty": 0
+      },
+      {
+        "description": "ETC",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150799_142",
+    "sn": 93,
+    "reference": "26040712",
+    "targetDate": "8-Apr",
+    "dueDate": "9-Apr",
+    "customerCode": "398",
+    "customerName": "",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "0",
+    "quoteTime": "2:33:00 PM",
+    "status": "NOT STARTED",
+    "contactName": "Dr. Essa Al-Dhafiri",
+    "phone": "-",
+    "email": "alalam.director@gmail.com",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Refrigerator MPR 530 QTY: 1 Unit",
+    "items": [
+      {
+        "description": "Refrigerator MPR 530 QTY: 1 Unit",
+        "qty": 0
+      }
+    ]
+  },
+  {
+    "id": "qtn_1776020150800_970",
+    "sn": 94,
+    "reference": "26040906",
+    "targetDate": "13-Apr",
+    "dueDate": "14-Apr",
+    "customerCode": "E-49",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "NUPCO",
+    "salesPerson": "Direct Purchase",
+    "rfq": "NDP0377/26",
+    "bid": "0",
+    "quoteTime": "4:00:00 PM",
+    "status": "NOT STARTED",
+    "contactName": "AASULIHEM@nupco.com",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Biological Indicator QTY: 127pcs\r\nCloth Cleaning Flat 30.48x30.48cm QTY: 12,165",
+    "items": [
+      {
+        "description": "Biological Indicator QTY: 127pcs\r",
+        "qty": 0
+      },
+      {
+        "description": "Cloth Cleaning Flat 30.48x30.48cm QTY: 12,165",
+        "qty": 0
+      }
+    ]
+  }
+]
