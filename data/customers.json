@@ -1,29 +1,5 @@
 [
   {
-    "code": "C003",
-    "name": "Riyadh Medical Center",
-    "nameAr": "",
-    "pgType": "G",
-    "website": "",
-    "sector": "",
-    "areaCode": "",
-    "vt": "",
-    "vendor": "",
-    "remark": ""
-  },
-  {
-    "code": "C-123",
-    "name": "TestCostumer",
-    "nameAr": "",
-    "pgType": "P",
-    "website": "",
-    "sector": "",
-    "areaCode": "",
-    "vt": "",
-    "vendor": "",
-    "remark": ""
-  },
-  {
     "code": "2",
     "name": "AL QURAYYAT COM. COLLEGE",
     "nameAr": "",
