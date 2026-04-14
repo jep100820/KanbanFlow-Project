@@ -32,30 +32,31 @@
     "id": "qtn_1776016609155_640",
     "sn": 2,
     "reference": "26010706",
-    "targetDate": "7-Jan",
-    "dueDate": "7-Jan",
+    "targetDate": "",
+    "dueDate": "2026-04-16",
     "customerCode": "838",
-    "customerName": "",
-    "pgType": "P",
+    "customerName": "DR. MOHAMMAD ALFAGIH HOSPITAL",
+    "pgType": "G",
     "origin": "Etimad",
-    "salesPerson": "Osama",
-    "rfq": "",
-    "bid": "",
-    "quoteTime": "9:59:00 AM",
+    "salesPerson": "",
+    "rfq": "N/A",
+    "bid": "0",
+    "quoteTime": "",
     "status": "NOT STARTED",
-    "contactName": "Salim Mohammad Alguthmi",
+    "contactName": "",
     "phone": "",
-    "email": "salim.alguthmi@dmf.med.sa",
+    "email": "",
     "totalItems": 0,
     "totalValue": 0,
     "remarks": "",
-    "itemText": "0101050 Cover glass QTY: 3000pcs",
+    "itemText": "0101050 Cover glass QTY: 3000pcs QTY: 0",
     "items": [
       {
         "description": "0101050 Cover glass QTY: 3000pcs",
         "qty": 0
       }
-    ]
+    ],
+    "updatedAt": "2026-04-14T15:32:29.705Z"
   },
   {
     "id": "qtn_1776016609155_979",
