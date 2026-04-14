@@ -231,7 +231,7 @@
       "width": "half",
       "label": "",
       "previewType": "auto",
-      "col": 21,
+      "col": 19,
       "row": 1,
       "colSpan": 4,
       "rowSpan": 1,
@@ -283,9 +283,9 @@
       "width": "half",
       "label": "",
       "previewType": "auto",
-      "col": 21,
-      "row": 4,
-      "colSpan": 2,
+      "col": 8,
+      "row": 9,
+      "colSpan": 5,
       "rowSpan": 1,
       "gridCols": 24,
       "order": 17
@@ -296,8 +296,8 @@
       "width": "half",
       "label": "",
       "previewType": "auto",
-      "col": 1,
-      "row": 7,
+      "col": 13,
+      "row": 8,
       "colSpan": 4,
       "rowSpan": 1,
       "gridCols": 24,
@@ -309,9 +309,9 @@
       "width": "half",
       "label": "",
       "previewType": "auto",
-      "col": 5,
-      "row": 8,
-      "colSpan": 8,
+      "col": 13,
+      "row": 7,
+      "colSpan": 4,
       "rowSpan": 1,
       "gridCols": 24,
       "order": 19
@@ -336,9 +336,9 @@
       "label": "",
       "previewType": "auto",
       "col": 1,
-      "row": 6,
-      "colSpan": 22,
-      "rowSpan": 1,
+      "row": 7,
+      "colSpan": 12,
+      "rowSpan": 2,
       "gridCols": 24,
       "order": 21
     },
@@ -348,9 +348,9 @@
       "width": "half",
       "label": "",
       "previewType": "auto",
-      "col": 13,
-      "row": 9,
-      "colSpan": 10,
+      "col": 17,
+      "row": 7,
+      "colSpan": 7,
       "rowSpan": 1,
       "gridCols": 24,
       "order": 22
@@ -436,8 +436,8 @@
     "top_customers_by_value"
   ],
   "formLayoutCanvas": {
-    "width": 720,
-    "height": 420
+    "width": 520,
+    "height": 300
   },
   "originSalesMap": {
     "NUPCO": [],
