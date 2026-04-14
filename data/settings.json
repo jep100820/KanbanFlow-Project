@@ -77,8 +77,9 @@
       "previewType": "auto",
       "col": 1,
       "row": 1,
-      "colSpan": 1,
+      "colSpan": 2,
       "rowSpan": 1,
+      "gridCols": 24,
       "order": 1
     },
     {
@@ -87,10 +88,11 @@
       "width": "half",
       "label": "",
       "previewType": "auto",
-      "col": 2,
+      "col": 3,
       "row": 1,
-      "colSpan": 2,
+      "colSpan": 4,
       "rowSpan": 1,
+      "gridCols": 24,
       "order": 2
     },
     {
@@ -99,10 +101,11 @@
       "width": "half",
       "label": "",
       "previewType": "auto",
-      "col": 5,
+      "col": 9,
       "row": 3,
-      "colSpan": 2,
+      "colSpan": 4,
       "rowSpan": 1,
+      "gridCols": 24,
       "order": 3
     },
     {
@@ -113,8 +116,9 @@
       "previewType": "auto",
       "col": 1,
       "row": 3,
-      "colSpan": 2,
+      "colSpan": 4,
       "rowSpan": 1,
+      "gridCols": 24,
       "order": 4
     },
     {
@@ -125,8 +129,9 @@
       "previewType": "auto",
       "col": 1,
       "row": 2,
-      "colSpan": 2,
+      "colSpan": 4,
       "rowSpan": 1,
+      "gridCols": 24,
       "order": 5
     },
     {
@@ -135,10 +140,11 @@
       "width": "half",
       "label": "",
       "previewType": "auto",
-      "col": 3,
+      "col": 5,
       "row": 2,
-      "colSpan": 7,
+      "colSpan": 14,
       "rowSpan": 1,
+      "gridCols": 24,
       "order": 6
     },
     {
@@ -147,10 +153,11 @@
       "width": "half",
       "label": "",
       "previewType": "auto",
-      "col": 10,
+      "col": 19,
       "row": 2,
-      "colSpan": 2,
+      "colSpan": 4,
       "rowSpan": 1,
+      "gridCols": 24,
       "order": 7
     },
     {
@@ -159,10 +166,11 @@
       "width": "half",
       "label": "",
       "previewType": "auto",
-      "col": 7,
+      "col": 13,
       "row": 3,
-      "colSpan": 2,
+      "colSpan": 4,
       "rowSpan": 1,
+      "gridCols": 24,
       "order": 8
     },
     {
@@ -171,10 +179,11 @@
       "width": "half",
       "label": "",
       "previewType": "auto",
-      "col": 9,
+      "col": 17,
       "row": 3,
-      "colSpan": 3,
+      "colSpan": 6,
       "rowSpan": 1,
+      "gridCols": 24,
       "order": 9
     },
     {
@@ -185,8 +194,9 @@
       "previewType": "auto",
       "col": 1,
       "row": 4,
-      "colSpan": 2,
+      "colSpan": 4,
       "rowSpan": 1,
+      "gridCols": 24,
       "order": 10
     },
     {
@@ -195,10 +205,11 @@
       "width": "half",
       "label": "",
       "previewType": "auto",
-      "col": 3,
+      "col": 5,
       "row": 4,
-      "colSpan": 1,
+      "colSpan": 2,
       "rowSpan": 1,
+      "gridCols": 24,
       "order": 11
     },
     {
@@ -207,10 +218,11 @@
       "width": "half",
       "label": "",
       "previewType": "auto",
-      "col": 3,
+      "col": 5,
       "row": 3,
-      "colSpan": 2,
+      "colSpan": 4,
       "rowSpan": 1,
+      "gridCols": 24,
       "order": 12
     },
     {
@@ -219,10 +231,11 @@
       "width": "half",
       "label": "",
       "previewType": "auto",
-      "col": 10,
+      "col": 21,
       "row": 1,
-      "colSpan": 2,
+      "colSpan": 4,
       "rowSpan": 1,
+      "gridCols": 24,
       "order": 13
     },
     {
@@ -231,10 +244,11 @@
       "width": "half",
       "label": "",
       "previewType": "auto",
-      "col": 4,
+      "col": 7,
       "row": 4,
-      "colSpan": 3,
+      "colSpan": 6,
       "rowSpan": 1,
+      "gridCols": 24,
       "order": 14
     },
     {
@@ -243,10 +257,11 @@
       "width": "half",
       "label": "",
       "previewType": "auto",
-      "col": 7,
+      "col": 13,
       "row": 4,
-      "colSpan": 2,
+      "colSpan": 4,
       "rowSpan": 1,
+      "gridCols": 24,
       "order": 15
     },
     {
@@ -255,10 +270,11 @@
       "width": "half",
       "label": "",
       "previewType": "auto",
-      "col": 9,
+      "col": 17,
       "row": 4,
-      "colSpan": 2,
+      "colSpan": 4,
       "rowSpan": 1,
+      "gridCols": 24,
       "order": 16
     },
     {
@@ -267,10 +283,11 @@
       "width": "half",
       "label": "",
       "previewType": "auto",
-      "col": 11,
+      "col": 21,
       "row": 4,
-      "colSpan": 1,
+      "colSpan": 2,
       "rowSpan": 1,
+      "gridCols": 24,
       "order": 17
     },
     {
@@ -281,8 +298,9 @@
       "previewType": "auto",
       "col": 1,
       "row": 7,
-      "colSpan": 2,
+      "colSpan": 4,
       "rowSpan": 1,
+      "gridCols": 24,
       "order": 18
     },
     {
@@ -291,10 +309,11 @@
       "width": "half",
       "label": "",
       "previewType": "auto",
-      "col": 3,
-      "row": 7,
-      "colSpan": 4,
+      "col": 5,
+      "row": 8,
+      "colSpan": 8,
       "rowSpan": 1,
+      "gridCols": 24,
       "order": 19
     },
     {
@@ -305,8 +324,9 @@
       "previewType": "auto",
       "col": 1,
       "row": 5,
-      "colSpan": 11,
+      "colSpan": 22,
       "rowSpan": 1,
+      "gridCols": 24,
       "order": 20
     },
     {
@@ -317,8 +337,9 @@
       "previewType": "auto",
       "col": 1,
       "row": 6,
-      "colSpan": 11,
+      "colSpan": 22,
       "rowSpan": 1,
+      "gridCols": 24,
       "order": 21
     },
     {
@@ -327,12 +348,92 @@
       "width": "half",
       "label": "",
       "previewType": "auto",
-      "col": 7,
-      "row": 7,
-      "colSpan": 5,
+      "col": 13,
+      "row": 9,
+      "colSpan": 10,
       "rowSpan": 1,
+      "gridCols": 24,
       "order": 22
     }
+  ],
+  "customerFormLayout": [
+    {
+      "key": "custCode",
+      "visible": true,
+      "width": "half",
+      "order": 1
+    },
+    {
+      "key": "custName",
+      "visible": true,
+      "width": "half",
+      "order": 2
+    },
+    {
+      "key": "custNameAr",
+      "visible": true,
+      "width": "half",
+      "order": 3
+    },
+    {
+      "key": "custPgType",
+      "visible": true,
+      "width": "half",
+      "order": 4
+    },
+    {
+      "key": "custWebsite",
+      "visible": true,
+      "width": "half",
+      "order": 5
+    },
+    {
+      "key": "custSector",
+      "visible": true,
+      "width": "half",
+      "order": 6
+    },
+    {
+      "key": "custAreaCode",
+      "visible": true,
+      "width": "half",
+      "order": 7
+    },
+    {
+      "key": "custVT",
+      "visible": true,
+      "width": "half",
+      "order": 8
+    },
+    {
+      "key": "custVendor",
+      "visible": true,
+      "width": "half",
+      "order": 9
+    },
+    {
+      "key": "custRemark",
+      "visible": true,
+      "width": "full",
+      "order": 10
+    },
+    {
+      "key": "custActions",
+      "visible": true,
+      "width": "full",
+      "order": 11
+    }
+  ],
+  "dashboardWidgets": [
+    "status_distribution",
+    "origin_distribution",
+    "sales_distribution",
+    "pg_distribution",
+    "aging_overview",
+    "completion_ratio",
+    "active_vs_completed",
+    "top_customers_by_count",
+    "top_customers_by_value"
   ],
   "formLayoutCanvas": {
     "width": 720,
@@ -356,16 +457,5 @@
   },
   "ui": {
     "kanbanDensity": "comfortable"
-  },
-  "dashboardWidgets": [
-    "status_distribution",
-    "origin_distribution",
-    "sales_distribution",
-    "pg_distribution",
-    "aging_overview",
-    "completion_ratio",
-    "active_vs_completed",
-    "top_customers_by_count",
-    "top_customers_by_value"
-  ]
+  }
 }
