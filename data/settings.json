@@ -356,5 +356,16 @@
   },
   "ui": {
     "kanbanDensity": "comfortable"
-  }
+  },
+  "dashboardWidgets": [
+    "status_distribution",
+    "origin_distribution",
+    "sales_distribution",
+    "pg_distribution",
+    "aging_overview",
+    "completion_ratio",
+    "active_vs_completed",
+    "top_customers_by_count",
+    "top_customers_by_value"
+  ]
 }
