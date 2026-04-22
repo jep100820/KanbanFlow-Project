@@ -42,18 +42,18 @@
       "referenceStartSequence": 1,
       "referenceSequencePad": 2,
       "originSalesMap": {},
+      "tagGroups": [
+        {
+          "id": "origin",
+          "name": "Origin",
+          "tags": []
+        }
+      ],
+      "activeTagGroupId": "origin",
       "taskSettings": {
         "entityName": "Daily Task",
         "entityNamePlural": "Daily Tasks",
         "fieldCount": 5,
-        "optionalFieldKeys": [
-          "targetDate",
-          "dueDate",
-          "customerCode",
-          "customerName",
-          "contactName"
-        ],
-        "customFieldPool": [],
         "labels": {
           "sn": "Task No.",
           "reference": "Reference",
@@ -379,51 +379,6 @@
           }
         }
       },
-      "customerSettings": {
-        "entityName": "Customer",
-        "entityNamePlural": "Customers",
-        "labels": {
-          "code": "Customer Code",
-          "nameAr": "Customer Name (Arabic)",
-          "name": "Customer Name",
-          "website": "Web Site",
-          "sector": "Sector",
-          "areaCode": "Area Code",
-          "vt": "V/T",
-          "vendor": "Vendor #",
-          "remark": "Remarks"
-        },
-        "columns": {
-          "code": true,
-          "nameAr": true,
-          "name": true,
-          "website": true,
-          "sector": true,
-          "areaCode": true,
-          "vt": true,
-          "vendor": true,
-          "remark": true
-        },
-        "required": {
-          "code": true,
-          "name": true,
-          "nameAr": false,
-          "website": false,
-          "sector": false,
-          "areaCode": false,
-          "vt": false,
-          "vendor": false,
-          "remark": false
-        }
-      },
-      "tagGroups": [
-        {
-          "id": "origin",
-          "name": "Origin",
-          "tags": []
-        }
-      ],
-      "activeTagGroupId": "origin",
       "formLayout": [
         {
           "key": "sn",
@@ -523,8 +478,6 @@
           "col": 1,
           "colSpan": 12,
           "gridCols": 24,
-          "fieldBorder": true,
-          "locked": false,
           "row": 1,
           "rowSpan": 1,
           "label": "PG",
@@ -553,12 +506,8 @@
           "col": 13,
           "colSpan": 12,
           "gridCols": 24,
-          "fieldBorder": true,
-          "locked": false,
           "row": 1,
-          "rowSpan": 1,
-          "label": "",
-          "previewType": ""
+          "rowSpan": 1
         },
         {
           "key": "actions",
@@ -583,12 +532,8 @@
           "col": 1,
           "colSpan": 12,
           "gridCols": 24,
-          "fieldBorder": true,
-          "locked": false,
           "row": 2,
-          "rowSpan": 1,
-          "label": "",
-          "previewType": ""
+          "rowSpan": 1
         },
         {
           "key": "contactName",
@@ -613,8 +558,6 @@
           "col": 13,
           "colSpan": 12,
           "gridCols": 24,
-          "fieldBorder": true,
-          "locked": false,
           "row": 2,
           "rowSpan": 1,
           "label": "RFQ",
@@ -628,8 +571,6 @@
           "col": 1,
           "colSpan": 12,
           "gridCols": 24,
-          "fieldBorder": true,
-          "locked": false,
           "row": 3,
           "rowSpan": 1,
           "label": "Bid",
@@ -643,8 +584,6 @@
           "col": 13,
           "colSpan": 12,
           "gridCols": 24,
-          "fieldBorder": true,
-          "locked": false,
           "row": 3,
           "rowSpan": 1,
           "label": "Time",
@@ -658,8 +597,6 @@
           "col": 1,
           "colSpan": 12,
           "gridCols": 24,
-          "fieldBorder": true,
-          "locked": false,
           "row": 4,
           "rowSpan": 1,
           "label": "Status",
@@ -673,8 +610,6 @@
           "col": 13,
           "colSpan": 12,
           "gridCols": 24,
-          "fieldBorder": true,
-          "locked": false,
           "row": 4,
           "rowSpan": 1,
           "label": "Phone",
@@ -688,8 +623,6 @@
           "col": 1,
           "colSpan": 12,
           "gridCols": 24,
-          "fieldBorder": true,
-          "locked": false,
           "row": 5,
           "rowSpan": 1,
           "label": "Email",
@@ -703,8 +636,6 @@
           "col": 13,
           "colSpan": 12,
           "gridCols": 24,
-          "fieldBorder": true,
-          "locked": false,
           "row": 5,
           "rowSpan": 1,
           "label": "Add/Edit Contacts",
@@ -718,8 +649,6 @@
           "col": 1,
           "colSpan": 12,
           "gridCols": 24,
-          "fieldBorder": true,
-          "locked": false,
           "row": 6,
           "rowSpan": 1,
           "label": "Total Items",
@@ -733,8 +662,6 @@
           "col": 13,
           "colSpan": 12,
           "gridCols": 24,
-          "fieldBorder": true,
-          "locked": false,
           "row": 6,
           "rowSpan": 1,
           "label": "Total Value",
@@ -748,8 +675,6 @@
           "col": 1,
           "colSpan": 24,
           "gridCols": 24,
-          "fieldBorder": true,
-          "locked": false,
           "row": 7,
           "rowSpan": 1,
           "label": "Remarks",
@@ -1056,29 +981,31 @@
           "Purchase Tender"
         ]
       },
+      "tagGroups": [
+        {
+          "id": "origin",
+          "name": "Origin",
+          "tags": [
+            {
+              "name": "Etimad",
+              "subtags": [
+                "Tender"
+              ]
+            },
+            {
+              "name": "NUPCO",
+              "subtags": [
+                "Purchase Tender"
+              ]
+            }
+          ]
+        }
+      ],
+      "activeTagGroupId": "origin",
       "taskSettings": {
         "entityName": "Quotation",
         "entityNamePlural": "Quotations",
         "fieldCount": 16,
-        "optionalFieldKeys": [
-          "targetDate",
-          "dueDate",
-          "customerCode",
-          "customerName",
-          "rfq",
-          "bid",
-          "status",
-          "pgType",
-          "quoteTime",
-          "contactName",
-          "phone",
-          "email",
-          "totalItems",
-          "totalValue",
-          "remarks",
-          "contactSaveAction"
-        ],
-        "customFieldPool": [],
         "labels": {
           "sn": "File No.",
           "reference": "Reference",
@@ -1404,64 +1331,6 @@
           }
         }
       },
-      "customerSettings": {
-        "entityName": "Customer",
-        "entityNamePlural": "Customers",
-        "labels": {
-          "code": "Customer Code",
-          "nameAr": "Customer Name (Arabic)",
-          "name": "Customer Name",
-          "website": "Web Site",
-          "sector": "Sector",
-          "areaCode": "Area Code",
-          "vt": "V/T",
-          "vendor": "Vendor #",
-          "remark": "Remarks"
-        },
-        "columns": {
-          "code": true,
-          "nameAr": true,
-          "name": true,
-          "website": true,
-          "sector": true,
-          "areaCode": true,
-          "vt": true,
-          "vendor": true,
-          "remark": true
-        },
-        "required": {
-          "code": true,
-          "name": true,
-          "nameAr": false,
-          "website": false,
-          "sector": false,
-          "areaCode": false,
-          "vt": false,
-          "vendor": false,
-          "remark": false
-        }
-      },
-      "tagGroups": [
-        {
-          "id": "origin",
-          "name": "Origin",
-          "tags": [
-            {
-              "name": "Etimad",
-              "subtags": [
-                "Tender"
-              ]
-            },
-            {
-              "name": "NUPCO",
-              "subtags": [
-                "Purchase Tender"
-              ]
-            }
-          ]
-        }
-      ],
-      "activeTagGroupId": "origin",
       "formLayout": [
         {
           "key": "sn",
@@ -2054,29 +1923,18 @@
       "referenceStartSequence": 1,
       "referenceSequencePad": 2,
       "originSalesMap": {},
+      "tagGroups": [
+        {
+          "id": "origin",
+          "name": "Origin",
+          "tags": []
+        }
+      ],
+      "activeTagGroupId": "origin",
       "taskSettings": {
         "entityName": "Quotation",
         "entityNamePlural": "Quotations",
         "fieldCount": 16,
-        "optionalFieldKeys": [
-          "targetDate",
-          "dueDate",
-          "customerCode",
-          "customerName",
-          "rfq",
-          "bid",
-          "status",
-          "pgType",
-          "quoteTime",
-          "contactName",
-          "phone",
-          "email",
-          "totalItems",
-          "totalValue",
-          "remarks",
-          "contactSaveAction"
-        ],
-        "customFieldPool": [],
         "labels": {
           "sn": "File No.",
           "reference": "Reference",
@@ -2402,51 +2260,6 @@
           }
         }
       },
-      "customerSettings": {
-        "entityName": "Requester",
-        "entityNamePlural": "Resquesters",
-        "labels": {
-          "code": "Task Code",
-          "nameAr": "Customer Name (Arabic)",
-          "name": "Customer Name",
-          "website": "Web Site",
-          "sector": "Sector",
-          "areaCode": "Area Code",
-          "vt": "V/T",
-          "vendor": "Vendor #",
-          "remark": "Remarks"
-        },
-        "columns": {
-          "code": true,
-          "nameAr": true,
-          "name": true,
-          "website": true,
-          "sector": true,
-          "areaCode": false,
-          "vt": true,
-          "vendor": true,
-          "remark": false
-        },
-        "required": {
-          "code": true,
-          "name": true,
-          "nameAr": false,
-          "website": false,
-          "sector": false,
-          "areaCode": false,
-          "vt": false,
-          "vendor": false,
-          "remark": false
-        }
-      },
-      "tagGroups": [
-        {
-          "id": "origin",
-          "name": "Origin",
-          "tags": []
-        }
-      ],
-      "activeTagGroupId": "origin",
       "formLayout": [
         {
           "key": "sn",
@@ -3054,17 +2867,18 @@
       "referenceStartSequence": 1,
       "referenceSequencePad": 2,
       "originSalesMap": {},
+      "tagGroups": [
+        {
+          "id": "origin",
+          "name": "Origin",
+          "tags": []
+        }
+      ],
+      "activeTagGroupId": "origin",
       "taskSettings": {
         "entityName": "Daily Task",
         "entityNamePlural": "Daily Tasks",
         "fieldCount": 4,
-        "optionalFieldKeys": [
-          "targetDate",
-          "dueDate",
-          "customerCode",
-          "customerName"
-        ],
-        "customFieldPool": [],
         "labels": {
           "sn": "Task No.",
           "reference": "Reference",
@@ -3390,51 +3204,6 @@
           }
         }
       },
-      "customerSettings": {
-        "entityName": "Customer",
-        "entityNamePlural": "Customers",
-        "labels": {
-          "code": "Customer Code",
-          "nameAr": "Customer Name (Arabic)",
-          "name": "Customer Name",
-          "website": "Web Site",
-          "sector": "Sector",
-          "areaCode": "Area Code",
-          "vt": "V/T",
-          "vendor": "Vendor #",
-          "remark": "Remarks"
-        },
-        "columns": {
-          "code": true,
-          "nameAr": true,
-          "name": true,
-          "website": true,
-          "sector": true,
-          "areaCode": true,
-          "vt": true,
-          "vendor": true,
-          "remark": true
-        },
-        "required": {
-          "code": true,
-          "name": true,
-          "nameAr": false,
-          "website": false,
-          "sector": false,
-          "areaCode": false,
-          "vt": false,
-          "vendor": false,
-          "remark": false
-        }
-      },
-      "tagGroups": [
-        {
-          "id": "origin",
-          "name": "Origin",
-          "tags": []
-        }
-      ],
-      "activeTagGroupId": "origin",
       "formLayout": [
         {
           "key": "sn",
@@ -4568,8 +4337,6 @@
       "col": 1,
       "colSpan": 12,
       "gridCols": 24,
-      "fieldBorder": true,
-      "locked": false,
       "row": 1,
       "rowSpan": 1,
       "label": "PG",
@@ -4598,12 +4365,8 @@
       "col": 13,
       "colSpan": 12,
       "gridCols": 24,
-      "fieldBorder": true,
-      "locked": false,
       "row": 1,
-      "rowSpan": 1,
-      "label": "",
-      "previewType": ""
+      "rowSpan": 1
     },
     {
       "key": "actions",
@@ -4628,12 +4391,8 @@
       "col": 1,
       "colSpan": 12,
       "gridCols": 24,
-      "fieldBorder": true,
-      "locked": false,
       "row": 2,
-      "rowSpan": 1,
-      "label": "",
-      "previewType": ""
+      "rowSpan": 1
     },
     {
       "key": "contactName",
@@ -4658,8 +4417,6 @@
       "col": 13,
       "colSpan": 12,
       "gridCols": 24,
-      "fieldBorder": true,
-      "locked": false,
       "row": 2,
       "rowSpan": 1,
       "label": "RFQ",
@@ -4673,8 +4430,6 @@
       "col": 1,
       "colSpan": 12,
       "gridCols": 24,
-      "fieldBorder": true,
-      "locked": false,
       "row": 3,
       "rowSpan": 1,
       "label": "Bid",
@@ -4688,8 +4443,6 @@
       "col": 13,
       "colSpan": 12,
       "gridCols": 24,
-      "fieldBorder": true,
-      "locked": false,
       "row": 3,
       "rowSpan": 1,
       "label": "Time",
@@ -4703,8 +4456,6 @@
       "col": 1,
       "colSpan": 12,
       "gridCols": 24,
-      "fieldBorder": true,
-      "locked": false,
       "row": 4,
       "rowSpan": 1,
       "label": "Status",
@@ -4718,8 +4469,6 @@
       "col": 13,
       "colSpan": 12,
       "gridCols": 24,
-      "fieldBorder": true,
-      "locked": false,
       "row": 4,
       "rowSpan": 1,
       "label": "Phone",
@@ -4733,8 +4482,6 @@
       "col": 1,
       "colSpan": 12,
       "gridCols": 24,
-      "fieldBorder": true,
-      "locked": false,
       "row": 5,
       "rowSpan": 1,
       "label": "Email",
@@ -4748,8 +4495,6 @@
       "col": 13,
       "colSpan": 12,
       "gridCols": 24,
-      "fieldBorder": true,
-      "locked": false,
       "row": 5,
       "rowSpan": 1,
       "label": "Add/Edit Contacts",
@@ -4763,8 +4508,6 @@
       "col": 1,
       "colSpan": 12,
       "gridCols": 24,
-      "fieldBorder": true,
-      "locked": false,
       "row": 6,
       "rowSpan": 1,
       "label": "Total Items",
@@ -4778,8 +4521,6 @@
       "col": 13,
       "colSpan": 12,
       "gridCols": 24,
-      "fieldBorder": true,
-      "locked": false,
       "row": 6,
       "rowSpan": 1,
       "label": "Total Value",
@@ -4793,8 +4534,6 @@
       "col": 1,
       "colSpan": 24,
       "gridCols": 24,
-      "fieldBorder": true,
-      "locked": false,
       "row": 7,
       "rowSpan": 1,
       "label": "Remarks",
@@ -5032,5 +4771,9 @@
   "originSalesMap": {},
   "ui": {
     "kanbanDensity": "compact"
+  },
+  "pages": {
+    "customers": false,
+    "archived": false
   }
 }
