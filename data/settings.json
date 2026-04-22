@@ -5,62 +5,100 @@
       "name": "Direct Purchase Quotation",
       "tagLabel": "Origin",
       "subTagLabel": "Sub Tag",
-      "origins": [],
+      "origins": [
+        "Sales",
+        "Engineering",
+        "E-Purchasing"
+      ],
       "statusGroups": [
         {
-          "name": "New Task",
+          "name": "WIP",
           "substatuses": [
-            "Not Started",
-            "Started",
-            "Pending"
+            "NOT STARTED",
+            "UNDER REVIEW",
+            "FOR APPROVAL",
+            "STD"
           ],
           "isCompletion": false,
           "showOnBoard": true,
           "columnView": "default",
           "color": "#2563eb",
           "substatusColors": {
-            "Not Started": "#f2690d",
-            "Started": "#24eb69",
-            "Pending": "#2563eb"
+            "NOT STARTED": "#2563eb",
+            "UNDER REVIEW": "#d97706",
+            "FOR APPROVAL": "#0f766e",
+            "STD": "#16a34a"
           }
         },
         {
-          "name": "Completed Task",
+          "name": "NO BID",
           "substatuses": [
-            "Done"
+            "CLOSED",
+            "CANCELLED",
+            "DROPPED"
           ],
           "isCompletion": true,
-          "showOnBoard": false,
+          "showOnBoard": true,
           "columnView": "default",
-          "color": "#2563eb",
+          "color": "#dc2626",
           "substatusColors": {
-            "Done": "#2563eb"
+            "CLOSED": "#475569",
+            "CANCELLED": "#dc2626",
+            "DROPPED": "#7c3aed"
+          }
+        },
+        {
+          "name": "SUBMITTED",
+          "substatuses": [
+            "SUBMITTED"
+          ],
+          "isCompletion": true,
+          "showOnBoard": true,
+          "columnView": "default",
+          "color": "#16a34a",
+          "substatusColors": {
+            "SUBMITTED": "#16a34a"
           }
         }
       ],
-      "referenceFormula": "MMDD{SEQ}",
-      "referenceStartSequence": 1,
+      "referenceFormula": "YYMMDD{SEQ}",
+      "referenceStartSequence": 6,
       "referenceSequencePad": 2,
-      "originSalesMap": {},
-      "tagGroups": [
-        {
-          "id": "origin",
-          "name": "Origin",
-          "tags": []
-        }
-      ],
-      "activeTagGroupId": "origin",
+      "originSalesMap": {
+        "Sales": [],
+        "Engineering": [],
+        "E-Purchasing": []
+      },
       "taskSettings": {
-        "entityName": "Daily Task",
-        "entityNamePlural": "Daily Tasks",
-        "fieldCount": 5,
+        "entityName": "Quotation",
+        "entityNamePlural": "Quotations",
+        "fieldCount": 16,
+        "optionalFieldKeys": [
+          "targetDate",
+          "dueDate",
+          "customerCode",
+          "customerName",
+          "rfq",
+          "bid",
+          "status",
+          "pgType",
+          "quoteTime",
+          "contactName",
+          "phone",
+          "email",
+          "totalItems",
+          "totalValue",
+          "remarks",
+          "contactSaveAction"
+        ],
+        "customFieldPool": [],
         "labels": {
-          "sn": "Task No.",
+          "sn": "File No.",
           "reference": "Reference",
           "targetDate": "Target Date",
           "dueDate": "Due Date",
-          "customerCode": "Requester",
-          "customerName": "Status",
+          "customerCode": "Customer Code",
+          "customerName": "Customer Name",
           "rfq": "RFQ",
           "bid": "Bid",
           "status": "Status",
@@ -71,15 +109,15 @@
           "email": "Email",
           "totalItems": "Total Items",
           "totalValue": "Total Value",
-          "itemLines": "Task Details",
+          "itemLines": "Item Lines",
           "remarks": "Remarks",
-          "contactSaveAction": "Add/Edit Contacts",
+          "contactSaveAction": "Add Contact",
           "actions": "Form Actions"
         },
         "fields": {
           "sn": {
             "key": "sn",
-            "label": "Task No.",
+            "label": "File No.",
             "type": "number",
             "databaseKey": "sn",
             "taxonomy": "none",
@@ -109,7 +147,7 @@
           },
           "itemLines": {
             "key": "itemLines",
-            "label": "Task Details",
+            "label": "Item Lines",
             "type": "textarea",
             "databaseKey": "items + itemText",
             "taxonomy": "none",
@@ -125,7 +163,7 @@
           "targetDate": {
             "key": "targetDate",
             "label": "Target Date",
-            "type": "number",
+            "type": "date",
             "databaseKey": "targetDate",
             "taxonomy": "none",
             "source": "",
@@ -140,7 +178,7 @@
           "dueDate": {
             "key": "dueDate",
             "label": "Due Date",
-            "type": "display",
+            "type": "date",
             "databaseKey": "dueDate",
             "taxonomy": "none",
             "source": "",
@@ -154,8 +192,8 @@
           },
           "customerCode": {
             "key": "customerCode",
-            "label": "Requester",
-            "type": "textarea",
+            "label": "Customer Code",
+            "type": "text",
             "databaseKey": "customerCode",
             "taxonomy": "relatedData",
             "source": "Customers",
@@ -169,14 +207,14 @@
           },
           "customerName": {
             "key": "customerName",
-            "label": "Status",
-            "type": "date",
-            "databaseKey": "Status",
-            "taxonomy": "activeTag",
-            "source": "",
+            "label": "Customer Name",
+            "type": "text",
+            "databaseKey": "customerName",
+            "taxonomy": "relatedData",
+            "source": "Customers",
             "formula": "",
-            "options": "",
-            "relationColumn": "",
+            "options": "name",
+            "relationColumn": "name",
             "buttonAction": "none",
             "buttonTarget": "",
             "showOnForm": true,
@@ -349,14 +387,14 @@
           },
           "contactSaveAction": {
             "key": "contactSaveAction",
-            "label": "Add/Edit Contacts",
+            "label": "Add Contact",
             "type": "button",
             "databaseKey": "contacts",
-            "taxonomy": "relatedData",
+            "taxonomy": "contacts",
             "source": "",
             "formula": "",
-            "options": "",
-            "relationColumn": "",
+            "options": "customerCode",
+            "relationColumn": "customerCode",
             "buttonAction": "upsert",
             "buttonTarget": "Contacts",
             "showOnForm": true,
@@ -379,6 +417,64 @@
           }
         }
       },
+      "customerSettings": {
+        "entityName": "Customer",
+        "entityNamePlural": "Customers",
+        "labels": {
+          "code": "Customer Code",
+          "nameAr": "Customer Name (Arabic)",
+          "name": "Customer Name",
+          "website": "Web Site",
+          "sector": "Sector",
+          "areaCode": "Area Code",
+          "vt": "V/T",
+          "vendor": "Vendor #",
+          "remark": "Remarks"
+        },
+        "columns": {
+          "code": true,
+          "nameAr": true,
+          "name": true,
+          "website": true,
+          "sector": true,
+          "areaCode": true,
+          "vt": true,
+          "vendor": true,
+          "remark": true
+        },
+        "required": {
+          "code": true,
+          "name": true,
+          "nameAr": false,
+          "website": false,
+          "sector": false,
+          "areaCode": false,
+          "vt": false,
+          "vendor": false,
+          "remark": false
+        }
+      },
+      "tagGroups": [
+        {
+          "id": "origin",
+          "name": "Origin",
+          "tags": [
+            {
+              "name": "Sales",
+              "subtags": []
+            },
+            {
+              "name": "Engineering",
+              "subtags": []
+            },
+            {
+              "name": "E-Purchasing",
+              "subtags": []
+            }
+          ]
+        }
+      ],
+      "activeTagGroupId": "origin",
       "formLayout": [
         {
           "key": "sn",
@@ -392,7 +488,7 @@
           "locked": false,
           "row": 1,
           "rowSpan": 1,
-          "label": "Task No.",
+          "label": "File No.",
           "previewType": "display"
         },
         {
@@ -452,8 +548,8 @@
           "locked": false,
           "row": 3,
           "rowSpan": 1,
-          "label": "Requester",
-          "previewType": "select"
+          "label": "Customer Code",
+          "previewType": "input"
         },
         {
           "key": "customerName",
@@ -467,162 +563,154 @@
           "locked": false,
           "row": 3,
           "rowSpan": 1,
-          "label": "Status",
-          "previewType": "select"
+          "label": "Customer Name",
+          "previewType": "input"
         },
         {
           "key": "pgType",
-          "visible": false,
+          "visible": true,
           "width": "half",
           "order": 7,
-          "col": 1,
-          "colSpan": 12,
+          "col": 19,
+          "colSpan": 5,
           "gridCols": 24,
-          "row": 1,
+          "fieldBorder": false,
+          "locked": false,
+          "row": 3,
           "rowSpan": 1,
           "label": "PG",
           "previewType": "display"
         },
         {
-          "key": "itemLines",
+          "key": "origin",
           "visible": true,
           "width": "half",
           "order": 8,
           "col": 1,
-          "colSpan": 23,
+          "colSpan": 12,
+          "gridCols": 24,
+          "fieldBorder": true,
+          "locked": false,
+          "row": 1,
+          "rowSpan": 1,
+          "label": "",
+          "previewType": ""
+        },
+        {
+          "key": "rfq",
+          "visible": true,
+          "width": "half",
+          "order": 9,
+          "col": 1,
+          "colSpan": 5,
           "gridCols": 24,
           "fieldBorder": true,
           "locked": false,
           "row": 5,
           "rowSpan": 1,
-          "label": "Task Details",
-          "previewType": "textarea"
-        },
-        {
-          "key": "origin",
-          "visible": true,
-          "width": "half",
-          "order": 9,
-          "col": 13,
-          "colSpan": 12,
-          "gridCols": 24,
-          "row": 1,
-          "rowSpan": 1
-        },
-        {
-          "key": "actions",
-          "visible": true,
-          "width": "full",
-          "order": 10,
-          "col": 1,
-          "colSpan": 24,
-          "gridCols": 24,
-          "fieldBorder": true,
-          "locked": false,
-          "row": 7,
-          "rowSpan": 1,
-          "label": "Form Actions",
-          "previewType": "button"
+          "label": "RFQ",
+          "previewType": "input"
         },
         {
           "key": "salesPerson",
           "visible": true,
           "width": "half",
-          "order": 11,
-          "col": 1,
-          "colSpan": 12,
-          "gridCols": 24,
-          "row": 2,
-          "rowSpan": 1
-        },
-        {
-          "key": "contactName",
-          "visible": true,
-          "width": "half",
-          "order": 12,
+          "order": 10,
           "col": 13,
           "colSpan": 12,
           "gridCols": 24,
           "fieldBorder": true,
           "locked": false,
-          "row": 4,
+          "row": 1,
           "rowSpan": 1,
-          "label": "Contact Name",
-          "previewType": "input"
-        },
-        {
-          "key": "rfq",
-          "visible": false,
-          "width": "half",
-          "order": 13,
-          "col": 13,
-          "colSpan": 12,
-          "gridCols": 24,
-          "row": 2,
-          "rowSpan": 1,
-          "label": "RFQ",
-          "previewType": "input"
+          "label": "",
+          "previewType": ""
         },
         {
           "key": "bid",
-          "visible": false,
+          "visible": true,
           "width": "half",
-          "order": 14,
-          "col": 1,
-          "colSpan": 12,
+          "order": 11,
+          "col": 20,
+          "colSpan": 4,
           "gridCols": 24,
-          "row": 3,
+          "fieldBorder": true,
+          "locked": false,
+          "row": 4,
           "rowSpan": 1,
           "label": "Bid",
           "previewType": "input"
         },
         {
           "key": "quoteTime",
-          "visible": false,
+          "visible": true,
           "width": "half",
-          "order": 15,
-          "col": 13,
-          "colSpan": 12,
+          "order": 12,
+          "col": 4,
+          "colSpan": 3,
           "gridCols": 24,
-          "row": 3,
+          "fieldBorder": true,
+          "locked": false,
+          "row": 4,
           "rowSpan": 1,
           "label": "Time",
           "previewType": "input"
         },
         {
           "key": "status",
-          "visible": false,
+          "visible": true,
           "width": "half",
-          "order": 16,
-          "col": 1,
-          "colSpan": 12,
+          "order": 13,
+          "col": 19,
+          "colSpan": 5,
           "gridCols": 24,
-          "row": 4,
+          "fieldBorder": true,
+          "locked": false,
+          "row": 2,
           "rowSpan": 1,
           "label": "Status",
           "previewType": "select"
         },
         {
-          "key": "phone",
-          "visible": false,
+          "key": "contactName",
+          "visible": true,
           "width": "half",
-          "order": 17,
-          "col": 13,
-          "colSpan": 12,
+          "order": 14,
+          "col": 6,
+          "colSpan": 6,
           "gridCols": 24,
-          "row": 4,
+          "fieldBorder": true,
+          "locked": false,
+          "row": 5,
+          "rowSpan": 1,
+          "label": "Contact Name",
+          "previewType": "input"
+        },
+        {
+          "key": "phone",
+          "visible": true,
+          "width": "half",
+          "order": 15,
+          "col": 12,
+          "colSpan": 4,
+          "gridCols": 24,
+          "fieldBorder": true,
+          "locked": false,
+          "row": 5,
           "rowSpan": 1,
           "label": "Phone",
           "previewType": "input"
         },
         {
           "key": "email",
-          "visible": false,
+          "visible": true,
           "width": "half",
-          "order": 18,
-          "col": 1,
-          "colSpan": 12,
+          "order": 16,
+          "col": 16,
+          "colSpan": 5,
           "gridCols": 24,
+          "fieldBorder": true,
+          "locked": false,
           "row": 5,
           "rowSpan": 1,
           "label": "Email",
@@ -630,55 +718,93 @@
         },
         {
           "key": "contactSaveAction",
-          "visible": false,
+          "visible": true,
           "width": "half",
-          "order": 19,
-          "col": 13,
-          "colSpan": 12,
+          "order": 17,
+          "col": 21,
+          "colSpan": 3,
           "gridCols": 24,
+          "fieldBorder": true,
+          "locked": false,
           "row": 5,
           "rowSpan": 1,
-          "label": "Add/Edit Contacts",
+          "label": "Add Contact",
           "previewType": "button"
         },
         {
           "key": "totalItems",
-          "visible": false,
+          "visible": true,
           "width": "half",
-          "order": 20,
-          "col": 1,
-          "colSpan": 12,
+          "order": 18,
+          "col": 18,
+          "colSpan": 6,
           "gridCols": 24,
-          "row": 6,
+          "fieldBorder": true,
+          "locked": false,
+          "row": 7,
           "rowSpan": 1,
           "label": "Total Items",
           "previewType": "input"
         },
         {
           "key": "totalValue",
-          "visible": false,
+          "visible": true,
           "width": "half",
-          "order": 21,
+          "order": 19,
           "col": 13,
-          "colSpan": 12,
+          "colSpan": 5,
           "gridCols": 24,
-          "row": 6,
+          "fieldBorder": true,
+          "locked": false,
+          "row": 7,
           "rowSpan": 1,
           "label": "Total Value",
           "previewType": "input"
         },
         {
-          "key": "remarks",
-          "visible": false,
-          "width": "full",
-          "order": 22,
+          "key": "itemLines",
+          "visible": true,
+          "width": "half",
+          "order": 20,
           "col": 1,
-          "colSpan": 24,
+          "colSpan": 23,
           "gridCols": 24,
+          "fieldBorder": true,
+          "locked": false,
+          "row": 6,
+          "rowSpan": 1,
+          "label": "Item Lines",
+          "previewType": "textarea"
+        },
+        {
+          "key": "remarks",
+          "visible": true,
+          "width": "half",
+          "order": 21,
+          "col": 1,
+          "colSpan": 12,
+          "gridCols": 24,
+          "fieldBorder": true,
+          "locked": false,
           "row": 7,
           "rowSpan": 1,
           "label": "Remarks",
           "previewType": "textarea"
+        },
+        {
+          "key": "actions",
+          "visible": true,
+          "width": "half",
+          "order": 22,
+          "col": 1,
+          "colSpan": 23,
+          "gridCols": 24,
+          "fieldBorder": true,
+          "locked": false,
+          "row": 8,
+          "rowSpan": 1,
+          "label": "Form Actions",
+          "previewType": "button"
         }
       ],
       "customerFormLayout": [
@@ -688,7 +814,7 @@
           "width": "half",
           "order": 1,
           "col": 1,
-          "colSpan": 5,
+          "colSpan": 12,
           "gridCols": 24,
           "fieldBorder": true,
           "locked": false,
@@ -702,12 +828,12 @@
           "visible": true,
           "width": "half",
           "order": 2,
-          "col": 1,
-          "colSpan": 10,
+          "col": 13,
+          "colSpan": 12,
           "gridCols": 24,
           "fieldBorder": true,
           "locked": false,
-          "row": 2,
+          "row": 1,
           "rowSpan": 1,
           "label": "Customer Name",
           "previewType": "auto"
@@ -717,8 +843,8 @@
           "visible": true,
           "width": "half",
           "order": 3,
-          "col": 11,
-          "colSpan": 10,
+          "col": 1,
+          "colSpan": 12,
           "gridCols": 24,
           "fieldBorder": true,
           "locked": false,
@@ -732,12 +858,12 @@
           "visible": true,
           "width": "half",
           "order": 4,
-          "col": 17,
-          "colSpan": 4,
+          "col": 13,
+          "colSpan": 12,
           "gridCols": 24,
           "fieldBorder": true,
           "locked": false,
-          "row": 1,
+          "row": 2,
           "rowSpan": 1,
           "label": "",
           "previewType": "auto"
@@ -748,7 +874,7 @@
           "width": "half",
           "order": 5,
           "col": 1,
-          "colSpan": 5,
+          "colSpan": 12,
           "gridCols": 24,
           "fieldBorder": true,
           "locked": false,
@@ -762,8 +888,8 @@
           "visible": true,
           "width": "half",
           "order": 6,
-          "col": 6,
-          "colSpan": 7,
+          "col": 13,
+          "colSpan": 12,
           "gridCols": 24,
           "fieldBorder": true,
           "locked": false,
@@ -777,12 +903,12 @@
           "visible": true,
           "width": "half",
           "order": 7,
-          "col": 13,
-          "colSpan": 4,
+          "col": 1,
+          "colSpan": 12,
           "gridCols": 24,
           "fieldBorder": true,
           "locked": false,
-          "row": 3,
+          "row": 4,
           "rowSpan": 1,
           "label": "Area Code",
           "previewType": "auto"
@@ -792,12 +918,12 @@
           "visible": true,
           "width": "half",
           "order": 8,
-          "col": 17,
-          "colSpan": 4,
+          "col": 13,
+          "colSpan": 12,
           "gridCols": 24,
           "fieldBorder": true,
           "locked": false,
-          "row": 3,
+          "row": 4,
           "rowSpan": 1,
           "label": "V/T",
           "previewType": "auto"
@@ -808,11 +934,11 @@
           "width": "half",
           "order": 9,
           "col": 1,
-          "colSpan": 5,
+          "colSpan": 12,
           "gridCols": 24,
           "fieldBorder": true,
           "locked": false,
-          "row": 4,
+          "row": 5,
           "rowSpan": 1,
           "label": "Vendor #",
           "previewType": "auto"
@@ -820,10 +946,10 @@
         {
           "key": "custRemark",
           "visible": true,
-          "width": "half",
+          "width": "full",
           "order": 10,
           "col": 1,
-          "colSpan": 20,
+          "colSpan": 24,
           "gridCols": 24,
           "fieldBorder": true,
           "locked": false,
@@ -835,10 +961,10 @@
         {
           "key": "custActions",
           "visible": true,
-          "width": "half",
+          "width": "full",
           "order": 11,
           "col": 1,
-          "colSpan": 20,
+          "colSpan": 24,
           "gridCols": 24,
           "fieldBorder": true,
           "locked": false,
@@ -854,10 +980,10 @@
         "colSize": 24
       },
       "dashboardWidgets": [
-        "active_vs_completed",
-        "status_distribution",
-        "origin_distribution",
-        "sales_distribution"
+        "quotes_by_weekday",
+        "status_count_value_combo",
+        "approval_pipeline",
+        "due_soon_vs_later"
       ],
       "dashboardWidgetTypes": {
         "status_distribution": "pie",
@@ -881,7 +1007,7 @@
         "high_value_quotes": "cards",
         "no_contact_quotes": "cards",
         "approval_pipeline": "donut",
-        "due_soon_vs_later": "bar"
+        "due_soon_vs_later": "pie"
       },
       "dashboardWidgetOrder": [
         "status_distribution",
@@ -910,8 +1036,8 @@
       "dashboardMaxWidgets": 4,
       "dashboardColumns": 2,
       "pages": {
-        "customers": false,
-        "archived": false
+        "customers": true,
+        "archived": true
       }
     },
     {
@@ -981,31 +1107,29 @@
           "Purchase Tender"
         ]
       },
-      "tagGroups": [
-        {
-          "id": "origin",
-          "name": "Origin",
-          "tags": [
-            {
-              "name": "Etimad",
-              "subtags": [
-                "Tender"
-              ]
-            },
-            {
-              "name": "NUPCO",
-              "subtags": [
-                "Purchase Tender"
-              ]
-            }
-          ]
-        }
-      ],
-      "activeTagGroupId": "origin",
       "taskSettings": {
         "entityName": "Quotation",
         "entityNamePlural": "Quotations",
         "fieldCount": 16,
+        "optionalFieldKeys": [
+          "targetDate",
+          "dueDate",
+          "customerCode",
+          "customerName",
+          "rfq",
+          "bid",
+          "status",
+          "pgType",
+          "quoteTime",
+          "contactName",
+          "phone",
+          "email",
+          "totalItems",
+          "totalValue",
+          "remarks",
+          "contactSaveAction"
+        ],
+        "customFieldPool": [],
         "labels": {
           "sn": "File No.",
           "reference": "Reference",
@@ -1331,6 +1455,64 @@
           }
         }
       },
+      "customerSettings": {
+        "entityName": "Customer",
+        "entityNamePlural": "Customers",
+        "labels": {
+          "code": "Customer Code",
+          "nameAr": "Customer Name (Arabic)",
+          "name": "Customer Name",
+          "website": "Web Site",
+          "sector": "Sector",
+          "areaCode": "Area Code",
+          "vt": "V/T",
+          "vendor": "Vendor #",
+          "remark": "Remarks"
+        },
+        "columns": {
+          "code": true,
+          "nameAr": true,
+          "name": true,
+          "website": true,
+          "sector": true,
+          "areaCode": true,
+          "vt": true,
+          "vendor": true,
+          "remark": true
+        },
+        "required": {
+          "code": true,
+          "name": true,
+          "nameAr": false,
+          "website": false,
+          "sector": false,
+          "areaCode": false,
+          "vt": false,
+          "vendor": false,
+          "remark": false
+        }
+      },
+      "tagGroups": [
+        {
+          "id": "origin",
+          "name": "Origin",
+          "tags": [
+            {
+              "name": "Etimad",
+              "subtags": [
+                "Tender"
+              ]
+            },
+            {
+              "name": "NUPCO",
+              "subtags": [
+                "Purchase Tender"
+              ]
+            }
+          ]
+        }
+      ],
+      "activeTagGroupId": "origin",
       "formLayout": [
         {
           "key": "sn",
@@ -1923,18 +2105,29 @@
       "referenceStartSequence": 1,
       "referenceSequencePad": 2,
       "originSalesMap": {},
-      "tagGroups": [
-        {
-          "id": "origin",
-          "name": "Origin",
-          "tags": []
-        }
-      ],
-      "activeTagGroupId": "origin",
       "taskSettings": {
         "entityName": "Quotation",
         "entityNamePlural": "Quotations",
         "fieldCount": 16,
+        "optionalFieldKeys": [
+          "targetDate",
+          "dueDate",
+          "customerCode",
+          "customerName",
+          "rfq",
+          "bid",
+          "status",
+          "pgType",
+          "quoteTime",
+          "contactName",
+          "phone",
+          "email",
+          "totalItems",
+          "totalValue",
+          "remarks",
+          "contactSaveAction"
+        ],
+        "customFieldPool": [],
         "labels": {
           "sn": "File No.",
           "reference": "Reference",
@@ -2260,6 +2453,51 @@
           }
         }
       },
+      "customerSettings": {
+        "entityName": "Customer",
+        "entityNamePlural": "Customers",
+        "labels": {
+          "code": "Customer Code",
+          "nameAr": "Customer Name (Arabic)",
+          "name": "Customer Name",
+          "website": "Web Site",
+          "sector": "Sector",
+          "areaCode": "Area Code",
+          "vt": "V/T",
+          "vendor": "Vendor #",
+          "remark": "Remarks"
+        },
+        "columns": {
+          "code": true,
+          "nameAr": true,
+          "name": true,
+          "website": true,
+          "sector": true,
+          "areaCode": true,
+          "vt": true,
+          "vendor": true,
+          "remark": true
+        },
+        "required": {
+          "code": true,
+          "name": true,
+          "nameAr": false,
+          "website": false,
+          "sector": false,
+          "areaCode": false,
+          "vt": false,
+          "vendor": false,
+          "remark": false
+        }
+      },
+      "tagGroups": [
+        {
+          "id": "origin",
+          "name": "Origin",
+          "tags": []
+        }
+      ],
+      "activeTagGroupId": "origin",
       "formLayout": [
         {
           "key": "sn",
@@ -2605,7 +2843,7 @@
           "locked": false,
           "row": 1,
           "rowSpan": 1,
-          "label": "Task Code",
+          "label": "Customer Code",
           "previewType": "auto"
         },
         {
@@ -2835,7 +3073,6 @@
         {
           "name": "New Task",
           "substatuses": [
-            "Not Started",
             "Started",
             "Pending"
           ],
@@ -2844,22 +3081,8 @@
           "columnView": "default",
           "color": "#2563eb",
           "substatusColors": {
-            "Not Started": "#f2690d",
-            "Started": "#24eb69",
+            "Started": "#2563eb",
             "Pending": "#2563eb"
-          }
-        },
-        {
-          "name": "Completed Task",
-          "substatuses": [
-            "Done"
-          ],
-          "isCompletion": true,
-          "showOnBoard": false,
-          "columnView": "default",
-          "color": "#2563eb",
-          "substatusColors": {
-            "Done": "#2563eb"
           }
         }
       ],
@@ -2867,18 +3090,18 @@
       "referenceStartSequence": 1,
       "referenceSequencePad": 2,
       "originSalesMap": {},
-      "tagGroups": [
-        {
-          "id": "origin",
-          "name": "Origin",
-          "tags": []
-        }
-      ],
-      "activeTagGroupId": "origin",
       "taskSettings": {
         "entityName": "Daily Task",
         "entityNamePlural": "Daily Tasks",
-        "fieldCount": 4,
+        "fieldCount": 5,
+        "optionalFieldKeys": [
+          "targetDate",
+          "dueDate",
+          "customerCode",
+          "customerName",
+          "rfq"
+        ],
+        "customFieldPool": [],
         "labels": {
           "sn": "Task No.",
           "reference": "Reference",
@@ -2983,10 +3206,10 @@
             "type": "textarea",
             "databaseKey": "customerCode",
             "taxonomy": "relatedData",
-            "source": "Customers",
+            "source": "",
             "formula": "",
-            "options": "code",
-            "relationColumn": "code",
+            "options": "",
+            "relationColumn": "",
             "buttonAction": "none",
             "buttonTarget": "",
             "showOnForm": true,
@@ -2996,8 +3219,8 @@
             "key": "customerName",
             "label": "Status",
             "type": "date",
-            "databaseKey": "Status",
-            "taxonomy": "activeTag",
+            "databaseKey": "customerName",
+            "taxonomy": "relatedData",
             "source": "",
             "formula": "",
             "options": "",
@@ -3204,6 +3427,51 @@
           }
         }
       },
+      "customerSettings": {
+        "entityName": "Customer",
+        "entityNamePlural": "Customers",
+        "labels": {
+          "code": "Customer Code",
+          "nameAr": "Customer Name (Arabic)",
+          "name": "Customer Name",
+          "website": "Web Site",
+          "sector": "Sector",
+          "areaCode": "Area Code",
+          "vt": "V/T",
+          "vendor": "Vendor #",
+          "remark": "Remarks"
+        },
+        "columns": {
+          "code": true,
+          "nameAr": true,
+          "name": true,
+          "website": true,
+          "sector": true,
+          "areaCode": true,
+          "vt": true,
+          "vendor": true,
+          "remark": true
+        },
+        "required": {
+          "code": true,
+          "name": true,
+          "nameAr": false,
+          "website": false,
+          "sector": false,
+          "areaCode": false,
+          "vt": false,
+          "vendor": false,
+          "remark": false
+        }
+      },
+      "tagGroups": [
+        {
+          "id": "origin",
+          "name": "Origin",
+          "tags": []
+        }
+      ],
+      "activeTagGroupId": "origin",
       "formLayout": [
         {
           "key": "sn",
@@ -3311,10 +3579,190 @@
           "previewType": "display"
         },
         {
-          "key": "itemLines",
+          "key": "origin",
           "visible": true,
           "width": "half",
           "order": 8,
+          "col": 11,
+          "colSpan": 4,
+          "gridCols": 24,
+          "fieldBorder": true,
+          "locked": false,
+          "row": 4,
+          "rowSpan": 1,
+          "label": "Origin",
+          "previewType": "auto"
+        },
+        {
+          "key": "salesPerson",
+          "visible": true,
+          "width": "half",
+          "order": 9,
+          "col": 15,
+          "colSpan": 4,
+          "gridCols": 24,
+          "fieldBorder": true,
+          "locked": false,
+          "row": 4,
+          "rowSpan": 1,
+          "label": "",
+          "previewType": "auto"
+        },
+        {
+          "key": "rfq",
+          "visible": true,
+          "width": "half",
+          "order": 10,
+          "col": 1,
+          "colSpan": 5,
+          "gridCols": 24,
+          "fieldBorder": true,
+          "locked": false,
+          "row": 9,
+          "rowSpan": 1,
+          "label": "SAVE",
+          "previewType": "input"
+        },
+        {
+          "key": "bid",
+          "visible": false,
+          "width": "half",
+          "order": 11,
+          "col": 13,
+          "colSpan": 12,
+          "gridCols": 24,
+          "fieldBorder": true,
+          "locked": false,
+          "row": 1,
+          "rowSpan": 1,
+          "label": "Bid",
+          "previewType": "input"
+        },
+        {
+          "key": "quoteTime",
+          "visible": false,
+          "width": "half",
+          "order": 12,
+          "col": 1,
+          "colSpan": 12,
+          "gridCols": 24,
+          "fieldBorder": true,
+          "locked": false,
+          "row": 2,
+          "rowSpan": 1,
+          "label": "Time",
+          "previewType": "input"
+        },
+        {
+          "key": "status",
+          "visible": false,
+          "width": "half",
+          "order": 13,
+          "col": 13,
+          "colSpan": 12,
+          "gridCols": 24,
+          "fieldBorder": true,
+          "locked": false,
+          "row": 2,
+          "rowSpan": 1,
+          "label": "Status",
+          "previewType": "select"
+        },
+        {
+          "key": "contactName",
+          "visible": false,
+          "width": "half",
+          "order": 14,
+          "col": 1,
+          "colSpan": 12,
+          "gridCols": 24,
+          "fieldBorder": true,
+          "locked": false,
+          "row": 3,
+          "rowSpan": 1,
+          "label": "Contact Name",
+          "previewType": "input"
+        },
+        {
+          "key": "phone",
+          "visible": false,
+          "width": "half",
+          "order": 15,
+          "col": 13,
+          "colSpan": 12,
+          "gridCols": 24,
+          "fieldBorder": true,
+          "locked": false,
+          "row": 3,
+          "rowSpan": 1,
+          "label": "Phone",
+          "previewType": "input"
+        },
+        {
+          "key": "email",
+          "visible": false,
+          "width": "half",
+          "order": 16,
+          "col": 1,
+          "colSpan": 12,
+          "gridCols": 24,
+          "fieldBorder": true,
+          "locked": false,
+          "row": 4,
+          "rowSpan": 1,
+          "label": "Email",
+          "previewType": "input"
+        },
+        {
+          "key": "contactSaveAction",
+          "visible": false,
+          "width": "half",
+          "order": 17,
+          "col": 13,
+          "colSpan": 12,
+          "gridCols": 24,
+          "fieldBorder": true,
+          "locked": false,
+          "row": 4,
+          "rowSpan": 1,
+          "label": "Add Contact",
+          "previewType": "button"
+        },
+        {
+          "key": "totalItems",
+          "visible": false,
+          "width": "half",
+          "order": 18,
+          "col": 1,
+          "colSpan": 12,
+          "gridCols": 24,
+          "fieldBorder": true,
+          "locked": false,
+          "row": 5,
+          "rowSpan": 1,
+          "label": "Total Items",
+          "previewType": "input"
+        },
+        {
+          "key": "totalValue",
+          "visible": false,
+          "width": "half",
+          "order": 19,
+          "col": 13,
+          "colSpan": 12,
+          "gridCols": 24,
+          "fieldBorder": true,
+          "locked": false,
+          "row": 5,
+          "rowSpan": 1,
+          "label": "Total Value",
+          "previewType": "input"
+        },
+        {
+          "key": "itemLines",
+          "visible": true,
+          "width": "half",
+          "order": 20,
           "col": 1,
           "colSpan": 23,
           "gridCols": 24,
@@ -3326,203 +3774,23 @@
           "previewType": "textarea"
         },
         {
-          "key": "origin",
-          "visible": true,
-          "width": "half",
-          "order": 9,
-          "col": 13,
-          "colSpan": 12,
-          "gridCols": 24,
-          "fieldBorder": true,
-          "locked": false,
-          "row": 1,
-          "rowSpan": 1,
-          "label": "",
-          "previewType": ""
-        },
-        {
-          "key": "actions",
-          "visible": true,
+          "key": "remarks",
+          "visible": false,
           "width": "full",
-          "order": 10,
+          "order": 21,
           "col": 1,
           "colSpan": 24,
           "gridCols": 24,
           "fieldBorder": true,
           "locked": false,
-          "row": 7,
+          "row": 6,
           "rowSpan": 1,
-          "label": "Form Actions",
-          "previewType": "button"
+          "label": "Remarks",
+          "previewType": "textarea"
         },
         {
-          "key": "salesPerson",
+          "key": "actions",
           "visible": true,
-          "width": "half",
-          "order": 11,
-          "col": 1,
-          "colSpan": 12,
-          "gridCols": 24,
-          "fieldBorder": true,
-          "locked": false,
-          "row": 2,
-          "rowSpan": 1,
-          "label": "",
-          "previewType": ""
-        },
-        {
-          "key": "rfq",
-          "visible": false,
-          "width": "half",
-          "order": 12,
-          "col": 13,
-          "colSpan": 12,
-          "gridCols": 24,
-          "fieldBorder": true,
-          "locked": false,
-          "row": 2,
-          "rowSpan": 1,
-          "label": "SAVE",
-          "previewType": "input"
-        },
-        {
-          "key": "bid",
-          "visible": false,
-          "width": "half",
-          "order": 13,
-          "col": 1,
-          "colSpan": 12,
-          "gridCols": 24,
-          "fieldBorder": true,
-          "locked": false,
-          "row": 3,
-          "rowSpan": 1,
-          "label": "Bid",
-          "previewType": "input"
-        },
-        {
-          "key": "quoteTime",
-          "visible": false,
-          "width": "half",
-          "order": 14,
-          "col": 13,
-          "colSpan": 12,
-          "gridCols": 24,
-          "fieldBorder": true,
-          "locked": false,
-          "row": 3,
-          "rowSpan": 1,
-          "label": "Time",
-          "previewType": "input"
-        },
-        {
-          "key": "status",
-          "visible": false,
-          "width": "half",
-          "order": 15,
-          "col": 1,
-          "colSpan": 12,
-          "gridCols": 24,
-          "fieldBorder": true,
-          "locked": false,
-          "row": 4,
-          "rowSpan": 1,
-          "label": "Status",
-          "previewType": "select"
-        },
-        {
-          "key": "contactName",
-          "visible": false,
-          "width": "half",
-          "order": 16,
-          "col": 13,
-          "colSpan": 12,
-          "gridCols": 24,
-          "fieldBorder": true,
-          "locked": false,
-          "row": 4,
-          "rowSpan": 1,
-          "label": "Contact Name",
-          "previewType": "input"
-        },
-        {
-          "key": "phone",
-          "visible": false,
-          "width": "half",
-          "order": 17,
-          "col": 1,
-          "colSpan": 12,
-          "gridCols": 24,
-          "fieldBorder": true,
-          "locked": false,
-          "row": 5,
-          "rowSpan": 1,
-          "label": "Phone",
-          "previewType": "input"
-        },
-        {
-          "key": "email",
-          "visible": false,
-          "width": "half",
-          "order": 18,
-          "col": 13,
-          "colSpan": 12,
-          "gridCols": 24,
-          "fieldBorder": true,
-          "locked": false,
-          "row": 5,
-          "rowSpan": 1,
-          "label": "Email",
-          "previewType": "input"
-        },
-        {
-          "key": "contactSaveAction",
-          "visible": false,
-          "width": "half",
-          "order": 19,
-          "col": 1,
-          "colSpan": 12,
-          "gridCols": 24,
-          "fieldBorder": true,
-          "locked": false,
-          "row": 6,
-          "rowSpan": 1,
-          "label": "Add Contact",
-          "previewType": "button"
-        },
-        {
-          "key": "totalItems",
-          "visible": false,
-          "width": "half",
-          "order": 20,
-          "col": 13,
-          "colSpan": 12,
-          "gridCols": 24,
-          "fieldBorder": true,
-          "locked": false,
-          "row": 6,
-          "rowSpan": 1,
-          "label": "Total Items",
-          "previewType": "input"
-        },
-        {
-          "key": "totalValue",
-          "visible": false,
-          "width": "half",
-          "order": 21,
-          "col": 1,
-          "colSpan": 12,
-          "gridCols": 24,
-          "fieldBorder": true,
-          "locked": false,
-          "row": 7,
-          "rowSpan": 1,
-          "label": "Total Value",
-          "previewType": "input"
-        },
-        {
-          "key": "remarks",
-          "visible": false,
           "width": "full",
           "order": 22,
           "col": 1,
@@ -3532,8 +3800,8 @@
           "locked": false,
           "row": 7,
           "rowSpan": 1,
-          "label": "Remarks",
-          "previewType": "textarea"
+          "label": "Form Actions",
+          "previewType": "button"
         }
       ],
       "customerFormLayout": [
@@ -3857,26 +4125,116 @@
       "locked": true
     }
   ],
+  "dataListFormLayouts": {
+    "list_1776802184619": [
+      {
+        "key": "Serial",
+        "visible": true,
+        "width": "half",
+        "fieldBorder": true,
+        "locked": false,
+        "label": "Serial",
+        "previewType": "input",
+        "col": 1,
+        "row": 1,
+        "colSpan": 12,
+        "rowSpan": 1,
+        "gridCols": 24,
+        "order": 1
+      },
+      {
+        "key": "code",
+        "visible": true,
+        "width": "half",
+        "fieldBorder": true,
+        "locked": false,
+        "label": "Code",
+        "previewType": "input",
+        "col": 13,
+        "row": 1,
+        "colSpan": 12,
+        "rowSpan": 1,
+        "gridCols": 24,
+        "order": 2
+      },
+      {
+        "key": "Name",
+        "visible": true,
+        "width": "half",
+        "fieldBorder": true,
+        "locked": false,
+        "label": "Name",
+        "previewType": "input",
+        "col": 1,
+        "row": 2,
+        "colSpan": 12,
+        "rowSpan": 1,
+        "gridCols": 24,
+        "order": 3
+      },
+      {
+        "key": "Phone No.",
+        "visible": true,
+        "width": "half",
+        "fieldBorder": true,
+        "locked": false,
+        "label": "Phone No.",
+        "previewType": "input",
+        "col": 13,
+        "row": 2,
+        "colSpan": 12,
+        "rowSpan": 1,
+        "gridCols": 24,
+        "order": 4
+      },
+      {
+        "key": "Mobile No.",
+        "visible": true,
+        "width": "half",
+        "fieldBorder": true,
+        "locked": false,
+        "label": "Mobile No.",
+        "previewType": "input",
+        "col": 1,
+        "row": 3,
+        "colSpan": 12,
+        "rowSpan": 1,
+        "gridCols": 24,
+        "order": 5
+      }
+    ]
+  },
   "supportingDataRows": {},
   "taskSettings": {
-    "entityName": "Daily Task",
-    "entityNamePlural": "Daily Tasks",
-    "fieldCount": 5,
+    "entityName": "Quotation",
+    "entityNamePlural": "Quotations",
+    "fieldCount": 16,
     "optionalFieldKeys": [
       "targetDate",
       "dueDate",
       "customerCode",
       "customerName",
-      "contactName"
+      "rfq",
+      "bid",
+      "status",
+      "pgType",
+      "quoteTime",
+      "contactName",
+      "phone",
+      "email",
+      "totalItems",
+      "totalValue",
+      "remarks",
+      "contactSaveAction"
     ],
     "customFieldPool": [],
     "labels": {
-      "sn": "Task No.",
+      "sn": "File No.",
       "reference": "Reference",
       "targetDate": "Target Date",
       "dueDate": "Due Date",
-      "customerCode": "Requester",
-      "customerName": "Status",
+      "customerCode": "Customer Code",
+      "customerName": "Customer Name",
       "rfq": "RFQ",
       "bid": "Bid",
       "status": "Status",
@@ -3887,15 +4245,15 @@
       "email": "Email",
       "totalItems": "Total Items",
       "totalValue": "Total Value",
-      "itemLines": "Task Details",
+      "itemLines": "Item Lines",
       "remarks": "Remarks",
-      "contactSaveAction": "Add/Edit Contacts",
+      "contactSaveAction": "Add Contact",
       "actions": "Form Actions"
     },
     "fields": {
       "sn": {
         "key": "sn",
-        "label": "Task No.",
+        "label": "File No.",
         "type": "number",
         "databaseKey": "sn",
         "taxonomy": "none",
@@ -3925,7 +4283,7 @@
       },
       "itemLines": {
         "key": "itemLines",
-        "label": "Task Details",
+        "label": "Item Lines",
         "type": "textarea",
         "databaseKey": "items + itemText",
         "taxonomy": "none",
@@ -3941,7 +4299,7 @@
       "targetDate": {
         "key": "targetDate",
         "label": "Target Date",
-        "type": "number",
+        "type": "date",
         "databaseKey": "targetDate",
         "taxonomy": "none",
         "source": "",
@@ -3956,7 +4314,7 @@
       "dueDate": {
         "key": "dueDate",
         "label": "Due Date",
-        "type": "display",
+        "type": "date",
         "databaseKey": "dueDate",
         "taxonomy": "none",
         "source": "",
@@ -3970,8 +4328,8 @@
       },
       "customerCode": {
         "key": "customerCode",
-        "label": "Requester",
-        "type": "textarea",
+        "label": "Customer Code",
+        "type": "text",
         "databaseKey": "customerCode",
         "taxonomy": "relatedData",
         "source": "Customers",
@@ -3985,14 +4343,14 @@
       },
       "customerName": {
         "key": "customerName",
-        "label": "Status",
-        "type": "date",
-        "databaseKey": "Status",
-        "taxonomy": "activeTag",
-        "source": "",
+        "label": "Customer Name",
+        "type": "text",
+        "databaseKey": "customerName",
+        "taxonomy": "relatedData",
+        "source": "Customers",
         "formula": "",
-        "options": "",
-        "relationColumn": "",
+        "options": "name",
+        "relationColumn": "name",
         "buttonAction": "none",
         "buttonTarget": "",
         "showOnForm": true,
@@ -4165,14 +4523,14 @@
       },
       "contactSaveAction": {
         "key": "contactSaveAction",
-        "label": "Add/Edit Contacts",
+        "label": "Add Contact",
         "type": "button",
         "databaseKey": "contacts",
-        "taxonomy": "relatedData",
+        "taxonomy": "contacts",
         "source": "",
         "formula": "",
-        "options": "",
-        "relationColumn": "",
+        "options": "customerCode",
+        "relationColumn": "customerCode",
         "buttonAction": "upsert",
         "buttonTarget": "Contacts",
         "showOnForm": true,
@@ -4195,48 +4553,75 @@
       }
     }
   },
-  "origins": [],
+  "origins": [
+    "Sales",
+    "Engineering",
+    "E-Purchasing"
+  ],
   "statuses": [
-    "Not Started",
-    "Started",
-    "Pending",
-    "Done"
+    "NOT STARTED",
+    "UNDER REVIEW",
+    "FOR APPROVAL",
+    "STD",
+    "CLOSED",
+    "CANCELLED",
+    "DROPPED",
+    "SUBMITTED"
   ],
   "kanbanColumnMode": "sub",
   "statusGroups": [
     {
-      "name": "New Task",
+      "name": "WIP",
       "substatuses": [
-        "Not Started",
-        "Started",
-        "Pending"
+        "NOT STARTED",
+        "UNDER REVIEW",
+        "FOR APPROVAL",
+        "STD"
       ],
       "isCompletion": false,
       "showOnBoard": true,
       "columnView": "default",
       "color": "#2563eb",
       "substatusColors": {
-        "Not Started": "#f2690d",
-        "Started": "#24eb69",
-        "Pending": "#2563eb"
+        "NOT STARTED": "#2563eb",
+        "UNDER REVIEW": "#d97706",
+        "FOR APPROVAL": "#0f766e",
+        "STD": "#16a34a"
       }
     },
     {
-      "name": "Completed Task",
+      "name": "NO BID",
       "substatuses": [
-        "Done"
+        "CLOSED",
+        "CANCELLED",
+        "DROPPED"
       ],
       "isCompletion": true,
-      "showOnBoard": false,
+      "showOnBoard": true,
       "columnView": "default",
-      "color": "#2563eb",
+      "color": "#dc2626",
       "substatusColors": {
-        "Done": "#2563eb"
+        "CLOSED": "#475569",
+        "CANCELLED": "#dc2626",
+        "DROPPED": "#7c3aed"
+      }
+    },
+    {
+      "name": "SUBMITTED",
+      "substatuses": [
+        "SUBMITTED"
+      ],
+      "isCompletion": true,
+      "showOnBoard": true,
+      "columnView": "default",
+      "color": "#16a34a",
+      "substatusColors": {
+        "SUBMITTED": "#16a34a"
       }
     }
   ],
-  "referenceFormula": "MMDD{SEQ}",
-  "referenceStartSequence": 1,
+  "referenceFormula": "YYMMDD{SEQ}",
+  "referenceStartSequence": 6,
   "referenceSequencePad": 2,
   "formLayout": [
     {
@@ -4251,7 +4636,7 @@
       "locked": false,
       "row": 1,
       "rowSpan": 1,
-      "label": "Task No.",
+      "label": "File No.",
       "previewType": "display"
     },
     {
@@ -4311,8 +4696,8 @@
       "locked": false,
       "row": 3,
       "rowSpan": 1,
-      "label": "Requester",
-      "previewType": "select"
+      "label": "Customer Code",
+      "previewType": "input"
     },
     {
       "key": "customerName",
@@ -4326,162 +4711,154 @@
       "locked": false,
       "row": 3,
       "rowSpan": 1,
-      "label": "Status",
-      "previewType": "select"
+      "label": "Customer Name",
+      "previewType": "input"
     },
     {
       "key": "pgType",
-      "visible": false,
+      "visible": true,
       "width": "half",
       "order": 7,
-      "col": 1,
-      "colSpan": 12,
+      "col": 19,
+      "colSpan": 5,
       "gridCols": 24,
-      "row": 1,
+      "fieldBorder": false,
+      "locked": false,
+      "row": 3,
       "rowSpan": 1,
       "label": "PG",
       "previewType": "display"
     },
     {
-      "key": "itemLines",
+      "key": "origin",
       "visible": true,
       "width": "half",
       "order": 8,
       "col": 1,
-      "colSpan": 23,
+      "colSpan": 12,
+      "gridCols": 24,
+      "fieldBorder": true,
+      "locked": false,
+      "row": 1,
+      "rowSpan": 1,
+      "label": "",
+      "previewType": ""
+    },
+    {
+      "key": "rfq",
+      "visible": true,
+      "width": "half",
+      "order": 9,
+      "col": 1,
+      "colSpan": 5,
       "gridCols": 24,
       "fieldBorder": true,
       "locked": false,
       "row": 5,
       "rowSpan": 1,
-      "label": "Task Details",
-      "previewType": "textarea"
-    },
-    {
-      "key": "origin",
-      "visible": true,
-      "width": "half",
-      "order": 9,
-      "col": 13,
-      "colSpan": 12,
-      "gridCols": 24,
-      "row": 1,
-      "rowSpan": 1
-    },
-    {
-      "key": "actions",
-      "visible": true,
-      "width": "full",
-      "order": 10,
-      "col": 1,
-      "colSpan": 24,
-      "gridCols": 24,
-      "fieldBorder": true,
-      "locked": false,
-      "row": 7,
-      "rowSpan": 1,
-      "label": "Form Actions",
-      "previewType": "button"
+      "label": "RFQ",
+      "previewType": "input"
     },
     {
       "key": "salesPerson",
       "visible": true,
       "width": "half",
-      "order": 11,
-      "col": 1,
-      "colSpan": 12,
-      "gridCols": 24,
-      "row": 2,
-      "rowSpan": 1
-    },
-    {
-      "key": "contactName",
-      "visible": true,
-      "width": "half",
-      "order": 12,
+      "order": 10,
       "col": 13,
       "colSpan": 12,
       "gridCols": 24,
       "fieldBorder": true,
       "locked": false,
-      "row": 4,
+      "row": 1,
       "rowSpan": 1,
-      "label": "Contact Name",
-      "previewType": "input"
-    },
-    {
-      "key": "rfq",
-      "visible": false,
-      "width": "half",
-      "order": 13,
-      "col": 13,
-      "colSpan": 12,
-      "gridCols": 24,
-      "row": 2,
-      "rowSpan": 1,
-      "label": "RFQ",
-      "previewType": "input"
+      "label": "",
+      "previewType": ""
     },
     {
       "key": "bid",
-      "visible": false,
+      "visible": true,
       "width": "half",
-      "order": 14,
-      "col": 1,
-      "colSpan": 12,
+      "order": 11,
+      "col": 20,
+      "colSpan": 4,
       "gridCols": 24,
-      "row": 3,
+      "fieldBorder": true,
+      "locked": false,
+      "row": 4,
       "rowSpan": 1,
       "label": "Bid",
       "previewType": "input"
     },
     {
       "key": "quoteTime",
-      "visible": false,
+      "visible": true,
       "width": "half",
-      "order": 15,
-      "col": 13,
-      "colSpan": 12,
+      "order": 12,
+      "col": 4,
+      "colSpan": 3,
       "gridCols": 24,
-      "row": 3,
+      "fieldBorder": true,
+      "locked": false,
+      "row": 4,
       "rowSpan": 1,
       "label": "Time",
       "previewType": "input"
     },
     {
       "key": "status",
-      "visible": false,
+      "visible": true,
       "width": "half",
-      "order": 16,
-      "col": 1,
-      "colSpan": 12,
+      "order": 13,
+      "col": 19,
+      "colSpan": 5,
       "gridCols": 24,
-      "row": 4,
+      "fieldBorder": true,
+      "locked": false,
+      "row": 2,
       "rowSpan": 1,
       "label": "Status",
       "previewType": "select"
     },
     {
-      "key": "phone",
-      "visible": false,
+      "key": "contactName",
+      "visible": true,
       "width": "half",
-      "order": 17,
-      "col": 13,
-      "colSpan": 12,
+      "order": 14,
+      "col": 6,
+      "colSpan": 6,
       "gridCols": 24,
-      "row": 4,
+      "fieldBorder": true,
+      "locked": false,
+      "row": 5,
+      "rowSpan": 1,
+      "label": "Contact Name",
+      "previewType": "input"
+    },
+    {
+      "key": "phone",
+      "visible": true,
+      "width": "half",
+      "order": 15,
+      "col": 12,
+      "colSpan": 4,
+      "gridCols": 24,
+      "fieldBorder": true,
+      "locked": false,
+      "row": 5,
       "rowSpan": 1,
       "label": "Phone",
       "previewType": "input"
     },
     {
       "key": "email",
-      "visible": false,
+      "visible": true,
       "width": "half",
-      "order": 18,
-      "col": 1,
-      "colSpan": 12,
+      "order": 16,
+      "col": 16,
+      "colSpan": 5,
       "gridCols": 24,
+      "fieldBorder": true,
+      "locked": false,
       "row": 5,
       "rowSpan": 1,
       "label": "Email",
@@ -4489,55 +4866,93 @@
     },
     {
       "key": "contactSaveAction",
-      "visible": false,
+      "visible": true,
       "width": "half",
-      "order": 19,
-      "col": 13,
-      "colSpan": 12,
+      "order": 17,
+      "col": 21,
+      "colSpan": 3,
       "gridCols": 24,
+      "fieldBorder": true,
+      "locked": false,
       "row": 5,
       "rowSpan": 1,
-      "label": "Add/Edit Contacts",
+      "label": "Add Contact",
       "previewType": "button"
     },
     {
       "key": "totalItems",
-      "visible": false,
+      "visible": true,
       "width": "half",
-      "order": 20,
-      "col": 1,
-      "colSpan": 12,
+      "order": 18,
+      "col": 18,
+      "colSpan": 6,
       "gridCols": 24,
-      "row": 6,
+      "fieldBorder": true,
+      "locked": false,
+      "row": 7,
       "rowSpan": 1,
       "label": "Total Items",
       "previewType": "input"
     },
     {
       "key": "totalValue",
-      "visible": false,
+      "visible": true,
       "width": "half",
-      "order": 21,
+      "order": 19,
       "col": 13,
-      "colSpan": 12,
+      "colSpan": 5,
       "gridCols": 24,
-      "row": 6,
+      "fieldBorder": true,
+      "locked": false,
+      "row": 7,
       "rowSpan": 1,
       "label": "Total Value",
       "previewType": "input"
     },
     {
-      "key": "remarks",
-      "visible": false,
-      "width": "full",
-      "order": 22,
+      "key": "itemLines",
+      "visible": true,
+      "width": "half",
+      "order": 20,
       "col": 1,
-      "colSpan": 24,
+      "colSpan": 23,
       "gridCols": 24,
+      "fieldBorder": true,
+      "locked": false,
+      "row": 6,
+      "rowSpan": 1,
+      "label": "Item Lines",
+      "previewType": "textarea"
+    },
+    {
+      "key": "remarks",
+      "visible": true,
+      "width": "half",
+      "order": 21,
+      "col": 1,
+      "colSpan": 12,
+      "gridCols": 24,
+      "fieldBorder": true,
+      "locked": false,
       "row": 7,
       "rowSpan": 1,
       "label": "Remarks",
       "previewType": "textarea"
+    },
+    {
+      "key": "actions",
+      "visible": true,
+      "width": "half",
+      "order": 22,
+      "col": 1,
+      "colSpan": 23,
+      "gridCols": 24,
+      "fieldBorder": true,
+      "locked": false,
+      "row": 8,
+      "rowSpan": 1,
+      "label": "Form Actions",
+      "previewType": "button"
     }
   ],
   "customerFormLayout": [
@@ -4547,7 +4962,7 @@
       "width": "half",
       "order": 1,
       "col": 1,
-      "colSpan": 5,
+      "colSpan": 12,
       "gridCols": 24,
       "fieldBorder": true,
       "locked": false,
@@ -4561,12 +4976,12 @@
       "visible": true,
       "width": "half",
       "order": 2,
-      "col": 1,
-      "colSpan": 10,
+      "col": 13,
+      "colSpan": 12,
       "gridCols": 24,
       "fieldBorder": true,
       "locked": false,
-      "row": 2,
+      "row": 1,
       "rowSpan": 1,
       "label": "Customer Name",
       "previewType": "auto"
@@ -4576,8 +4991,8 @@
       "visible": true,
       "width": "half",
       "order": 3,
-      "col": 11,
-      "colSpan": 10,
+      "col": 1,
+      "colSpan": 12,
       "gridCols": 24,
       "fieldBorder": true,
       "locked": false,
@@ -4591,12 +5006,12 @@
       "visible": true,
       "width": "half",
       "order": 4,
-      "col": 17,
-      "colSpan": 4,
+      "col": 13,
+      "colSpan": 12,
       "gridCols": 24,
       "fieldBorder": true,
       "locked": false,
-      "row": 1,
+      "row": 2,
       "rowSpan": 1,
       "label": "",
       "previewType": "auto"
@@ -4607,7 +5022,7 @@
       "width": "half",
       "order": 5,
       "col": 1,
-      "colSpan": 5,
+      "colSpan": 12,
       "gridCols": 24,
       "fieldBorder": true,
       "locked": false,
@@ -4621,8 +5036,8 @@
       "visible": true,
       "width": "half",
       "order": 6,
-      "col": 6,
-      "colSpan": 7,
+      "col": 13,
+      "colSpan": 12,
       "gridCols": 24,
       "fieldBorder": true,
       "locked": false,
@@ -4636,12 +5051,12 @@
       "visible": true,
       "width": "half",
       "order": 7,
-      "col": 13,
-      "colSpan": 4,
+      "col": 1,
+      "colSpan": 12,
       "gridCols": 24,
       "fieldBorder": true,
       "locked": false,
-      "row": 3,
+      "row": 4,
       "rowSpan": 1,
       "label": "Area Code",
       "previewType": "auto"
@@ -4651,12 +5066,12 @@
       "visible": true,
       "width": "half",
       "order": 8,
-      "col": 17,
-      "colSpan": 4,
+      "col": 13,
+      "colSpan": 12,
       "gridCols": 24,
       "fieldBorder": true,
       "locked": false,
-      "row": 3,
+      "row": 4,
       "rowSpan": 1,
       "label": "V/T",
       "previewType": "auto"
@@ -4667,11 +5082,11 @@
       "width": "half",
       "order": 9,
       "col": 1,
-      "colSpan": 5,
+      "colSpan": 12,
       "gridCols": 24,
       "fieldBorder": true,
       "locked": false,
-      "row": 4,
+      "row": 5,
       "rowSpan": 1,
       "label": "Vendor #",
       "previewType": "auto"
@@ -4679,10 +5094,10 @@
     {
       "key": "custRemark",
       "visible": true,
-      "width": "half",
+      "width": "full",
       "order": 10,
       "col": 1,
-      "colSpan": 20,
+      "colSpan": 24,
       "gridCols": 24,
       "fieldBorder": true,
       "locked": false,
@@ -4694,10 +5109,10 @@
     {
       "key": "custActions",
       "visible": true,
-      "width": "half",
+      "width": "full",
       "order": 11,
       "col": 1,
-      "colSpan": 20,
+      "colSpan": 24,
       "gridCols": 24,
       "fieldBorder": true,
       "locked": false,
@@ -4708,10 +5123,10 @@
     }
   ],
   "dashboardWidgets": [
-    "active_vs_completed",
-    "status_distribution",
-    "origin_distribution",
-    "sales_distribution"
+    "quotes_by_weekday",
+    "status_count_value_combo",
+    "approval_pipeline",
+    "due_soon_vs_later"
   ],
   "dashboardWidgetTypes": {
     "status_distribution": "pie",
@@ -4735,7 +5150,7 @@
     "high_value_quotes": "cards",
     "no_contact_quotes": "cards",
     "approval_pipeline": "donut",
-    "due_soon_vs_later": "bar"
+    "due_soon_vs_later": "pie"
   },
   "dashboardWidgetOrder": [
     "status_distribution",
@@ -4768,12 +5183,12 @@
     "height": 300,
     "colSize": 24
   },
-  "originSalesMap": {},
+  "originSalesMap": {
+    "Sales": [],
+    "Engineering": [],
+    "E-Purchasing": []
+  },
   "ui": {
     "kanbanDensity": "compact"
-  },
-  "pages": {
-    "customers": false,
-    "archived": false
   }
 }
