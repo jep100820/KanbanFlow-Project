@@ -3,8 +3,8 @@
     "id": "qtn_1776016609155_401",
     "sn": 1,
     "reference": "26010406",
-    "targetDate": "2026-05-01",
-    "dueDate": "2026-05-01",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "1263",
     "customerName": "Hasanah Laboratory",
     "pgType": "P",
@@ -13,7 +13,7 @@
     "rfq": "",
     "bid": "",
     "quoteTime": "09:59",
-    "status": "UNDER REVIEW",
+    "status": "FOR APPROVAL",
     "contactName": "Islam Sleem",
     "phone": "9.66545E+11",
     "email": "esaid@hasanah.com.sa",
@@ -26,14 +26,15 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609155_640",
     "sn": 2,
     "reference": "26010706",
-    "targetDate": "2026-07-01",
-    "dueDate": "2026-07-01",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "838",
     "customerName": "DR. MOHAMMAD ALFAGIH HOSPITAL",
     "pgType": "P",
@@ -42,7 +43,7 @@
     "rfq": "",
     "bid": "",
     "quoteTime": "09:59",
-    "status": "UNDER REVIEW",
+    "status": "NOT STARTED",
     "contactName": "Salim Mohammad Alguthmi",
     "phone": "",
     "email": "salim.alguthmi@dmf.med.sa",
@@ -56,14 +57,15 @@
         "qty": 0
       }
     ],
-    "updatedAt": "2026-04-14T15:32:29.705Z"
+    "updatedAt": "2026-04-14T15:32:29.705Z",
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609155_979",
     "sn": 3,
     "reference": "26010707",
-    "targetDate": "2026-07-01",
-    "dueDate": "2026-07-01",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "E-46",
     "customerName": "KING ABDULAZIZ MEDICAL CITY- RIYADH ( NGHA )",
     "pgType": "G",
@@ -72,7 +74,7 @@
     "rfq": "",
     "bid": "200",
     "quoteTime": "09:59",
-    "status": "UNDER REVIEW",
+    "status": "NOT STARTED",
     "contactName": "",
     "phone": "",
     "email": "",
@@ -80,14 +82,15 @@
     "totalValue": 0,
     "remarks": "",
     "itemText": "",
-    "items": []
+    "items": [],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609156_41",
     "sn": 4,
     "reference": "26010708",
-    "targetDate": "2026-07-01",
-    "dueDate": "2026-07-01",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "1263",
     "customerName": "Hasanah Laboratory",
     "pgType": "P",
@@ -109,14 +112,15 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609156_713",
     "sn": 5,
     "reference": "26010806",
-    "targetDate": "2026-01-13",
-    "dueDate": "2026-01-15",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "E-49",
     "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
     "pgType": "P",
@@ -138,14 +142,15 @@
         "description": "Various items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609156_444",
     "sn": 6,
     "reference": "26010807",
-    "targetDate": "2026-01-17",
-    "dueDate": "2026-01-19",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "E-49",
     "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
     "pgType": "P",
@@ -167,14 +172,15 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609156_80",
     "sn": 7,
     "reference": "26010808",
-    "targetDate": "2026-01-16",
-    "dueDate": "2026-01-18",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "E-49",
     "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
     "pgType": "P",
@@ -196,14 +202,15 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609156_645",
     "sn": 8,
     "reference": "26011106",
-    "targetDate": "2026-01-16",
-    "dueDate": "2026-01-18",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "849",
     "customerName": "AKDITAL Al Olaya Hospital (fmr: DR ABDUL RAHMAN AL-MISHARI HOSPITAL)",
     "pgType": "",
@@ -220,14 +227,15 @@
     "totalValue": 0,
     "remarks": "",
     "itemText": "",
-    "items": []
+    "items": [],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609156_724",
     "sn": 9,
     "reference": "26011206",
-    "targetDate": "2026-01-16",
-    "dueDate": "2026-01-18",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "1264",
     "customerName": "RaiDX Medical Labs",
     "pgType": "",
@@ -249,14 +257,15 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609156_593",
     "sn": 10,
     "reference": "26011306",
-    "targetDate": "2026-01-13",
-    "dueDate": "2026-01-15",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "995",
     "customerName": "Tawuniya  ( On Behalf of  Meena Health Company)",
     "pgType": "P",
@@ -265,7 +274,7 @@
     "rfq": "",
     "bid": "",
     "quoteTime": "09:59",
-    "status": "STD",
+    "status": "SUBMITTED",
     "contactName": "",
     "phone": "",
     "email": "",
@@ -278,14 +287,15 @@
         "description": "Needles",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609156_884",
     "sn": 11,
     "reference": "26011406",
-    "targetDate": "2026-01-19",
-    "dueDate": "2026-01-20",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "H-75",
     "customerName": "KING FAISAL SPECIALIST HOSPITAL  AND RESEARCH CENTER- RIYADH",
     "pgType": "G",
@@ -307,14 +317,15 @@
         "description": "Parafilm",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609157_162",
     "sn": 12,
     "reference": "26011407",
-    "targetDate": "2026-01-14",
-    "dueDate": "2026-01-15",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "1265",
     "customerName": "Al Sahem Al Mutamayez Trading Company",
     "pgType": "P",
@@ -336,14 +347,15 @@
         "description": "Alcohol swab",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609157_174",
     "sn": 13,
     "reference": "26011506",
-    "targetDate": "2026-01-15",
-    "dueDate": "2026-01-16",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "",
     "customerName": "",
     "pgType": "G",
@@ -360,14 +372,15 @@
     "totalValue": 0,
     "remarks": "",
     "itemText": "",
-    "items": []
+    "items": [],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609157_193",
     "sn": 14,
     "reference": "26011507",
-    "targetDate": "2026-01-15",
-    "dueDate": "2026-01-20",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "F-57",
     "customerName": "DR. SULAIMAN AL HABIB MEDICAL GROUP",
     "pgType": "P",
@@ -376,7 +389,7 @@
     "rfq": "",
     "bid": "",
     "quoteTime": "09:59",
-    "status": "STD",
+    "status": "SUBMITTED",
     "contactName": "",
     "phone": "",
     "email": "",
@@ -389,14 +402,15 @@
         "description": "Separator, Plasma PRSS.DB.00  QTY: 3",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609157_118",
     "sn": 15,
     "reference": "26011806",
-    "targetDate": "2026-01-18",
-    "dueDate": "2026-01-18",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "F-60",
     "customerName": "KINGDOM HOSPITAL(KHCC GROUP)",
     "pgType": "P",
@@ -405,7 +419,7 @@
     "rfq": "",
     "bid": "",
     "quoteTime": "09:59",
-    "status": "STD",
+    "status": "SUBMITTED",
     "contactName": "",
     "phone": "",
     "email": "",
@@ -418,14 +432,15 @@
         "description": "Vaccutainer",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609157_412",
     "sn": 16,
     "reference": "26011807",
-    "targetDate": "2026-01-18",
-    "dueDate": "2026-01-20",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "D-31",
     "customerName": "SFH (SECURITY FORCES HOSPITAL)",
     "pgType": "G",
@@ -434,7 +449,7 @@
     "rfq": "251239004338 (40047948)",
     "bid": "200",
     "quoteTime": "09:59",
-    "status": "STD",
+    "status": "SUBMITTED",
     "contactName": "",
     "phone": "",
     "email": "",
@@ -447,14 +462,15 @@
         "description": "Tube Vacutainer for Blood Collection Red Top Clot Activator Vol 9 10 ml tube size 16 x 100mm QTY: 100000",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609157_543",
     "sn": 17,
     "reference": "26011808",
-    "targetDate": "2026-01-20",
-    "dueDate": "2026-01-21",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "H-75",
     "customerName": "KING FAISAL SPECIALIST HOSPITAL  AND RESEARCH CENTER- RIYADH",
     "pgType": "G",
@@ -476,14 +492,15 @@
         "description": "Blood collection tube",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609158_912",
     "sn": 18,
     "reference": "26011809",
-    "targetDate": "2026-01-20",
-    "dueDate": "2026-01-21",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "H-75",
     "customerName": "KING FAISAL SPECIALIST HOSPITAL  AND RESEARCH CENTER- RIYADH",
     "pgType": "G",
@@ -505,14 +522,15 @@
         "description": "1.5 ml micro centrifuge",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609158_893",
     "sn": 19,
     "reference": "26011810",
-    "targetDate": "2026-01-19",
-    "dueDate": "2026-01-21",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "995",
     "customerName": "Tawuniya  ( On Behalf of  Meena Health Company)",
     "pgType": "P",
@@ -521,7 +539,7 @@
     "rfq": "",
     "bid": "",
     "quoteTime": "09:59",
-    "status": "STD",
+    "status": "SUBMITTED",
     "contactName": "",
     "phone": "",
     "email": "",
@@ -534,14 +552,15 @@
         "description": "slides",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609158_307",
     "sn": 20,
     "reference": "26011906",
-    "targetDate": "2026-01-19",
-    "dueDate": "2026-01-20",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "998",
     "customerName": "Gama Hospital",
     "pgType": "P",
@@ -550,7 +569,7 @@
     "rfq": "",
     "bid": "",
     "quoteTime": "09:59",
-    "status": "STD",
+    "status": "SUBMITTED",
     "contactName": "",
     "phone": "",
     "email": "",
@@ -563,14 +582,15 @@
         "description": "blood smear dispenser",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609158_481",
     "sn": 21,
     "reference": "26012106",
-    "targetDate": "2026-04-15",
-    "dueDate": "2026-04-15",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "1266",
     "customerName": "Attayer Factory Company for Plastic Medical Supplies",
     "pgType": "G",
@@ -579,7 +599,7 @@
     "rfq": "",
     "bid": "0",
     "quoteTime": "",
-    "status": "STD",
+    "status": "SUBMITTED",
     "contactName": "Mohamed Zaafan",
     "phone": "",
     "email": "Hany@attayerfactory.com",
@@ -592,14 +612,15 @@
         "description": "Alcohol swab & Biohazard Bag QTY: 0",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609158_725",
     "sn": 22,
     "reference": "26012107",
-    "targetDate": "2026-01-30",
-    "dueDate": "2026-01-31",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "H-75",
     "customerName": "KING FAISAL SPECIALIST HOSPITAL  AND RESEARCH CENTER- RIYADH",
     "pgType": "G",
@@ -608,7 +629,7 @@
     "rfq": "4760098",
     "bid": "",
     "quoteTime": "09:59",
-    "status": "STD",
+    "status": "SUBMITTED",
     "contactName": "",
     "phone": "",
     "email": "",
@@ -621,14 +642,15 @@
         "description": "8 strips tube",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609158_876",
     "sn": 23,
     "reference": "26012108",
-    "targetDate": "2026-01-30",
-    "dueDate": "2026-01-31",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "H-75",
     "customerName": "KING FAISAL SPECIALIST HOSPITAL  AND RESEARCH CENTER- RIYADH",
     "pgType": "G",
@@ -637,7 +659,7 @@
     "rfq": "4760099",
     "bid": "",
     "quoteTime": "09:59",
-    "status": "STD",
+    "status": "SUBMITTED",
     "contactName": "",
     "phone": "",
     "email": "",
@@ -650,14 +672,15 @@
         "description": "Sealing film",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609158_294",
     "sn": 24,
     "reference": "26012506",
-    "targetDate": "2026-01-25",
-    "dueDate": "2026-01-26",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "923",
     "customerName": "Riyadh University Hospital",
     "pgType": "P",
@@ -666,7 +689,7 @@
     "rfq": "",
     "bid": "",
     "quoteTime": "09:59",
-    "status": "STD",
+    "status": "SUBMITTED",
     "contactName": "",
     "phone": "",
     "email": "",
@@ -679,14 +702,15 @@
         "description": "AmioTest",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609158_37",
     "sn": 25,
     "reference": "26012507",
-    "targetDate": "2026-01-25",
-    "dueDate": "2026-01-26",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "995",
     "customerName": "Tawuniya  ( On Behalf of  Meena Health Company)",
     "pgType": "P",
@@ -695,7 +719,7 @@
     "rfq": "",
     "bid": "",
     "quoteTime": "09:59",
-    "status": "STD",
+    "status": "SUBMITTED",
     "contactName": "",
     "phone": "",
     "email": "",
@@ -708,14 +732,15 @@
         "description": "Centrifuge tube",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609158_336",
     "sn": 26,
     "reference": "26012508",
-    "targetDate": "2026-01-25",
-    "dueDate": "2026-01-26",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "L-113",
     "customerName": "KING ABDULAZIZ MEDICAL CITY- JEDDAH",
     "pgType": "G",
@@ -724,7 +749,7 @@
     "rfq": "260139005226 (JR719653)",
     "bid": "200",
     "quoteTime": "09:59",
-    "status": "STD",
+    "status": "SUBMITTED",
     "contactName": "",
     "phone": "",
     "email": "",
@@ -737,14 +762,15 @@
         "description": "Blood collection tube",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609159_425",
     "sn": 27,
     "reference": "26012606",
-    "targetDate": "2026-01-26",
-    "dueDate": "2026-01-28",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "I-88",
     "customerName": "KING FAHD UNIVERSITY OF PETROLEUM & MINERALS",
     "pgType": "G",
@@ -766,14 +792,15 @@
         "description": "vials and blue cap",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609159_840",
     "sn": 28,
     "reference": "26012806",
-    "targetDate": "2026-01-30",
-    "dueDate": "2026-01-31",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "1059",
     "customerName": "National Guard - Taif",
     "pgType": "G",
@@ -795,14 +822,15 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609159_48",
     "sn": 29,
     "reference": "26012807",
-    "targetDate": "2026-01-02",
-    "dueDate": "2026-02-02",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "H-75",
     "customerName": "KING FAISAL SPECIALIST HOSPITAL  AND RESEARCH CENTER- RIYADH",
     "pgType": "G",
@@ -824,14 +852,15 @@
         "description": "Test Tube 75x12mm",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609159_45",
     "sn": 30,
     "reference": "26012906",
-    "targetDate": "2026-01-30",
-    "dueDate": "2026-01-31",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "E-49",
     "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
     "pgType": "P",
@@ -853,14 +882,15 @@
         "description": "Microtome blade",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609159_371",
     "sn": 31,
     "reference": "26012907",
-    "targetDate": "2026-01-02",
-    "dueDate": "2026-03-02",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "E-46",
     "customerName": "KING ABDULAZIZ MEDICAL CITY- RIYADH ( NGHA )",
     "pgType": "G",
@@ -882,14 +912,15 @@
         "description": "Reaction plate 96 well microamp for pcr",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609160_232",
     "sn": 32,
     "reference": "26012908",
-    "targetDate": "2026-01-30",
-    "dueDate": "2026-01-31",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "1059",
     "customerName": "National Guard - Taif",
     "pgType": "G",
@@ -911,14 +942,15 @@
         "description": "adjustable pipette",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609160_850",
     "sn": 33,
     "reference": "26012909",
-    "targetDate": "2026-01-29",
-    "dueDate": "2026-01-02",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "Q-162",
     "customerName": "SAUDI GERMAN HOSPITALS - RIYADH",
     "pgType": "P",
@@ -940,14 +972,15 @@
         "description": "Blood collection tube & Needles",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609160_786",
     "sn": 34,
     "reference": "26020106",
-    "targetDate": "2026-01-02",
-    "dueDate": "2026-02-04",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "R-179",
     "customerName": "INSURANCE HOSPITAL (RIYADH CARE HOSPITAL)",
     "pgType": "P",
@@ -956,7 +989,7 @@
     "rfq": "",
     "bid": "",
     "quoteTime": "09:59",
-    "status": "STD",
+    "status": "SUBMITTED",
     "contactName": "Salman Sultan Alkhaldi",
     "phone": "9.66508E+11",
     "email": "salkhaldi@care.med.sa",
@@ -969,14 +1002,15 @@
         "description": "Alcohol Swabs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609160_890",
     "sn": 35,
     "reference": "26020306",
-    "targetDate": "2026-03-02",
-    "dueDate": "2026-04-02",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "995",
     "customerName": "Tawuniya  ( On Behalf of  Meena Health Company)",
     "pgType": "P",
@@ -985,7 +1019,7 @@
     "rfq": "",
     "bid": "",
     "quoteTime": "09:59",
-    "status": "STD",
+    "status": "SUBMITTED",
     "contactName": "Taraf Al-Shalaan",
     "phone": "9.66504E+11",
     "email": "t.alshalan@meena-health.com",
@@ -998,14 +1032,15 @@
         "description": "needles",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609160_178",
     "sn": 36,
     "reference": "26020406",
-    "targetDate": "2026-04-02",
-    "dueDate": "2026-05-02",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "772",
     "customerName": "Danem International Trading Est",
     "pgType": "P",
@@ -1027,14 +1062,15 @@
         "description": "parafilm and segment opener",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609160_741",
     "sn": 37,
     "reference": "26020806",
-    "targetDate": "2026-08-02",
-    "dueDate": "2026-09-02",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "R-179",
     "customerName": "INSURANCE HOSPITAL (RIYADH CARE HOSPITAL)",
     "pgType": "P",
@@ -1056,14 +1092,15 @@
         "description": "Swivel Roller Mixer",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609160_225",
     "sn": 38,
     "reference": "26020906",
-    "targetDate": "2026-09-02",
-    "dueDate": "2026-10-02",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "d-33",
     "customerName": "",
     "pgType": "G",
@@ -1072,7 +1109,7 @@
     "rfq": "MR-33267",
     "bid": "200",
     "quoteTime": "09:59",
-    "status": "STD",
+    "status": "SUBMITTED",
     "contactName": "Abdulaziz",
     "phone": "0114837777",
     "email": "",
@@ -1085,14 +1122,15 @@
         "description": "slee blades",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609161_774",
     "sn": 39,
     "reference": "26021206",
-    "targetDate": "2026-02-13",
-    "dueDate": "2026-02-14",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "1119",
     "customerName": "King Abdullah Specialised Hospital - Qassim",
     "pgType": "G",
@@ -1114,14 +1152,15 @@
         "description": "Test Tube Borosilicate Glass 16 x 100mm Dispo",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609162_705",
     "sn": 40,
     "reference": "26021506",
-    "targetDate": "2026-02-15",
-    "dueDate": "2026-02-16",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "F-60",
     "customerName": "KINGDOM HOSPITAL(KHCC GROUP)",
     "pgType": "P",
@@ -1130,7 +1169,7 @@
     "rfq": "",
     "bid": "200",
     "quoteTime": "09:59",
-    "status": "STD",
+    "status": "SUBMITTED",
     "contactName": "Saber Hassan",
     "phone": "055 738 9544",
     "email": "shassan@kingdomhospital.com",
@@ -1143,14 +1182,15 @@
         "description": "Slide Mailler & 630277",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609162_292",
     "sn": 41,
     "reference": "26021606",
-    "targetDate": "2026-02-16",
-    "dueDate": "2026-02-16",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "838",
     "customerName": "DR. MOHAMMAD ALFAGIH HOSPITAL",
     "pgType": "P",
@@ -1159,7 +1199,7 @@
     "rfq": "",
     "bid": "200",
     "quoteTime": "09:59",
-    "status": "STD",
+    "status": "SUBMITTED",
     "contactName": "abdullah marir",
     "phone": "0552258875",
     "email": "",
@@ -1172,14 +1212,15 @@
         "description": "ab medical",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609162_327",
     "sn": 42,
     "reference": "26021806",
-    "targetDate": "2026-02-18",
-    "dueDate": "2026-02-18",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "838",
     "customerName": "DR. MOHAMMAD ALFAGIH HOSPITAL",
     "pgType": "P",
@@ -1188,7 +1229,7 @@
     "rfq": "7543",
     "bid": "200",
     "quoteTime": "09:59",
-    "status": "STD",
+    "status": "SUBMITTED",
     "contactName": "abdullah marir",
     "phone": "0552258875",
     "email": "",
@@ -1201,14 +1242,15 @@
         "description": "lianfa",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609162_703",
     "sn": 43,
     "reference": "26021807",
-    "targetDate": "2026-02-23",
-    "dueDate": "2026-02-24",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "E-46",
     "customerName": "KING ABDULAZIZ MEDICAL CITY- RIYADH ( NGHA )",
     "pgType": "G",
@@ -1230,14 +1272,15 @@
         "description": "pasteur pipette",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609162_442",
     "sn": 44,
     "reference": "26021808",
-    "targetDate": "2026-02-23",
-    "dueDate": "2026-02-24",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "E-46",
     "customerName": "KING ABDULAZIZ MEDICAL CITY- RIYADH ( NGHA )",
     "pgType": "G",
@@ -1259,14 +1302,15 @@
         "description": "pipette tips",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609162_932",
     "sn": 45,
     "reference": "26021906",
-    "targetDate": "2026-02-19",
-    "dueDate": "2026-02-24",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "620",
     "customerName": "Al Borg Medical Laboratories (MEDICAL)",
     "pgType": "P",
@@ -1288,14 +1332,15 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609163_303",
     "sn": 46,
     "reference": "26022306",
-    "targetDate": "2026-02-23",
-    "dueDate": "2026-02-24",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "838",
     "customerName": "DR. MOHAMMAD ALFAGIH HOSPITAL",
     "pgType": "P",
@@ -1317,14 +1362,15 @@
         "description": "loop 1 ul BSV121",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609163_292",
     "sn": 47,
     "reference": "26022406",
-    "targetDate": "2026-02-24",
-    "dueDate": "2026-02-25",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "D-33",
     "customerName": "AL HAMMADI HOSPITAL",
     "pgType": "P",
@@ -1346,14 +1392,15 @@
         "description": "loop 1 ul BSV121",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609163_845",
     "sn": 48,
     "reference": "26022506",
-    "targetDate": "2026-02-25",
-    "dueDate": "2026-02-25",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "E-49",
     "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
     "pgType": "P",
@@ -1362,7 +1409,7 @@
     "rfq": "NDP0238/26",
     "bid": "",
     "quoteTime": "09:59",
-    "status": "STD",
+    "status": "SUBMITTED",
     "contactName": "",
     "phone": "",
     "email": "",
@@ -1375,14 +1422,15 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609163_978",
     "sn": 49,
     "reference": "26030106",
-    "targetDate": "2026-05-03",
-    "dueDate": "2026-05-03",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "1059",
     "customerName": "National Guard - Taif",
     "pgType": "G",
@@ -1399,14 +1447,15 @@
     "totalValue": 0,
     "remarks": "",
     "itemText": "",
-    "items": []
+    "items": [],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609163_655",
     "sn": 50,
     "reference": "26030206",
-    "targetDate": "2026-05-03",
-    "dueDate": "2026-05-03",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "L-113",
     "customerName": "KING ABDULAZIZ MEDICAL CITY- JEDDAH",
     "pgType": "G",
@@ -1423,14 +1472,15 @@
     "totalValue": 0,
     "remarks": "",
     "itemText": "",
-    "items": []
+    "items": [],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609163_337",
     "sn": 51,
     "reference": "26030506",
-    "targetDate": "2026-05-03",
-    "dueDate": "2026-08-03",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "1059",
     "customerName": "National Guard - Taif",
     "pgType": "G",
@@ -1439,7 +1489,7 @@
     "rfq": "260339001813(9512)",
     "bid": "200",
     "quoteTime": "09:59",
-    "status": "STD",
+    "status": "SUBMITTED",
     "contactName": "Najwa Momen",
     "phone": "0125865026",
     "email": "momenna@mngha.med.sa",
@@ -1452,14 +1502,15 @@
         "description": "TUBE TEST GLASS 12 X 75MM [105774] QTY: 6500",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609163_975",
     "sn": 52,
     "reference": "26030507",
-    "targetDate": "2026-09-03",
-    "dueDate": "2026-09-03",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "E-49",
     "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
     "pgType": "P",
@@ -1468,7 +1519,7 @@
     "rfq": "115001122",
     "bid": "",
     "quoteTime": "09:59",
-    "status": "STD",
+    "status": "SUBMITTED",
     "contactName": "",
     "phone": "",
     "email": "",
@@ -1481,14 +1532,15 @@
         "description": "Safety Lancet",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609164_426",
     "sn": 53,
     "reference": "26030508",
-    "targetDate": "2026-09-03",
-    "dueDate": "2026-09-03",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "E-49",
     "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
     "pgType": "P",
@@ -1497,7 +1549,7 @@
     "rfq": "115001603",
     "bid": "",
     "quoteTime": "09:59",
-    "status": "STD",
+    "status": "SUBMITTED",
     "contactName": "",
     "phone": "",
     "email": "",
@@ -1510,14 +1562,15 @@
         "description": "Safety Lancet",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609164_953",
     "sn": 54,
     "reference": "26030806",
-    "targetDate": "2026-08-03",
-    "dueDate": "2026-08-03",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "1267",
     "customerName": "Atheer Care",
     "pgType": "P",
@@ -1526,7 +1579,7 @@
     "rfq": "",
     "bid": "",
     "quoteTime": "09:59",
-    "status": "STD",
+    "status": "SUBMITTED",
     "contactName": "Mr. Najm",
     "phone": "",
     "email": "",
@@ -1539,14 +1592,15 @@
         "description": "Biohazrd Spill Kit MJZ017",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609164_165",
     "sn": 55,
     "reference": "25030807",
-    "targetDate": "2026-09-03",
-    "dueDate": "2026-10-03",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "E-46",
     "customerName": "KING ABDULAZIZ MEDICAL CITY- RIYADH ( NGHA )",
     "pgType": "G",
@@ -1555,7 +1609,7 @@
     "rfq": "260239012627(2379657)",
     "bid": "200",
     "quoteTime": "09:59",
-    "status": "STD",
+    "status": "SUBMITTED",
     "contactName": "Firas Al-Bassam",
     "phone": "0118041695",
     "email": "albassamfe@mngha.med.sa",
@@ -1568,14 +1622,15 @@
         "description": "Pipette Glass size 5 3/4 (pasteur type) 105773 qty: 6000",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609164_912",
     "sn": 56,
     "reference": "25030906",
-    "targetDate": "2026-09-03",
-    "dueDate": "2026-10-03",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "E-49",
     "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
     "pgType": "P",
@@ -1597,14 +1652,15 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609164_762",
     "sn": 57,
     "reference": "25030907",
-    "targetDate": "2026-12-03",
-    "dueDate": "2026-03-15",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "E-49",
     "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
     "pgType": "P",
@@ -1626,14 +1682,15 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609164_457",
     "sn": 58,
     "reference": "26030908",
-    "targetDate": "2026-09-03",
-    "dueDate": "2026-11-03",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "R-179",
     "customerName": "INSURANCE HOSPITAL (RIYADH CARE HOSPITAL)",
     "pgType": "P",
@@ -1655,14 +1712,15 @@
         "description": "Alcohol Swab KM-QP018",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609165_645",
     "sn": 59,
     "reference": "26030909",
-    "targetDate": "2026-09-03",
-    "dueDate": "2026-10-03",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "D-33",
     "customerName": "AL HAMMADI HOSPITAL",
     "pgType": "P",
@@ -1684,14 +1742,15 @@
         "description": "0810401  QTY: 100box",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609165_536",
     "sn": 60,
     "reference": "26031006",
-    "targetDate": "2026-10-03",
-    "dueDate": "2026-11-03",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "R-179",
     "customerName": "INSURANCE HOSPITAL (RIYADH CARE HOSPITAL)",
     "pgType": "P",
@@ -1713,14 +1772,15 @@
         "description": "0101222 Cover Glass",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609165_598",
     "sn": 61,
     "reference": "26031106",
-    "targetDate": "2026-12-03",
-    "dueDate": "2026-12-03",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "E-49",
     "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
     "pgType": "P",
@@ -1742,14 +1802,15 @@
         "description": "Erlenmeyer Flask (4110207) QTY: 38pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609165_644",
     "sn": 62,
     "reference": "26031107",
-    "targetDate": "2026-12-03",
-    "dueDate": "2026-12-03",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "E-49",
     "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
     "pgType": "P",
@@ -1771,14 +1832,15 @@
         "description": "Erlenmeyer Flask (4110207) QTY: 38pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609165_203",
     "sn": 63,
     "reference": "26031108",
-    "targetDate": "2026-12-03",
-    "dueDate": "2026-12-03",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "E-49",
     "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
     "pgType": "P",
@@ -1800,14 +1862,15 @@
         "description": "Chroma Vial (C000962) QTY: 8,400pcs and Clot Activator (321502) QTY: 904000pcsx2",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609165_922",
     "sn": 64,
     "reference": "26031109",
-    "targetDate": "2026-12-03",
-    "dueDate": "2026-12-03",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "E-49",
     "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
     "pgType": "P",
@@ -1816,7 +1879,7 @@
     "rfq": "SWS0002686",
     "bid": "",
     "quoteTime": "09:59",
-    "status": "STD",
+    "status": "SUBMITTED",
     "contactName": "",
     "phone": "",
     "email": "",
@@ -1829,14 +1892,15 @@
         "description": "Positive Charged Microscope Slides (0810501) QTY: 15,186pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609166_852",
     "sn": 65,
     "reference": "26031110",
-    "targetDate": "2026-12-03",
-    "dueDate": "2026-12-03",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "E-49",
     "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
     "pgType": "P",
@@ -1845,7 +1909,7 @@
     "rfq": "SWS0002687",
     "bid": "",
     "quoteTime": "09:59",
-    "status": "STD",
+    "status": "SUBMITTED",
     "contactName": "",
     "phone": "",
     "email": "",
@@ -1858,14 +1922,15 @@
         "description": "Positive Charged Microscope Slides (0810501) QTY: 15,186pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609166_564",
     "sn": 66,
     "reference": "26031206",
-    "targetDate": "2026-03-15",
-    "dueDate": "2026-03-15",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "E-49",
     "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
     "pgType": "P",
@@ -1887,14 +1952,15 @@
         "description": "First Aid Kits",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609166_750",
     "sn": 67,
     "reference": "26031506",
-    "targetDate": "2026-03-16",
-    "dueDate": "2026-03-16",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "Q-169",
     "customerName": "NATIONAL GUARD HOSPITAL- DAMMAM (Imam Abdulrahman Al Faisal Hospital )",
     "pgType": "G",
@@ -1916,14 +1982,15 @@
         "description": "Slide Glass Microscope (76*26mm) Frosted End Both Sides with Finely Ground Edges Precleaned  QTY: 25,000",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609166_249",
     "sn": 68,
     "reference": "26031606",
-    "targetDate": "2026-03-16",
-    "dueDate": "2026-03-17",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "1059",
     "customerName": "National Guard - Taif",
     "pgType": "G",
@@ -1932,7 +1999,7 @@
     "rfq": "260339001813(9512)",
     "bid": "200",
     "quoteTime": "09:59",
-    "status": "STD",
+    "status": "SUBMITTED",
     "contactName": "Najwa Momen",
     "phone": "0125865026",
     "email": "momenna@mngha.med.sa",
@@ -1945,14 +2012,15 @@
         "description": "TUBE TEST GLASS 12 X 75MM [105774] QTY: 6500",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609167_219",
     "sn": 69,
     "reference": "26031607",
-    "targetDate": "2026-03-25",
-    "dueDate": "2026-03-31",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "M-129",
     "customerName": "JAZAN UNIVERSITY",
     "pgType": "G",
@@ -1974,14 +2042,15 @@
         "description": "Simulator",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609167_285",
     "sn": 70,
     "reference": "26031608",
-    "targetDate": "2026-03-25",
-    "dueDate": "2026-03-31",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "M-129",
     "customerName": "JAZAN UNIVERSITY",
     "pgType": "G",
@@ -2003,14 +2072,15 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609167_284",
     "sn": 71,
     "reference": "26031706",
-    "targetDate": "2026-10-04",
-    "dueDate": "2026-04-15",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "B-18",
     "customerName": "KACST, TENDERS AND PURCHASING DEPARTMENT",
     "pgType": "G",
@@ -2032,14 +2102,15 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609167_19",
     "sn": 72,
     "reference": "26031707",
-    "targetDate": "2026-03-18",
-    "dueDate": "2026-03-21",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "D-31",
     "customerName": "SFH (SECURITY FORCES HOSPITAL)",
     "pgType": "G",
@@ -2061,14 +2132,15 @@
         "description": "Tube VAcutainer for Blood Collection Red Top Clot Activator (321502) QTY: 200000",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609167_84",
     "sn": 73,
     "reference": "26031708",
-    "targetDate": "2026-03-28",
-    "dueDate": "2026-03-29",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "I-84",
     "customerName": "KING ABDUL AZIZ NATIONAL GUARD HOSPITAL - AL HASA",
     "pgType": "G",
@@ -2090,14 +2162,15 @@
         "description": "Tube VAcutainer for Blood Collection Red Top Clot Activator 10ml (300901) QTY: 20000",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609168_524",
     "sn": 74,
     "reference": "26031709",
-    "targetDate": "2026-10-04",
-    "dueDate": "2026-04-15",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "B-18",
     "customerName": "KACST, TENDERS AND PURCHASING DEPARTMENT",
     "pgType": "G",
@@ -2119,14 +2192,15 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609168_267",
     "sn": 75,
     "reference": "26031710",
-    "targetDate": "2026-03-18",
-    "dueDate": "2026-03-18",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "D-33",
     "customerName": "AL HAMMADI HOSPITAL",
     "pgType": "P",
@@ -2148,14 +2222,15 @@
         "description": "Parafilm Rolls 4\" x 125 ft  QTY: 10pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609168_983",
     "sn": 76,
     "reference": "26031711",
-    "targetDate": "2026-04-20",
-    "dueDate": "2026-04-23",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "F-52",
     "customerName": "KKESH (KING KHALED EYE SPECIALIST HOSPITAL)",
     "pgType": "P",
@@ -2185,14 +2260,15 @@
         "description": "Tube Vacu Red Top 9ml  QTY: 40,000pcs (50,400 - Jun 2026, 24,700 - Sep 2026)",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609168_21",
     "sn": 77,
     "reference": "26031712",
-    "targetDate": "2026-03-26",
-    "dueDate": "2026-03-29",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "H-75",
     "customerName": "KING FAISAL SPECIALIST HOSPITAL  AND RESEARCH CENTER- RIYADH",
     "pgType": "G",
@@ -2214,14 +2290,15 @@
         "description": "Lens Paper 4 x 6 Inch QTY: 48PAcks",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609169_509",
     "sn": 78,
     "reference": "26031713",
-    "targetDate": "2026-04-20",
-    "dueDate": "2026-04-23",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "F-52",
     "customerName": "KKESH (KING KHALED EYE SPECIALIST HOSPITAL)",
     "pgType": "G",
@@ -2243,14 +2320,15 @@
         "description": "Clinipette Yellow Small Tips QTY: 32,000pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609169_808",
     "sn": 79,
     "reference": "26031806",
-    "targetDate": "2026-03-29",
-    "dueDate": "2026-01-04",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "E-49",
     "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
     "pgType": "P",
@@ -2259,7 +2337,7 @@
     "rfq": "NDP0324/26",
     "bid": "",
     "quoteTime": "16:00",
-    "status": "STD",
+    "status": "SUBMITTED",
     "contactName": "",
     "phone": "",
     "email": "Fiqunayan-c@nupco.com",
@@ -2272,14 +2350,15 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609169_77",
     "sn": 80,
     "reference": "26031807",
-    "targetDate": "2026-03-18",
-    "dueDate": "2026-03-18",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "772",
     "customerName": "Danem International Trading Est",
     "pgType": "P",
@@ -2301,14 +2380,15 @@
         "description": "Overwrap Bags, Standard Size (for plasma thawers) QTY: 2000pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609169_682",
     "sn": 81,
     "reference": "26032906",
-    "targetDate": "2026-01-04",
-    "dueDate": "2026-02-04",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "F-57",
     "customerName": "DR. SULAIMAN AL HABIB MEDICAL GROUP",
     "pgType": "P",
@@ -2338,14 +2418,15 @@
         "description": "Water Bath, Splint QTY: 2pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609169_358",
     "sn": 82,
     "reference": "26033106",
-    "targetDate": "2026-02-04",
-    "dueDate": "2026-02-04",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "398",
     "customerName": "Al-alam Medical Center",
     "pgType": "P",
@@ -2367,14 +2448,15 @@
         "description": "KM-QP018 QTY: 2500box (100pcs per Box)",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609170_979",
     "sn": 83,
     "reference": "26033107",
-    "targetDate": "2026-02-04",
-    "dueDate": "2026-02-04",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "1085",
     "customerName": "Royal Diagnostics Laboratory (MEDICAL)",
     "pgType": "P",
@@ -2404,14 +2486,15 @@
         "description": "A/001/008-AR  QTY: 100pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609170_635",
     "sn": 84,
     "reference": "26033108",
-    "targetDate": "2026-02-04",
-    "dueDate": "2026-02-04",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "617",
     "customerName": "SEDER&Zahran GROUP",
     "pgType": "P",
@@ -2437,14 +2520,15 @@
         "description": "Temperature Sensor QTY: 1 Set",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609170_659",
     "sn": 85,
     "reference": "26040206",
-    "targetDate": "2026-03-04",
-    "dueDate": "2026-03-04",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "849",
     "customerName": "AKDITAL Al Olaya Hospital (fmr: DR ABDUL RAHMAN AL-MISHARI HOSPITAL)",
     "pgType": "P",
@@ -2474,14 +2558,15 @@
         "description": "Ice Box QTY: 2 pc",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609170_918",
     "sn": 86,
     "reference": "26040606",
-    "targetDate": "2026-08-04",
-    "dueDate": "2026-09-04",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "Q-169",
     "customerName": "NATIONAL GUARD HOSPITAL- DAMMAM (Imam Abdulrahman Al Faisal Hospital )",
     "pgType": "G",
@@ -2503,14 +2588,15 @@
         "description": "TUBE TEST GLASS 12 X 75MM(105774) QTY: 30000",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609171_71",
     "sn": 87,
     "reference": "26040706",
-    "targetDate": "2026-08-04",
-    "dueDate": "2026-08-04",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "E-49",
     "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
     "pgType": "G",
@@ -2532,14 +2618,15 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609171_843",
     "sn": 88,
     "reference": "26040707",
-    "targetDate": "2026-08-04",
-    "dueDate": "2026-08-04",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "798",
     "customerName": "International quality Labs (MEDICAL)",
     "pgType": "P",
@@ -2561,14 +2648,15 @@
         "description": "SN-105 Safety Blood Collection QTY: 4000 pieces",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609171_754",
     "sn": 89,
     "reference": "26040708",
-    "targetDate": "2026-09-04",
-    "dueDate": "2026-09-04",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "E-49",
     "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
     "pgType": "G",
@@ -2598,14 +2686,15 @@
         "description": "Applicator, cotton 6inch QTY: 1800",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609171_243",
     "sn": 90,
     "reference": "26040709",
-    "targetDate": "2026-08-04",
-    "dueDate": "2026-08-04",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "E-49",
     "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
     "pgType": "G",
@@ -2635,14 +2724,15 @@
         "description": "Gauze Swab 12ply 10x10cm QTY: 120,000",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609172_521",
     "sn": 91,
     "reference": "26040710",
-    "targetDate": "2026-09-04",
-    "dueDate": "2026-09-04",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "E-49",
     "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
     "pgType": "G",
@@ -2664,14 +2754,15 @@
         "description": "Slide Glass Blue Frost Ground 25x75x1 QTY: 50,000pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609172_356",
     "sn": 92,
     "reference": "26040711",
-    "targetDate": "2026-09-04",
-    "dueDate": "2026-09-04",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "E-49",
     "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
     "pgType": "G",
@@ -2709,22 +2800,23 @@
         "description": "ETC",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609172_174",
     "sn": 93,
     "reference": "26040712",
-    "targetDate": "2026-08-04",
-    "dueDate": "2026-09-04",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "398",
     "customerName": "Al-alam Medical Center",
-    "pgType": "P",
+    "pgType": "G",
     "origin": "Sales",
-    "salesPerson": "Zainab",
+    "salesPerson": "Osama",
     "rfq": "",
     "bid": "0",
-    "quoteTime": "14:33",
+    "quoteTime": "17:00",
     "status": "NOT STARTED",
     "contactName": "Dr. Essa Al-Dhafiri",
     "phone": "-",
@@ -2732,20 +2824,21 @@
     "totalItems": 0,
     "totalValue": 0,
     "remarks": "",
-    "itemText": "Refrigerator MPR 530 QTY: 1 Unit",
+    "itemText": "Refrigerator MPR 530 QTY: 1",
     "items": [
       {
-        "description": "Refrigerator MPR 530 QTY: 1 Unit",
+        "description": "Refrigerator MPR 530 QTY: 1",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776016609172_408",
     "sn": 94,
     "reference": "26040906",
-    "targetDate": "2026-04-13",
-    "dueDate": "2026-04-14",
+    "targetDate": "2026-04-22",
+    "dueDate": "2026-04-22",
     "customerCode": "E-49",
     "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
     "pgType": "G",
@@ -2771,7 +2864,8 @@
         "description": "Cloth Cleaning Flat 30.48x30.48cm QTY: 12,165",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150771_198",
@@ -2800,7 +2894,8 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150772_931",
@@ -2829,7 +2924,8 @@
         "description": "0101050 Cover glass QTY: 3000pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150772_106",
@@ -2853,7 +2949,8 @@
     "totalValue": 0,
     "remarks": "",
     "itemText": "",
-    "items": []
+    "items": [],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150772_984",
@@ -2882,7 +2979,8 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150772_751",
@@ -2911,7 +3009,8 @@
         "description": "Various items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150773_287",
@@ -2940,7 +3039,8 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150773_858",
@@ -2969,7 +3069,8 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150773_778",
@@ -2993,7 +3094,8 @@
     "totalValue": 0,
     "remarks": "",
     "itemText": "",
-    "items": []
+    "items": [],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150774_547",
@@ -3022,7 +3124,8 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150774_125",
@@ -3051,7 +3154,8 @@
         "description": "Needles",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150774_823",
@@ -3080,7 +3184,8 @@
         "description": "Parafilm",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150775_664",
@@ -3109,7 +3214,8 @@
         "description": "Alcohol swab",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150775_100",
@@ -3133,7 +3239,8 @@
     "totalValue": 0,
     "remarks": "",
     "itemText": "",
-    "items": []
+    "items": [],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150775_848",
@@ -3162,7 +3269,8 @@
         "description": "Separator, Plasma PRSS.DB.00  QTY: 3",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150777_0",
@@ -3191,7 +3299,8 @@
         "description": "Vaccutainer",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150777_198",
@@ -3220,7 +3329,8 @@
         "description": "Tube Vacutainer for Blood Collection Red Top Clot Activator Vol 9 10 ml tube size 16 x 100mm QTY: 100000",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150777_10",
@@ -3249,7 +3359,8 @@
         "description": "Blood collection tube",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150778_782",
@@ -3278,7 +3389,8 @@
         "description": "1.5 ml micro centrifuge",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150778_447",
@@ -3307,7 +3419,8 @@
         "description": "slides",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150778_573",
@@ -3336,7 +3449,8 @@
         "description": "blood smear dispenser",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150778_701",
@@ -3366,7 +3480,8 @@
         "qty": 0
       }
     ],
-    "updatedAt": "2026-04-13T20:38:45.022Z"
+    "updatedAt": "2026-04-13T20:38:45.022Z",
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150779_865",
@@ -3395,7 +3510,8 @@
         "description": "8 strips tube",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150779_539",
@@ -3424,7 +3540,8 @@
         "description": "Sealing film",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150779_722",
@@ -3453,7 +3570,8 @@
         "description": "AmioTest",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150780_870",
@@ -3482,7 +3600,8 @@
         "description": "Centrifuge tube",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150780_93",
@@ -3511,7 +3630,8 @@
         "description": "Blood collection tube",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150780_118",
@@ -3540,7 +3660,8 @@
         "description": "vials and blue cap",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150781_637",
@@ -3569,7 +3690,8 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150781_967",
@@ -3598,7 +3720,8 @@
         "description": "Test Tube 75x12mm",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150782_960",
@@ -3627,7 +3750,8 @@
         "description": "Microtome blade",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150782_285",
@@ -3656,7 +3780,8 @@
         "description": "Reaction plate 96 well microamp for pcr",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150782_499",
@@ -3685,7 +3810,8 @@
         "description": "adjustable pipette",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150782_929",
@@ -3714,7 +3840,8 @@
         "description": "Blood collection tube & Needles",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150782_415",
@@ -3743,7 +3870,8 @@
         "description": "Alcohol Swabs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150783_313",
@@ -3772,7 +3900,8 @@
         "description": "needles",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150783_167",
@@ -3801,7 +3930,8 @@
         "description": "parafilm and segment opener",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150783_132",
@@ -3830,7 +3960,8 @@
         "description": "Swivel Roller Mixer",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150784_111",
@@ -3859,7 +3990,8 @@
         "description": "slee blades",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150784_720",
@@ -3888,7 +4020,8 @@
         "description": "Test Tube Borosilicate Glass 16 x 100mm Dispo",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150784_994",
@@ -3917,7 +4050,8 @@
         "description": "Slide Mailler & 630277",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150784_39",
@@ -3946,7 +4080,8 @@
         "description": "ab medical",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150785_743",
@@ -3975,7 +4110,8 @@
         "description": "lianfa",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150785_504",
@@ -4004,7 +4140,8 @@
         "description": "pasteur pipette",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150785_586",
@@ -4033,7 +4170,8 @@
         "description": "pipette tips",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150786_971",
@@ -4062,7 +4200,8 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150786_318",
@@ -4091,7 +4230,8 @@
         "description": "loop 1 ul BSV121",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150786_669",
@@ -4120,7 +4260,8 @@
         "description": "loop 1 ul BSV121",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150786_287",
@@ -4149,7 +4290,8 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150787_796",
@@ -4173,7 +4315,8 @@
     "totalValue": 0,
     "remarks": "",
     "itemText": "",
-    "items": []
+    "items": [],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150787_160",
@@ -4197,7 +4340,8 @@
     "totalValue": 0,
     "remarks": "",
     "itemText": "",
-    "items": []
+    "items": [],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150787_751",
@@ -4226,7 +4370,8 @@
         "description": "TUBE TEST GLASS 12 X 75MM [105774] QTY: 6500",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150787_465",
@@ -4255,7 +4400,8 @@
         "description": "Safety Lancet",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150788_251",
@@ -4284,7 +4430,8 @@
         "description": "Safety Lancet",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150788_338",
@@ -4313,7 +4460,8 @@
         "description": "Biohazrd Spill Kit MJZ017",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150788_317",
@@ -4342,7 +4490,8 @@
         "description": "Pipette Glass size 5 3/4 (pasteur type) 105773 qty: 6000",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150788_696",
@@ -4371,7 +4520,8 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150789_591",
@@ -4400,7 +4550,8 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150789_671",
@@ -4429,7 +4580,8 @@
         "description": "Alcohol Swab KM-QP018",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150789_10",
@@ -4458,7 +4610,8 @@
         "description": "0810401  QTY: 100box",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150789_17",
@@ -4487,7 +4640,8 @@
         "description": "0101222 Cover Glass",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150790_977",
@@ -4516,7 +4670,8 @@
         "description": "Erlenmeyer Flask (4110207) QTY: 38pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150790_769",
@@ -4545,7 +4700,8 @@
         "description": "Erlenmeyer Flask (4110207) QTY: 38pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150790_284",
@@ -4574,7 +4730,8 @@
         "description": "Chroma Vial (C000962) QTY: 8,400pcs and Clot Activator (321502) QTY: 904000pcsx2",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150790_134",
@@ -4603,7 +4760,8 @@
         "description": "Positive Charged Microscope Slides (0810501) QTY: 15,186pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150790_668",
@@ -4632,7 +4790,8 @@
         "description": "Positive Charged Microscope Slides (0810501) QTY: 15,186pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150791_315",
@@ -4661,7 +4820,8 @@
         "description": "First Aid Kits",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150791_282",
@@ -4690,7 +4850,8 @@
         "description": "Slide Glass Microscope (76*26mm) Frosted End Both Sides with Finely Ground Edges Precleaned  QTY: 25,000",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150791_805",
@@ -4719,7 +4880,8 @@
         "description": "TUBE TEST GLASS 12 X 75MM [105774] QTY: 6500",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150792_905",
@@ -4748,7 +4910,8 @@
         "description": "Simulator",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150792_898",
@@ -4777,7 +4940,8 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150792_269",
@@ -4806,7 +4970,8 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150792_530",
@@ -4835,7 +5000,8 @@
         "description": "Tube VAcutainer for Blood Collection Red Top Clot Activator (321502) QTY: 200000",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150793_71",
@@ -4864,7 +5030,8 @@
         "description": "Tube VAcutainer for Blood Collection Red Top Clot Activator 10ml (300901) QTY: 20000",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150793_852",
@@ -4893,7 +5060,8 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150794_471",
@@ -4922,7 +5090,8 @@
         "description": "Parafilm Rolls 4\" x 125 ft  QTY: 10pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150794_732",
@@ -4959,7 +5128,8 @@
         "description": "Tube Vacu Red Top 9ml  QTY: 40,000pcs (50,400 - Jun 2026, 24,700 - Sep 2026)",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150794_66",
@@ -4988,7 +5158,8 @@
         "description": "Lens Paper 4 x 6 Inch QTY: 48PAcks",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150795_316",
@@ -5017,7 +5188,8 @@
         "description": "Clinipette Yellow Small Tips QTY: 32,000pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150795_795",
@@ -5046,7 +5218,8 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150795_141",
@@ -5075,7 +5248,8 @@
         "description": "Overwrap Bags, Standard Size (for plasma thawers) QTY: 2000pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150795_691",
@@ -5112,7 +5286,8 @@
         "description": "Water Bath, Splint QTY: 2pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150796_648",
@@ -5141,7 +5316,8 @@
         "description": "KM-QP018 QTY: 2500box (100pcs per Box)",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150796_564",
@@ -5178,7 +5354,8 @@
         "description": "A/001/008-AR  QTY: 100pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150796_874",
@@ -5211,7 +5388,8 @@
         "description": "Temperature Sensor QTY: 1 Set",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150797_234",
@@ -5248,7 +5426,8 @@
         "description": "Ice Box QTY: 2 pc",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150797_234",
@@ -5277,7 +5456,8 @@
         "description": "TUBE TEST GLASS 12 X 75MM(105774) QTY: 30000",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150798_276",
@@ -5306,7 +5486,8 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150798_131",
@@ -5335,7 +5516,8 @@
         "description": "SN-105 Safety Blood Collection QTY: 4000 pieces",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150798_782",
@@ -5372,7 +5554,8 @@
         "description": "Applicator, cotton 6inch QTY: 1800",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150798_935",
@@ -5409,7 +5592,8 @@
         "description": "Gauze Swab 12ply 10x10cm QTY: 120,000",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150799_553",
@@ -5438,7 +5622,8 @@
         "description": "Slide Glass Blue Frost Ground 25x75x1 QTY: 50,000pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150799_104",
@@ -5483,22 +5668,23 @@
         "description": "ETC",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150799_142",
     "sn": 93,
     "reference": "26040712",
-    "targetDate": "8-Apr",
-    "dueDate": "9-Apr",
+    "targetDate": "2026-04-08",
+    "dueDate": "2026-04-09",
     "customerCode": "398",
-    "customerName": "",
-    "pgType": "P",
+    "customerName": "Al-alam Medical Center",
+    "pgType": "G",
     "origin": "Sales",
-    "salesPerson": "Zainab",
+    "salesPerson": "Osama",
     "rfq": "",
     "bid": "0",
-    "quoteTime": "2:33:00 PM",
+    "quoteTime": "17:00",
     "status": "NOT STARTED",
     "contactName": "Dr. Essa Al-Dhafiri",
     "phone": "-",
@@ -5506,13 +5692,15 @@
     "totalItems": 0,
     "totalValue": 0,
     "remarks": "",
-    "itemText": "Refrigerator MPR 530 QTY: 1 Unit",
+    "itemText": "Refrigerator MPR 530 QTY: 1",
     "items": [
       {
-        "description": "Refrigerator MPR 530 QTY: 1 Unit",
-        "qty": 0
+        "description": "Refrigerator MPR 530",
+        "qty": 1
       }
-    ]
+    ],
+    "updatedAt": "2026-04-14T18:27:32.602Z",
+    "workflowId": "direct_purchase"
   },
   {
     "id": "qtn_1776020150800_970",
@@ -5545,6 +5733,7 @@
         "description": "Cloth Cleaning Flat 30.48x30.48cm QTY: 12,165",
         "qty": 0
       }
-    ]
+    ],
+    "workflowId": "direct_purchase"
   }
 ]
